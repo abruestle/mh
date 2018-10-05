@@ -1,0 +1,37 @@
+[
+  {
+    "material": "Meat/Protein",
+    "unit": "lbs.",
+    "cost": 1
+  },
+  {
+    "material": "Steel",
+    "unit": "lbs.",
+    "cost": 0.05
+  },
+  {
+    "material": "Mechanical Parts",
+    "unit": "oz.",
+    "cost": 0.05
+  },
+  {
+    "material": "Puzzle Parts",
+    "unit": "oz.",
+    "cost": 0.2
+  },
+  {
+    "material": "Imperial Pounds",
+    "unit": "",
+    "cost": 1
+  },
+  {
+    "material": "Produce",
+    "unit": "lbs.",
+    "cost": 10
+  },
+  {
+    "material": "Ghost HP",
+    "unit": "",
+    "cost": 1
+  }
+]
