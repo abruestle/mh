@@ -1,0 +1,30 @@
+{
+  "Empire": {
+    "description": "",
+    "places": [
+      {
+        "name": "IOGH Headquarters",
+        "description": "",
+        "faction": "IOGH"
+      }
+    ]
+  },
+  "Inner Rim": {
+    "description": "",
+    "places": [
+      
+    ]
+  },
+  "Outer Rim": {
+    "description": "",
+    "places": [
+      
+    ]
+  },
+  "Ghost Forest": {
+    "description": "",
+    "places": [
+      
+    ]
+  }
+}
