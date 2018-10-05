@@ -4,6 +4,7 @@
     "classes": [
       {
         "name": "Grand Devourer",
+        "types": ["physical", "strength"],
         "quote": "I find philosophers are like mathematicians.  Both of them taste good despite being on the scrawny side.",
         "description": "Grand devourers are the strongest of the strong on Miridon. Aside from already having immense strength, grand devourers can furter boost their innate strength with discipline and training. Grand devourers are generally considered the rulers of Miridon's towns and the empire. The most famous grand devourer is the emperor himself.",
         "abilities": {
@@ -17,6 +18,7 @@
       },
       {
         "name": "Skiffmaster",
+        "types": ["physical", "strength"],
         "quote": "Life is easier when you have trustworthy cannon fodder to watch your back and check for traps.",
         "description": "Skiffmasters are a versatile class, focusing on non-battle skills to build up a parties power. Skiffmasters command troops into battle, attempting to use the power of numbers to their advantage. A skiffmaster will rarely be the front-line fighters of Miridon, despite being able to hold their own, but they will organize the weaker units, arm the warriors, and fortify the defenses. They also build and run the mobile fortresses known as skiffs. They build the infrastructure of Miridon and manage their underlings. Behind every grand devourer claiming to be the ruler of an area, there are several skiffmasters actually managing the domain.",
         "abilities": {
@@ -30,6 +32,7 @@
       },
       {
         "name": "Duelist",
+        "types": ["physical", "average"],
         "quote": "If you were a real man then you would walk right into my spinning blades of death!",
         "description": "Duelists are talented fighters that make light of battle. They specialize in fast attacks and jeers. While they are necessarily strategically the best targets to go after on the battlefield, their flamboyant attitude will draw many attackers to focus their attacks on them. Many town protectors and homicide division members are duelists.",
         "abilities": {
@@ -43,6 +46,7 @@
       },
       {
         "name": "Vessel",
+        "types": ["ghost", "average"],
         "quote": "Insanity is subjective. In reality I'm the only sane man. Kittens!!!!",
         "description": "While any human being can be possessed by ghosts, only vessels have trained their bodies to make full use of the benefits possession has to offer. They learn to control the ghosts to an extent that few others would even think possible, turning potential insanity into a powerful weapon. They can even use their ghosts to curse another with insanity. In the Miridonian world, one famous vessel is the mad Gogo, who houses one thousand ghosts.",
         "abilities": {
@@ -56,6 +60,7 @@
       },
       {
         "name": "Techie",
+        "types": ["physical", "speed"],
         "quote": "As long as you stay in the eye of the storm you can weather anything.  Get a giant robot just to be on the safe side, though.",
         "description": "Techies are researchers of the lost arts. While Miridonians are descendents and remnants of the space faring human race, many have lost all knowledge of such technologies. The loss of interest generally comes from the fact that human strength and speed far surpasses that of most technology. Techies, however, believe otherwise and work to create guns and mechs that can compete with powerful Miridonians. Techies do their best work in private, and are often found in underground caves building giant robotic armies. While they may not be able to compete physically with many Miridonians, their technology is a force to be reckoned with.",
         "abilities": {
@@ -69,6 +74,7 @@
       },
       {
         "name": "Ghost Hunter",
+        "types": ["anti-ghost", "speed"],
         "quote": "The first step to changing the world is to change your self.  Then you need firepower.",
         "description": "Ghost hunters are the most critical characters in any party. While many characters are trained in the art of killing other humans, only ghost hunters are trained in capturing the ghosts of the world. Because of their unique skill set and the laws protecting ghost hunters, they are generally treated as heroes. All ghost hunters are trained by another ghost hunter and can trace their training back to the first ghost hunter, Warren. Warren invented ghost bullets, and, despite being still alive and openly traveling the world, is revered as a sort of mythical hero of old. Warren himself has even found it impossible to convince others of his identity.",
         "abilities": {
@@ -87,6 +93,7 @@
     "classes": [
       {
         "name": "Crew member",
+        "types": ["physical", "strength"],
         "description" :"Crew members work for a skiffmaster. They follow the skiffmaster and his or her skiff and will fight with the utmost loyalty. In general, crew members work best manning the skiff into battle. Crew members are an NPC class, and are under the control of the player who plays the skiffmaster.",
         "Leader": "Skiffmaster",
         "Special Notes": "Crew members have their strength points, speed points, skills, and talents based on the stats of their skiffmaster leader.",
@@ -98,27 +105,757 @@
     ]
   },
   "Renegade": {
-
+    "description": "The Renegades are a group that has banded together under hatred for the Ghost Hunters and all their allies. They try to stand for everything the Ghost Hunters hate, but mix both good and bad. They promote forgiving towns on the GHU's Black List, everyone having some input into their legal discussions (though how many 'votes' they get is equal to the number of GHU members killed), mutants,slavery, addicts, and generally anything that would piss off Ghost Hunters.",
+    "classes": [
+      {
+        "name": "Chimerist",
+        "types": ["anti-ghost", "strength"],
+        "quote": "For power I will take on any pain.",
+        "description": "Chimerists eat some of the strange natives to Miridon, the Chimera. Taking a whole Chimera will turn them into one, but if they just have a part, they can assimilate some of the properties of one. Their blood becomes closer to a Chimera's, which is painful for them, but makes them poisonous to ghosts. As well, more Chimeric people will be able to grow wings or have other abilities based on the type of Chimera they ate the most of.",
+        "abilities": {
+          "special ability": {
+            "name": "",
+            "prerequisite": "",
+            "description": "",
+            "example": ""
+          }
+        }
+      },
+      {
+        "name": "Doctor",
+        "types": ["physical", "speed"],
+        "quote": "",
+        "description": "",
+        "abilities": {
+          "special ability": {
+            "name": "",
+            "prerequisite": "",
+            "description": "",
+            "example": ""
+          }
+        }
+      },
+      {
+        "name": "Dominatrix",
+        "types": ["ghost", "strength"],
+        "quote": "",
+        "description": "",
+        "abilities": {
+          "special ability": {
+            "name": "",
+            "prerequisite": "",
+            "description": "",
+            "example": ""
+          }
+        }
+      },
+      {
+        "name": "Medium Gunner",
+        "types": ["ghost", "average"],
+        "quote": "",
+        "description": "",
+        "abilities": {
+          "special ability": {
+            "name": "",
+            "prerequisite": "",
+            "description": "",
+            "example": ""
+          }
+        }
+      },
+      {
+        "name": "Puzzle Thief",
+        "types": ["anti-ghost", "speed"],
+        "quote": "",
+        "description": "Puzzle thieves specialize in stealing puzzle weapons and other tech from ghost hunters, and using it for themselves.",
+        "abilities": {
+          "special ability": {
+            "name": "",
+            "prerequisite": "",
+            "description": "",
+            "example": ""
+          }
+        }
+      },
+      {
+        "name": "Spectral Rider",
+        "types": ["ghost", "average"],
+        "quote": "",
+        "description": "",
+        "abilities": {
+          "special ability": {
+            "name": "",
+            "prerequisite": "",
+            "description": "",
+            "example": ""
+          }
+        }
+      }
+    ]
   },
   "Imperial": {
-
+    "description": "Order in The Empire is kept in line by a large force of police, as well as nobles governing over each district and divisions of the police force. The Homicide Division is the largest, and also counts as the military. The Narcotics Division has the Imperial Order of Ghost Hunters, as well as bodyguards and detectives working with them. While the GHU disapproves of many of their actions, they remain on good terms with them.",
+    "classes": [
+      {
+        "name": "Controller",
+        "types": ["ghost", "speed"],
+        "quote": "",
+        "description": "Control humans who have been overtaken by ghosts",
+        "abilities": {
+          "special ability": {
+            "name": "",
+            "prerequisite": "",
+            "description": "",
+            "example": ""
+          }
+        }
+      },
+      {
+        "name": "Demolitions Expert",
+        "types": ["physical", "speed"],
+        "quote": "",
+        "description": "",
+        "abilities": {
+          "special ability": {
+            "name": "",
+            "prerequisite": "",
+            "description": "",
+            "example": ""
+          }
+        }
+      },
+      {
+        "name": "Detective",
+        "types": ["physical", "average"],
+        "quote": "",
+        "description": "",
+        "abilities": {
+          "special ability": {
+            "name": "",
+            "prerequisite": "",
+            "description": "",
+            "example": ""
+          }
+        }
+      },
+      {
+        "name": "Interrogator",
+        "types": ["physical", "average"],
+        "quote": "",
+        "description": "",
+        "abilities": {
+          "special ability": {
+            "name": "",
+            "prerequisite": "",
+            "description": "",
+            "example": ""
+          }
+        }
+      },
+      {
+        "name": "Noble",
+        "types": ["physical", "strength"],
+        "quote": "",
+        "description": "",
+        "abilities": {
+          "special ability": {
+            "name": "",
+            "prerequisite": "",
+            "description": "",
+            "example": ""
+          }
+        }
+      },
+      {
+        "name": "Soldier",
+        "types": ["physical", "strength"],
+        "quote": "",
+        "description": "",
+        "abilities": {
+          "special ability": {
+            "name": "",
+            "prerequisite": "",
+            "description": "",
+            "example": ""
+          }
+        }
+      }
+    ]
   },
   "Horde": {
-
+    "description": "The Horde is really made up of multiple hordes. Each horde wanders the outer ring, preying on travellers and hoping to race away from any large dangers.",
+    "classes": [
+      {
+        "name": "Berserker",
+        "types": ["physical", "strength"],
+        "quote": "",
+        "description": "",
+        "abilities": {
+          "special ability": {
+            "name": "",
+            "prerequisite": "",
+            "description": "",
+            "example": ""
+          }
+        }
+      },
+      {
+        "name": "Cannoneer",
+        "types": ["physical", "average"],
+        "quote": "",
+        "description": "",
+        "abilities": {
+          "special ability": {
+            "name": "",
+            "prerequisite": "",
+            "description": "",
+            "example": ""
+          }
+        }
+      },
+      {
+        "name": "Magitechie",
+        "types": ["ghost", "speed"],
+        "quote": "",
+        "description": "",
+        "abilities": {
+          "special ability": {
+            "name": "",
+            "prerequisite": "",
+            "description": "",
+            "example": ""
+          }
+        }
+      },
+      {
+        "name": "Rocketeer",
+        "types": ["physical", "speed"],
+        "quote": "",
+        "description": "",
+        "abilities": {
+          "special ability": {
+            "name": "",
+            "prerequisite": "",
+            "description": "",
+            "example": ""
+          }
+        }
+      },
+      {
+        "name": "Soul Eater",
+        "types": ["anti-ghost/ghost", "strength"],
+        "quote": "",
+        "description": "",
+        "abilities": {
+          "special ability": {
+            "name": "",
+            "prerequisite": "",
+            "description": "",
+            "example": ""
+          }
+        }
+      },
+      {
+        "name": "Striker",
+        "types": ["physical", "average"],
+        "quote": "",
+        "description": "",
+        "abilities": {
+          "special ability": {
+            "name": "",
+            "prerequisite": "",
+            "description": "",
+            "example": ""
+          }
+        }
+      }
+    ]
   },
   "Church of Spiritualism": {
-
+    "description": "Each class of the church of spiritualism has two names, one they normally give, and their part in the flow of ghosts.",
+    "classes": [
+      {
+        "name": "Crusader/Maze",
+        "types": ["ghost", "strength"],
+        "quote": "",
+        "description": "Melee combatant who uses ghosts to incite opponents to make mistakes.",
+        "abilities": {
+          "special ability": {
+            "name": "",
+            "prerequisite": "",
+            "description": "",
+            "example": ""
+          }
+        }
+      },
+      {
+        "name": "Keeper/Trap",
+        "types": ["ghost", "speed"],
+        "quote": "",
+        "description": "'Reactivates' old traps that cover Miridon (actually makes traps out of sand)",
+        "abilities": {
+          "special ability": {
+            "name": "",
+            "prerequisite": "",
+            "description": "",
+            "example": ""
+          }
+        }
+      },
+      {
+        "name": "Elder/Gearbox",
+        "types": ["ghost", "strength"],
+        "quote": "",
+        "description": "",
+        "abilities": {
+          "special ability": {
+            "name": "",
+            "prerequisite": "",
+            "description": "",
+            "example": ""
+          }
+        }
+      },
+      {
+        "name": "Missionary/Lock",
+        "types": ["ghost", "speed"],
+        "quote": "",
+        "description": "",
+        "abilities": {
+          "special ability": {
+            "name": "",
+            "prerequisite": "",
+            "description": "",
+            "example": ""
+          }
+        }
+      },
+      {
+        "name": "Priest/Overseer",
+        "types": ["ghost", "average"],
+        "quote": "",
+        "description": "",
+        "abilities": {
+          "special ability": {
+            "name": "",
+            "prerequisite": "",
+            "description": "",
+            "example": ""
+          }
+        }
+      },
+      {
+        "name": "Ritualist/Key",
+        "types": ["ghost", "strength"],
+        "quote": "",
+        "description": "Releases ghosts from people",
+        "abilities": {
+          "special ability": {
+            "name": "",
+            "prerequisite": "",
+            "description": "",
+            "example": ""
+          }
+        }
+      }
+    ]
   },
   "Vanity": {
-
+    "description": "When someone mutates, their ghosts work out what mutations they get. Usually the ghosts differ in opinion and the new mutant ends up some mishmosh that no ghosts want, but occassionally the ghosts work in harmony and come out with their ideal form. Unlike normal mutants, ghosts like to be in vanities - or at least some do. After all, it took a pretty good sized group of ghosts to agree this form was the best.",
+    "classes": [
+      {
+        "name": "Envy",
+        "types": ["ghost", ""],
+        "quote": "",
+        "description": "",
+        "abilities": {
+          "special ability": {
+            "name": "",
+            "prerequisite": "",
+            "description": "",
+            "example": ""
+          }
+        }
+      },
+      {
+        "name": "Gluttony",
+        "types": ["ghost", ""],
+        "quote": "",
+        "description": "",
+        "abilities": {
+          "special ability": {
+            "name": "",
+            "prerequisite": "",
+            "description": "",
+            "example": ""
+          }
+        }
+      },
+      {
+        "name": "Greed",
+        "types": ["ghost", ""],
+        "quote": "",
+        "description": "",
+        "abilities": {
+          "special ability": {
+            "name": "",
+            "prerequisite": "",
+            "description": "",
+            "example": ""
+          }
+        }
+      },
+      {
+        "name": "Lust",
+        "types": ["ghost", ""],
+        "quote": "",
+        "description": "",
+        "abilities": {
+          "special ability": {
+            "name": "",
+            "prerequisite": "",
+            "description": "",
+            "example": ""
+          }
+        }
+      },
+      {
+        "name": "Pride",
+        "types": ["ghost", ""],
+        "quote": "",
+        "description": "",
+        "abilities": {
+          "special ability": {
+            "name": "",
+            "prerequisite": "",
+            "description": "",
+            "example": ""
+          }
+        }
+      },
+      {
+        "name": "Sloth",
+        "types": ["ghost", ""],
+        "quote": "",
+        "description": "",
+        "abilities": {
+          "special ability": {
+            "name": "",
+            "prerequisite": "",
+            "description": "",
+            "example": ""
+          }
+        }
+      },
+      {
+        "name": "Wrath",
+        "types": ["ghost", ""],
+        "quote": "",
+        "description": "",
+        "abilities": {
+          "special ability": {
+            "name": "",
+            "prerequisite": "",
+            "description": "",
+            "example": ""
+          }
+        }
+      }
+    ]
   },
   "Husk": {
-
+    "description": "",
+    "classes": [
+      {
+        "name": "Automaton",
+        "types": ["ghost", "speed"],
+        "quote": "",
+        "description": "",
+        "abilities": {
+          "special ability": {
+            "name": "",
+            "prerequisite": "",
+            "description": "",
+            "example": ""
+          }
+        }
+      },
+      {
+        "name": "Ent",
+        "types": ["ghost", "strength"],
+        "quote": "",
+        "description": "",
+        "abilities": {
+          "special ability": {
+            "name": "",
+            "prerequisite": "",
+            "description": "",
+            "example": ""
+          }
+        }
+      },
+      {
+        "name": "Living Armor",
+        "types": ["ghost", "average"],
+        "quote": "",
+        "description": "",
+        "abilities": {
+          "special ability": {
+            "name": "",
+            "prerequisite": "",
+            "description": "",
+            "example": ""
+          }
+        }
+      },
+      {
+        "name": "Naiad",
+        "types": ["ghost", "average"],
+        "quote": "",
+        "description": "",
+        "abilities": {
+          "special ability": {
+            "name": "",
+            "prerequisite": "",
+            "description": "",
+            "example": ""
+          }
+        }
+      },
+      {
+        "name": "Phoenix",
+        "types": ["ghost", "speed"],
+        "quote": "",
+        "description": "",
+        "abilities": {
+          "special ability": {
+            "name": "",
+            "prerequisite": "",
+            "description": "",
+            "example": ""
+          }
+        }
+      },
+      {
+        "name": "Skeleton",
+        "types": ["ghost", "strength"],
+        "quote": "",
+        "description": "",
+        "abilities": {
+          "special ability": {
+            "name": "",
+            "prerequisite": "",
+            "description": "",
+            "example": ""
+          }
+        }
+      },
+      {
+        "name": "Storm Giant",
+        "types": ["ghost", "speed"],
+        "quote": "",
+        "description": "",
+        "abilities": {
+          "special ability": {
+            "name": "",
+            "prerequisite": "",
+            "description": "",
+            "example": ""
+          }
+        }
+      },
+      {
+        "name": "Vampire",
+        "types": ["ghost", "average"],
+        "quote": "",
+        "description": "",
+        "abilities": {
+          "special ability": {
+            "name": "",
+            "prerequisite": "",
+            "description": "",
+            "example": ""
+          }
+        }
+      },
+      {
+        "name": "Zombie",
+        "types": ["ghost", "strength"],
+        "quote": "",
+        "description": "",
+        "abilities": {
+          "special ability": {
+            "name": "",
+            "prerequisite": "",
+            "description": "",
+            "example": ""
+          }
+        }
+      }
+    ]
   },
   "Chimera": {
-
+    "description": "",
+    "classes": [
+      {
+        "name": "Avian",
+        "types": ["chimera", "speed"],
+        "quote": "",
+        "description": "",
+        "abilities": {
+          "special ability": {
+            "name": "",
+            "prerequisite": "",
+            "description": "",
+            "example": ""
+          }
+        }
+      },
+      {
+        "name": "Canine",
+        "types": ["chimera", "average"],
+        "quote": "",
+        "description": "",
+        "abilities": {
+          "special ability": {
+            "name": "",
+            "prerequisite": "",
+            "description": "",
+            "example": ""
+          }
+        }
+      },
+      {
+        "name": "Eldritch",
+        "types": ["chimera", "strength"],
+        "quote": "",
+        "description": "",
+        "abilities": {
+          "special ability": {
+            "name": "",
+            "prerequisite": "",
+            "description": "",
+            "example": ""
+          }
+        }
+      },
+      {
+        "name": "Feline",
+        "types": ["chimera", "speed"],
+        "quote": "",
+        "description": "",
+        "abilities": {
+          "special ability": {
+            "name": "",
+            "prerequisite": "",
+            "description": "",
+            "example": ""
+          }
+        }
+      },
+      {
+        "name": "Humanoid",
+        "types": ["chimera", "average"],
+        "quote": "",
+        "description": "",
+        "abilities": {
+          "special ability": {
+            "name": "",
+            "prerequisite": "",
+            "description": "",
+            "example": ""
+          }
+        }
+      },
+      {
+        "name": "Reptile",
+        "types": ["chimera", "average"],
+        "quote": "",
+        "description": "",
+        "abilities": {
+          "special ability": {
+            "name": "",
+            "prerequisite": "",
+            "description": "",
+            "example": ""
+          }
+        }
+      },
+      {
+        "name": "Simian",
+        "types": ["chimera", "strength"],
+        "quote": "",
+        "description": "",
+        "abilities": {
+          "special ability": {
+            "name": "",
+            "prerequisite": "",
+            "description": "",
+            "example": ""
+          }
+        }
+      }
+    ]
   },
   "Empty Husk": {
-
+    "description": "Empty husks are the term for general non-humans that can still move and attack. Native animals, natural disasters, and robots fall under this category. Basically anything that can make you wonder if ghosts are driving the controls, even when they aren't. Generally most wildlife has died out, and the ones that are around are posssessed...but they certainly could still attack even if they weren't.",
+    "classes": [
+      {
+        "name": "Beast",
+        "types": ["physical", "average"],
+        "quote": "",
+        "description": "",
+        "abilities": {
+          "special ability": {
+            "name": "",
+            "prerequisite": "",
+            "description": "",
+            "example": ""
+          }
+        }
+      },
+      {
+        "name": "Carnivorous Plant",
+        "types": ["physical", "strength"],
+        "quote": "",
+        "description": "",
+        "abilities": {
+          "special ability": {
+            "name": "",
+            "prerequisite": "",
+            "description": "",
+            "example": ""
+          }
+        }
+      },
+      {
+        "name": "Robot",
+        "types": ["physical", "average"],
+        "quote": "",
+        "description": "",
+        "abilities": {
+          "special ability": {
+            "name": "",
+            "prerequisite": "",
+            "description": "",
+            "example": ""
+          }
+        }
+      },
+      {
+        "name": "Sandstorm",
+        "types": ["physical/anti-ghost", "average"],
+        "quote": "",
+        "description": "",
+        "abilities": {
+          "special ability": {
+            "name": "",
+            "prerequisite": "",
+            "description": "",
+            "example": ""
+          }
+        }
+      }
+    ]
   }
 }
