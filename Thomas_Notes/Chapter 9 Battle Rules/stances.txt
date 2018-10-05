@@ -1,0 +1,267 @@
+<h2>Stances:</h2>
+
+
+While in battle, a character can enter multiple different [Stances]. Each character can only be in a single [Stance] at a time. Entering a new [Stance] causes the character to leave their previous [Stance]. Each [Stance] has its own effects.
+
+
+
+<b>No Stance:</b>
+
+This [Stance] is the default [Stance] that characters start battle in. There are no special effects for this [Stance].
+
+
+
+<b>Unconscious:</b>
+
+Enter Stance Conditions: If a character's [Current Health Points] are reduced to 0 or less, then the character becomes [Unconscious].
+
+Enter Stance Effects: When a character becomes [Unconscious], the character's [Strength Points] and [Speed Points] drop to 0.
+
+Stance Effects: If character takes any additional [Damage Dealt] while [Unconscious], then they become [Dead].
+
+An [Unconscious] character cannot perform any actions.
+
+An [Unconscious] character cannot consume food to restore [Current Health Points].
+
+If a character is [Unconscious], then their [Current Health Points] will be 0 or less.
+
+Exit Stance Conditions: If the character's [Current Health Points] is restored to 1 or more, they are no longer [Unconscious]. Their stance is restored to [No Stance].
+
+If a character is [Unconscious], they can be restored back to 1 [Current Health Points] after 8 hours of rest. Their stance is restored to [No Stance].
+
+If a character is [Unconscious], they cannot perform [Cancel Stance] to exit the stance.
+
+Exit Stance Effects:  When a character becomes no longer [Unconscious], their [Strength Points] and [Speed Points] remain 0 after recovering from the [Unconscious] state, so they can not perform any actions until their [Strength Points] and [Speed Points] are restored.
+
+
+
+<b>Dead:</b>
+
+Enter Stance Conditions: If character takes any additional [Damage Dealt] while [Unconscious], then they become [Dead].
+
+Enter Stance Effects: When a character becomes [Dead], they will have one last chance to make an [Insanity Roll]. See the "Insanity" section for more details.
+
+If the [Insanity Roll] results in [Husk Transformation] or [Awakened Transformation], then the character undergoes the transformation. A character that is already a [Husk] cannot undergo a [Husk Transformation].  A character that is already an [Awakened] cannot undergo a [Husk Transformation] or an [Awakened Transformation]. After the [Husk Transformation] or [Awakened Transformation], they are no longer [Dead] or [Unconscious] and their [Current Health Points] are restored to their [Maximum Health Points]. Their stance is restored to [No Stance].
+
+If the character does not undergo a [Husk Transformation] or [Awakened Transformation], then they remain [Dead].
+
+Stance Effects: A [Dead] character cannot be healed by any means and is unplayable.
+
+Exit Stance Conditions: There is no way to recover from being [Dead].
+
+If a character is [Dead], they cannot perform [Cancel Stance] to exit the stance.
+
+Exit Stance Effects: There is no way to recover from being [Dead].
+
+
+
+<b>Block Stance:</b>
+
+Enter Stance Conditions: When a character performs the [Block] action, they enter the [Block Stance].
+
+Enter Stance Effects: There are no additional effects when entering the [Block Stance].
+
+Stance Effects: While in the [Block] stance, the character's [Physical Damage Reduction] will increased by 5.
+While in the [Block] stance, all [Knockback] effects against the character will have their [Knockback] reduced by 5 feet.
+
+Exit Stance Conditions: If the character performs an [Offensive Action], a [Movement Action], or a [Defensive Action], then they leave the [Block Stance]. Their stance is restored to [No Stance].
+
+The character also leaves the [Block Stance] when a [Knockback] effect knocks them back. Their stance is restored to [No Stance].
+
+The character in the [Block Stance] can perform [Verbal Actions], [Bonus Actions], and [Spell Casting Modifiers] without leaving the [Block Stance].
+
+The character in the [Block Stance] can perform [Cancel Stance] at any time. Their stance is restored to [No Stance].
+
+Exit Stance Effects: There are no additional effects when exiting the [Block Stance].
+
+
+
+<b>Heavy Block Stance:</b>
+
+Enter Stance Conditions: When a character performs the [Heavy Block] action, they enter the [Heavy Block Stance].
+
+Enter Stance Effects: There are no additional effects when entering the [Heavy Block Stance].
+
+Stance Effects: The [Heavy Block Stance] acts as the [Block Stance] except the [Physical Damage Reduction] is increased by 10 instead of 5 and the [Knockback] is reduced by 10 feet instead of 5 feet.
+
+Exit Stance Conditions: The [Heavy Block Stance] has the same [Exit Stance Conditions] as the [Block Stance].
+
+Exit Stance Effects: There are no additional effects when exiting the [Heavy Block Stance].
+
+
+
+<b>Super Block Stance:</b>
+
+Enter Stance Conditions: When a character performs the [Super Block] action, they enter the [Super Block Stance].
+
+Enter Stance Effects: There are no additional effects when entering the [Super Block Stance].
+
+Stance Effects: The [Super Block Stance] acts as the [Block Stance] except the [Physical Damage Reduction] is increased by 15 instead of 5 and the [Knockback] is reduced by 20 feet instead of 5 feet.
+
+Exit Stance Conditions: The [Super Block Stance] has the same [Exit Stance Conditions] as the [Block Stance].
+
+Exit Stance Effects: There are no additional effects when exiting the [Super Block Stance].
+
+
+
+<b>Shield Block Stance:</b>
+
+Enter Stance Conditions: When a character in the [Block Stance] performs a [Shield Block], they enter the [Shield Block Stance].
+
+Enter Stance Effects: If a character is wielding multiple [Shields], they must specify the [Shield] that is used in the [Shield Block Stance].
+
+Stance Effects: The [Shield Block Stance] acts as the [Block Stance] except the [Physical Damage Reduction] is increased by an additional value of the [Block Bonus] of the [Shield].
+
+Exit Stance Conditions: The [Shield Block Stance] has the same [Exit Stance Conditions] as the [Block Stance].
+
+Exit Stance Effects: There are no additional effects when exiting the [Shield Block Stance].
+
+
+
+<b>Heavy Shield Block Stance:</b>
+
+Enter Stance Conditions: When a character in the [Heavy Block Stance] performs a [Shield Block], they enter the [Heavy Shield Block Stance].
+
+Enter Stance Effects: If a character is wielding multiple [Shields], they must specify the [Shield] that is used in the [Heavy Shield Block Stance].
+
+Stance Effects: The [Heavy Shield Block Stance] acts as the [Heavy Block Stance] except the [Physical Damage Reduction] is increased by an additional value of the [Heavy Block Bonus] of the [Shield].
+
+Exit Stance Conditions: The [Shield Block Stance] has the same [Exit Stance Conditions] as the [Block Stance].
+
+Exit Stance Effects: There are no additional effects when exiting the [Heavy Shield Block Stance].
+
+
+
+<b>Super Shield Block Stance:</b>
+
+Enter Stance Conditions: When a character in the [Super Block Stance] performs a [Shield Block], they enter the [Super Shield Block Stance].
+
+Enter Stance Effects: If a character is wielding multiple [Shields], they must specify the [Shield] that is used in the [Super Shield Block Stance].
+
+Stance Effects: The [Super Shield Block Stance] acts as the [Super Block Stance] except the [Physical Damage Reduction] is increased by an additional value of the [Super Block Bonus] of the [Shield].
+
+Exit Stance Conditions: The [Shield Block Stance] has the same [Exit Stance Conditions] as the [Block Stance].
+
+Exit Stance Effects: There are no additional effects when exiting the [Super Shield Block Stance].
+
+
+
+<b>Spell Casting Stance:</b>
+
+Enter Stance Conditions: When a character performs the [Cast Spell] action, they enter the [Spell Casting Stance].
+
+When a character performs the [Echo Spell] action, they enter the [Spell Casting Stance].
+
+The character must have at least 1 [Current Ghost Power] in order to enter the [Spell Casting Stance].
+
+Enter Stance Effects: When the character enters the [Spell Casting Stance], they may select which [Spell] they are casting.
+
+When the character enters the [Spell Casting Stance], they must select an amount of [Spell Ghost Power] to invest in the spell.
+
+The [Spell Ghost Power] must be less than or equal to the [Current Ghost Power] of the character. The [Current Ghost Power] is immediately reduced by the [Spell Ghost Power].
+
+When the character enters the [Spell Casting Stance], they may select any number of [Spell Casting Modifiers] to add to the [Spell].
+
+When the character enters the [Spell Casting Stance], they must select which [Spell] they are casting.  The [Remaining Spell Cast Time] is set to the [Spell Cast Time] of the spell.
+
+When the character enters the [Spell Casting Stance], the character may use the [Veil] action in order to conceal that they are casting a [Spell]. Each [Spell] has its own [Subtlety Modifier] that modifies the difficulty of [Veil]. If they don't perform [Veil], then anyone within range immediately recognizes that the character entered the [Spell Casting Stance].
+
+Stance Effects: If the character in the [Spell Casting Stance] has their [Current Health Points] reduced, then the [Spell Ghost Power] is reduced by the amount their [Current Health Points] are reduced.
+
+If the character in the [Spell Casting Stance] performs an action, then the [Spell Ghost Power] is reduced by the sum of the [Strength Cost] and [Speed Cost] of the action.
+
+When the [Remaining Spell Cast Time] is greater than 0, the character can perform [Channel Spell] to reduce the [Remaining Spell Cast Time] by 1.
+
+Exit Stance Conditions: If the [Spell Ghost Power] is reduced to 0 or less, then the spell is cancelled and the character leaves the [Spell Casting Stance]. Their stance is restored to [No Stance].
+
+The character can avoid having the spell cancelled if they use [Recover Ghost Power] to recover the [Spell Ghost Power] to 1.
+
+The character in the [Spell Casting Stance] can perform [Cancel Stance] at any time. Their stance is restored to [No Stance].
+
+When the [Remaining Spell Cast Time] is 0, the character can perform [Activate Spell] to activate the spell. When a character performs [Activate Spell], they must choose the target of their spell with the [Range] of the spell. The spell takes effect on the target. The character then leaves the [Spell Casting Stance]. Their stance is restored to [No Stance].
+
+Exit Stance Effects: When a character leaves the [Spell Casting Stance], the [Spell Ghost Power] of their [Spell] is lost. When the begin a new spell with [Cast Spell], the [Remaining Spell Cast Time] is set to the [Spell Cast Time] of the spell.
+
+If the character successfully performed [Activate Spell], then they can immediately perform [Echo Spell] to act as [Cast Spell].
+
+
+
+<b>Grappling Stance:</b>
+
+Enter Stance Conditions: When a character performs [Initiate Grapple] and hits the target, the character enters the [Grappling Stance].
+
+Enter Stance Effects: There are no additional effects when entering the [Grappling Stance].
+
+Stance Effects: A character in the [Grappling Stance] can't perform any [Offensive Action] other than [Grapple Attack].
+
+A character in the [Grappling Stance] can't perform any [Defensive Action] other than [Maintain Grapple]. [Maintain Grapple] can only be performed when the target in the [Grappled Stance] performs [Break Grapple].
+
+A character in the [Grappling Stance] can't perform any [Movement Action].
+
+A character in the [Grappling Stance] can't perform any [Verbal Action].
+
+Exit Stance Conditions: If the character in the [Grappled Stance] performs [Break Grapple] and the character in the [Grappling Stance] does not perform [Maintain Grapple], then both the character in the [Grappling Stance] and the character in the [Grappled Stance] enter [No Stance].
+
+If the character in the [Grappled Stance] performs [Break Grapple], the character in the [Grappling Stance] performs [Maintain Grapple], then the characters must roll the [Break Grapple Power] and the [Maintain Grapple Power].  If the [Break Grapple Power] exceeds the [Maintain Grapple Power], then both the character in the [Grappling Stance] and the character in the [Grappled Stance] enter [No Stance].
+
+The character in the [Grappling Stance] can perform [Cancel Stance] at any time. Both the character in the [Grappling Stance] and the character in the [Grappled Stance] enter [No Stance].
+
+Exit Stance Effects: The character can not perform any additional [Offensive Action], [Defensive Action], [Movement Action], or [Verbal Action] in the same [Action Block] they exited the [Grappling Stance].
+
+
+
+<b>Grappled Stance:</b>
+
+Enter Stance Conditions: When another character performs [Initiate Grapple] on the character and hits the character, the character enters the [Grappled Stance].
+
+Enter Stance Effects: There are no additional effects when entering the [Grappled Stance].
+
+Stance Effects: A character in the [Grappled Stance] can't perform any [Offensive Action] other than [Break Grapple].
+
+A character in the [Grappled Stance] can't perform any [Defensive Action].
+
+A character in the [Grappled Stance] can't perform any [Movement Action].
+
+A character in the [Grappled Stance] can't perform any [Verbal Action].
+
+Exit Stance Conditions: If the character in the [Grappled Stance] performs [Break Grapple] and the character in the [Grappling Stance] does not perform [Maintain Grapple], then both the character in the [Grappling Stance] and the character in the [Grappled Stance] enter [No Stance].
+
+If the character in the [Grappled Stance] performs [Break Grapple], the character in the [Grappling Stance] performs [Maintain Grapple], then the characters must roll the [Break Grapple Power] and the [Maintain Grapple Power].  If the [Break Grapple Power] exceeds the [Maintain Grapple Power], then both the character in the [Grappling Stance] and the character in the [Grappled Stance] enter [No Stance].
+
+The character in the [Grappled Stance] cannot perform [Cancel Stance] to exit the stance.
+
+Exit Stance Effects: The character can not perform any additional [Offensive Action], [Defensive Action], [Movement Action], or [Verbal Action] in the same [Action Block] they exited the [Grappled Stance].
+
+
+
+<b>Stealth Stance:</b>
+
+Enter Stance Conditions: When a character performs the [Stealth] action, they enter the [Stealth Stance].
+
+Enter Stance Effects: Unlike other [Stances], characters can be in the [Stealth Stance] at the same time as any other [Stance], so entering the [Stealth Stance] does not cause them to leave another [Stance].
+
+Every other character starts [Aware] of the character when they are in the [Stealth Stance]. The other characters are all considered targets for all future.
+
+Stance Effects: Targets are either [Aware] or [Unaware] of the character's location.
+
+An [Aware] target knows the character's location and can target the character as normal.
+
+If a target is not [Aware] of the character, then they are [Unaware] of the character. An [Unaware] target does not know the character's location and cannot target the character. The [Unaware] target cannot use any [Defensive Action] in response to the character's actions.
+
+A character is in a target's [View Range] if they are located in the [Direction] the character is facing or up to 60 degrees off the [Direction] and their view of the character isn't obstructed. If the target's view is obstructed, then the character is not in [View Range]. This obstruction can be a physical object, heavy mist, or darkness.
+
+If the character performs a [Movement Action] moving at least 5 feet, then they have a chance to turn [Aware] targets into [Unaware] targets. In order for this to occur, their [Movement Action] must include being outside of the target’s [View Range] at the end of the [Movement Action]. Each target that this applies to will roll their own [Defensive Charisma Roll]. However, the character using [Stealth] only needs to roll one [Offensive Charisma Roll]. These targets will become [Unaware] of the character if the [Offensive Charisma Roll] is greater than or equal to their [Defensive Charisma Roll]. 
+
+Whenever a character performs any action with a [Subtlety Modifier], then all [Unaware] targets have a chance to become [Aware]. Each [Unaware] target will roll their own [Defensive Charisma Roll]. However, the character using [Stealth] only needs to roll one [Offensive Charisma Roll]. These targets will become [Unaware] of the character if the [Offensive Charisma Roll] is greater than or equal to their [Defensive Charisma Roll]. Using [Cast Spell], [Echo Spell], [Activate Spell], or [Elemental Riposte] with a [Spell] uses the [Subtlety Modifier] of the [Spell].
+
+If the target is hit by a [Melee Attack], [Melee Combo Attack], or [Initiate Grapple] initiated by the caster, then the target immediately becomes [Aware] without the need for a roll.
+
+If the target is hit by a [Gun Attack], [Aimed Attack], another [Verbal Action], [Activate Spell], or [Elemental Riposte], then the target’s [Defensive Charisma Roll] is increased by 10.
+
+An [Aware] target can use the [Battle Communication] action to shout out the character's current location. If the [Aware] target performs this action, then all [Unaware] targets become [Aware].
+
+Exit Stance Conditions: Unlike other [Stances], characters can be in the [Stealth Stance] at the same time as any other [Stance].
+
+The character in the [Stealth Stance] can perform [Cancel Stance] at any time. If used in this manner, this only cancels the [Stealth Stance] and keeps the character in any other [Stance].
+
+Exit Stance Effects: There are no additional effects when exiting the [Stealth Stance].

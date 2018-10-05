@@ -1,0 +1,20 @@
+<br />
+<br />
+<br />
+Any character can attempt to grapple as an offensive action if in [Melee Range] (less than 10 feet). The act of initiating a grapple is treated like a normal physical attack, but uses as its accuracy bonus the grappler&rsquo;s [Grapple Accuracy Boost Skill]. <br />
+<br />
+Should the [Initiate Grapple] offensive action land, the target is now grappled. This is considered the first [Action Block] that they are grappled. <br />
+<br />
+Each [Action Block] after the first [Action Block]&nbsp;that they are grappled, the target may attempt to break the grapple. The grappler and the target are allowed to invest up to the number of [Current Strength Points] specified in the table below this [Action Block]. These values will be referred to as [Grappler&rsquo;s Strength Point Investment] and [Target&rsquo;s Strength Point Investment]. They then each add 1d6 to those values, so [Grappler's Grapple Power] = [Grappler&rsquo;s Strength Point Investment]&nbsp; + 1d6, and [Target&rsquo;s Grapple Power] = [Target&rsquo;s Strength Point Investment] + 1d6. If the [Target's Grapple Power] exceeds the [Grappler's Grapple Power], then the grappling ends. The grappler can also break the grapple at any time.&nbsp;<br />
+<br />
+When a character is grappling a target, the character cannot perform any [Offensive Action],&nbsp;[Movement Action],&nbsp;[Verbal Action], or [Defensive Action]. If the the grapple ends, either because the target breaks the grapple or the character&nbsp;breaks the grapple, then the character cannot perform any of these actions for the remainder of the [Action Block].<br />
+<br />
+When a target is being grappled, the target cannot perform any [Offensive Action],&nbsp;[Movement Action],&nbsp;[Verbal Action], or [Defensive Action].&nbsp;If the the grapple ends, either because the target breaks the grapple or the character&nbsp;breaks the grapple, then the target cannot perform any of these actions for the remainder of the [Action Block].<br />
+<br />
+<br />
+<img src="http://miridon.reuniontechnologies.com/widget.asp?widget=insert&amp;id=tables-battlerules-grapplemaxpoints" /><br />
+<br />
+While a target is being grappled, they will have their [Current Speed Points] reduced by 1 for the first [Action Block] they are grappled, 2&nbsp;for the second [Action Block] they are grappled,&nbsp;3&nbsp;for the third [Action Block] they are grappled,&nbsp;and so on, increasing the amount their [Current Speed Points] are reduced each [Action Block] by 1. If they are wielding a grappling weapon, they also add their weapon's [Grapple Speed Damage Bonus] to the amount reduced each [Action Block].&nbsp;</p>
+<br />
+<br />
+While a target is being grappled, they will receive [Damage Dealt] that ignores [Physical Damage Reduction] and [Spell Damage Reduction]. The [Damage Dealt] is equal to the twice the grappler's [Grapple Attack] skill. If the grappler is wielding a [Grappling Weapon], then the grappler's [Grapple Attack] skill is increased by their weapon's [Grapple Attack Bonus].

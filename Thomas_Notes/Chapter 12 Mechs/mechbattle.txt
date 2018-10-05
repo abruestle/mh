@@ -1,0 +1,40 @@
+<h2>Mech Battle Rules:</h2><br/>[Mechs] operate under their own battle rules.<br/><br/><br/><br/>[Mechs] always go last in the [Turn Order].<br/><br/>If two or more characters are piloting [Mechs], then they should roll 3d6 against each other to determine who goes first at the start of battle, with the higher roll going first. All ties are re-rolled until there is a clear [Turn Order]. <br/><br/><br/><br/>At the beginning of the battle, a piloted [Mech] starts with their [Speed Points] restored and their [Health Points] restored.<br/><br/>Each [Mech Part] has its own [Maximum Speed Points]. Each [Mech Part] has its [Current Speed Points] restored to the character's [Maximum Speed Points]. <br/><br/>Each [Mech Part] has its own [Speed Point Regen]. The [Mech Part] will recover an amount of [Current Speed Points] equal to their [Speed Point Regen].<br/><br/>The [Mech Body] has a [Maximum Health Points] that determines the [Maximum Health Points] for the entire [Mech].<br/><br/>The [Mech Body] has a [Health Points Regen]. The [Mech Body] will recover an amount of [Current Health Points] equal to their [Health Points Regen].
+<br/>
+<br/>The [Mech Body] has a [Physical Damage Reduction], [Physical Damage Reduction Regen], [Spell Damage Reduction], and [Auto Dodge Boost] that determines the [Physical Damage Reduction], [Physical Damage Reduction Regen], [Spell Damage Reduction], and [Auto Dodge Boost] for the entire [Mech].
+<br/>
+<br/>
+<br/>
+<br/>The [Physical Damage Reduction] of a [Mech] will work just like the [Physical Damage Reduction] of a character.
+<br/>
+<br/>If a [Physical Damage Reduction]of the [Mech] is reduced, such as by the [Physical Damage Reduction Damage] of the [Drill] weapon, then the [Physical Damage Reduction] will regenerate by [Physical Damage Reduction Regen] on the [Turn] of the [Mech] in the [Action Block].
+<br/>
+<br/>The [Spell Damage Reduction] of a [Mech] will work just like the [Spell Damage Reduction] of a character.
+<br/>
+<br/>The [Auto Deflection] of a [Mech] automatically reduces the [To Hit Bonus] of all incoming attacks targeting the character. This does not require any action performed by the [Mech].<br/><br/><br/><br/>For each [Action Block], the [Mech] will act on their [Turn] in the [Turn Order]. Each [Mech Part] can only perform 1 action each [Action Block] chosen by the pilot of the [Mech]. Each action uses a set amount of [Speed Points]. If the user does not have enough [Speed Points] remaining, then the user cannot perform the action. These actions can be performed in any order during this [Turn]. The pilot can also choose <br/><br/>The character can choose to perform one [Offensive Action], one [Movement Action], and one [Verbal Action] when it is their [Turn] in the [Turn Order].  The character can also choose to not perform any of these actions.<br/><br/><br/><br/>Many actions that can be performed by a [Mech Part] have an equivalent action that can be performed by a character. The rules for the [Mech Part] performing the action are similar to if the character performed the action, with differences noted.<br/><br/><br/><br/>If a [Mech] has its [Current Health Points] is reduced to 0 or less, the [Mech] becomes [Disabled].  <br/><br/>When a [Mech] becomes [Disabled], any spell that a [Mech Part] is currently casting is cancelled.
+<br/>
+<br/>When a [Mech] becomes [Disabled], every [Mech Part] has its [Speed Points] drop to 0. This [Speed Points] of the [Mech Part] do not regenerate while the [Mech] is [Disabled].
+<br/>
+<br/>When a [Mech] becomes [Disabled], its [Physical Damage Reduction] is reduced to 0. This [Physical Damage Reduction] does not regenerate while the [Mech] is [Disabled].
+<br/>
+<br/>The only actions that any [Mech Part] can only perform when the [Mech] is [Disabled] are the [Enter Mech] and [Exit Mech] actions of the [Mech Body].
+<br/>
+<br/>A [Mech] will still recover an amount of [Current Health Points] equal to their [Health Points Regen] when it is [Disabled].
+<br/><br/>If [Mech] takes any additional [Damage Dealt] while [Disabled], then the [Damage Dealt] is applied to both the [Mech] and the character piloting the [Mech]. This attack bypasses [Physical Damage Reduction] and [Spell Damage Reduction].
+<br/>
+<br/>A [Mech] will still recover an amount of [Current Health Points] equal to their [Health Points Regen] when it is [Disabled].
+<br/>
+<br/>If a [Mech] has their [Current Health Points] fully recover to their [Maximum Health Points], then the [Mech] will no longer be be [Disabled]. The [Mech] will still have their [Physical Damage Reduction] be 0 and the [Speed Points] of each [Mech Part] as 0.
+<br/>
+<br/>The [Physical Damage Reduction] and [Speed Points] of a [Mech] will start regenerating again when the [Mech] is not longer [Disabled].
+<br/>
+<br/>
+<br/>
+<br/>If a [Mech] does not have any pilot, then it will still regenerate [Current Health Points]. As long as the [Mech] isn't [Disabled], it will also regenerate [Physical Damage Reduction]. It will not regenerate [Speed Points] without a pilot.
+<br/>
+<br/>
+<br/>
+<br/>If a character leaves a [Mech] with [Exit Mech], then the character will have their [Current Strength Points] and [Current Speed Points] start at 0. The character cannot perform any other actions in the same [Action Block] that they leave the [Mech]. The [Turn Order] of the character will be set as the last [Turn] in the [Action Block]. Any [Enter Mech] or [Exit Mech] performed after this will take the place of the the last [Turn] in the [Turn Order].
+<br/>
+<br/>
+<br/>
+<br/>If a character enters a [Mech] with [Enter Mech], then every [Mech Part] of the [Mech] will have its [Current Speed Points] start at 0. The character and the [Mech] cannot perform any other actions in the same [Action Block] that the character enters the [Mech].  The [Turn Order] of the [Mech] will be set as the last [Turn] in the [Action Block]. Any [Enter Mech] or [Exit Mech] performed after this will take the place of the the last [Turn] in the [Turn Order].

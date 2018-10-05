@@ -1,0 +1,41 @@
+
+<br/>
+<br/>
+<br/>
+<br/><b>Simulacrum:</b>
+<br/>Range: Self
+<br/>Spell Cast Time: 3 [Action Blocks]
+<br/>Subtlety Modifier: -10
+<br/>
+<br/>Base Effect: This spell creates a duplicate of the caster called a [Simulacrum].
+<br/>
+<br/>The caster controls the actions of the [Simulacrum]. It can act as a separate character operating in the same [Turn] as the caster. The caster can choose if the [Simulacrum] acts before the caster or the caster acts before the [Simulacrum] for every [Action Block].
+<br/>
+<br/>When a [Simulacrum] is initially created, it occupies the same space as the caster. It cannot perform any actions other than [Movement Actions] until it moves from the space occupied by the caster, or the caster moves from the space occupied by the [Simulacrum].
+<br/>
+<br/>Any character other than the caster will be unable to differentiate between the caster and the [Simulacrum].
+<br/>
+<br/>When the caster and [Simulacrum] are separated, they cannot re-enter the same space together.
+<br/>
+<br/>As long as the caster and [Simulacrum] occupy the same space, any attacks targeting either of them will affect both of them.
+<br/>
+<br/>The [Simulacrum] doesn't have any form of [Health Points], [Strength Points], Or [Speed Points], and it has a [Current Ghost Power] equal to the [Spell Ghost Power] of the spell.
+<br/>
+<br/>The [Simulacrum] will disappear when their [Current Ghost Power] is reduced to 0 or less.
+<br/>
+<br/>The [Simulacrum] has all the [Skills], [Talents], [Flairs], and [Special Abilities] of the caster.
+<br/>
+<br/>The [Simulacrum] is equipped with the same equipment as the caster. This equipment will disappear when the [Simulacrum] disappears.
+<br/>
+<br/>The [Simulacrum] cannot recover [Current Ghost Power] in any way.
+<br/>
+<br/>If [Simulacrum] is hit by an attack that would normally reduce their [Current Health Points], then their [Current Ghost Power] is reduced instead.
+<br/>
+<br/>If a [Simulacrum] performs an action that would normally reduce their [Current Strength Points] or [Current Speed Points], then their [Current Ghost Power] is reduced by 5 times [Strength Cost] of the action, and 5 times [Speed Cost] of the action.
+<br/>
+<br/>The [Simulacrum] automatically has their [Current Ghost Power] reduced by 5 every [Action Block] or their [Turn]. This happens regardless of whether or not the [Simulacrum] performs any action.
+<br/>
+<br/>A [Simulacrum] cannot cast the spells [Gather Mist], [Simulacrum], or [Possession].
+<br/>
+<br/>Defensive Spell Boost: Each [Rank] adds 10 to the initial [Current Ghost Power] of the [Simulacrum].
+<br/>General Spell Boost: Each [Rank] adds 5 to the initial [Current Ghost Power] of the [Simulacrum].

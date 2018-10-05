@@ -1,0 +1,59 @@
+[Crafting Skills] are used to create the many tools available to players.
+<br/>
+<br/>You need to have a certain [Rank] in a [Crafting Skill] in order create an item.
+<br/>
+<br/>Using a [Crafting Skill] does not require a roll of any sort.
+<br/>
+<br/>
+<br/>
+<br/>
+<br/><span style="font-size:1.25em;"><b>Arms and Armor Crafting:</b></span>
+<br/>Class Skill Cost: 2*[Rank] points.
+<br/>Cross-Class Skill Cost: 3*[Rank] points.
+<br/>[Arms and Armor Crafting] is used to craft [Swords], [Shields], [Hammers], and [Grappling Weapons].
+<br/>
+<br/>[Arms and Armor Crafting] is used to craft [Basic Armors].
+<br/>
+<br/>[Arms and Armor Crafting] is used to craft [Mech Blades].
+<br/>
+<br/>
+<br/>
+<br/>
+<br/><span style="font-size:1.25em;"><b>Machinery Crafting:</b></span>
+<br/>Class Skill Cost: 2*[Rank] points.
+<br/>Cross-Class Skill Cost: 3*[Rank] points.
+<br/>[Machinery Crafting] is used to craft [Drills].
+<br/>
+<br/>[Machinery Crafting] is used to craft [Skiffs], and [Skiff Cannons].
+<br/>
+<br/>[Machinery Crafting] is used to craft [Mech Bodies], [Mech Legs], [Mech Treads], [Mech Guns], and [Mech Grappling Devices].
+<br/>
+<br/>
+<br/>
+<br/>
+<br/><span style="font-size:1.25em;"><b>Technology Crafting:</b></span>
+<br/>Class Skill Cost: 2*[Rank] points.
+<br/>Cross-Class Skill Cost: 3*[Rank] points.
+<br/>[Technology Crafting] is used to craft [Traps].
+<br/>
+<br/>[Technology Crafting] is used to craft [Pistols], [Sniper Rifles], [Shotguns], and [Teslas].
+<br/>
+<br/>
+<br/>
+<br/>
+<br/><span style="font-size:1.25em;"><b>Magic Crafting:</b></span>
+<br/>Class Skill Cost: 2*[Rank] points.
+<br/>Cross-Class Skill Cost: 3*[Rank] points.
+<br/>[Magic Crafting] is used to craft [Staves].
+<br/>
+<br/>[Magic Crafting] is used to craft [Mech Spell Cores].
+<br/>
+<br/>
+<br/>
+<br/>
+<br/><span style="font-size:1.25em;"><b>Puzzle Crafting:</b></span>
+<br/>Class Skill Cost: 2*[Rank] points.
+<br/>Cross-Class Skill Cost: 3*[Rank] points.
+<br/>[Puzzle Crafting] is used to craft [Puzzle Bullets].
+<br/>
+<br/>[Puzzle Crafting] is used to craft [Mech Puzzle Guns], and [Mech Puzzle Blades].

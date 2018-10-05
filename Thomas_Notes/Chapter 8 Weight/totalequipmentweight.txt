@@ -1,0 +1,39 @@
+<h2>Total Equipment Weight:</h2>
+
+[Total Equipment Weight] is a statistic calculated from every item a character is carrying. This number takes into account the character's [Carry Weight], the [Weapon Weight] of the character's equipped [Weapons], and the [Armor Weight] of the character's equipped [Armor].
+
+The [Total Equipment Weight] is calculated in a series of steps. The [Total Equipment Weight] starts at 0, and increases depending on the equipped items. The steps are as follows:
+
+
+1) If the character is not wielding any [Weapon], then skip this step.
+
+If the character is wielding a single [Weapon], then the [Total Equipment Weight] is increased to the [Weapon Weight] of the equipped [Weapon].
+
+If the character is wielding two [Weapons], then the [Total Equipment Weight] is increased to the [Weapon Weight] of the equipped [Weapon] with the highest [Weapon Weight].
+
+
+2) If the character is not wielding any [Weapon] or is wielding a single [Weapon], then skip this step.
+
+If the character is wielding two [Weapons], and the two [Weapons] are [Balanced] with each other, then the [Total Equipment Weight] remains unmodified.
+
+If the character is wielding two [Weapons], the [Weapons] are not [Balanced] with each other, and the [Weapons] have the same [Weapon Weight], then the [Total Equipment Weight] is increased by 2.
+
+If the character is wielding two [Weapons], the [Weapons] are not [Balanced] with each other, and the difference in the [Weapon Weight] of the [Weapons] is 1 or 2, then the [Total Equipment Weight] is increased by 1.
+
+If the character is wielding two [Weapons], the [Weapons] are not [Balanced] with each other, and the difference in the [Weapon Weight] of the [Weapons] is 3 or more, then the [Total Equipment Weight] remains unmodified.
+
+Various [Weapon] types are [Balanced] with other [Weapon] types by default. A [Pistol] is [Balanced] with another [Pistol]. A [Sword] is [Balanced] with a [Shield], and vice-versa. Additional [Weapons] can be made [Balanced] with use of a [Flair].
+
+
+3) If the character is not wearing any [Armor], then skip this step.
+
+If the [Armor Weight] of the equipped [Armor] does not exceed the current [Total Equipment Weight], then the [Total Equipment Weight] remains unmodified.
+
+If the [Armor Weight] of the equipped [Armor] exceeds the current [Total Equipment Weight], then the [Total Equipment Weight] is increased to the [Armor Weight] of the equipped [Armor].
+
+
+4) The [Total Equipment Weight] is increased by the [Carry Weight] of the character's carried items.
+
+
+
+The [Total Equipment Weight] must not exceed the [Maximum Total Equipment Weight] for the character. The [Maximum Total Equipment Weight] is found in the "Derived Stats" page.

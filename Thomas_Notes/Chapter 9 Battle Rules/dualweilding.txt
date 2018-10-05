@@ -1,0 +1,41 @@
+<h2>Dual Wielding:</h2>
+
+If a character is wielding two weapons, then the character will calculate their new [Total Equipment Weight] accordingly, according to the weapon. These rules are found in the "Weight" section.
+
+If a character is wielding two weapons, then the character will be able to perform two "Offensive Actions" in a single action block. In order to perform these "Offensive Actions", both of these "Offensive Actions" must be of the following types:
+
+	"Melee Attack"
+
+	"Melee Combo Attack"
+
+	"Gun Attack"
+
+	"Aimed Attack"
+
+When wielding two weapons and using a shield, the additional action "Shield Block" can also be used by a "Shield", as long as the other weapon is using one of the aforementioned "Offensive Actions". Only one "Shield Block" can be performed per action block.
+
+Various weapon modifiers only apply when attacking with that weapon. This includes:
+
+	"To Hit Bonus"
+
+	"Physical Damage Reduction Damage"
+
+	"Mech Physical Damage Reduction Damage"
+
+	"Strength Point Damage"
+
+	"Speed Point Damage"
+
+	"Range"
+
+	"Short Range"
+
+	"Medium Range"
+
+	"Long Range"
+
+	"Bullets Fired Per Shot"
+
+The "Steady Shot Bonus" of a "Sniper Rifle" can not be used when two weapons are used.
+
+When grappling, the wielder of two weapons with "Grapple Attack Bonus" and "Grapple Speed Damage Bonus" will only use the larger of the two bonuses.

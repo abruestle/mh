@@ -1,0 +1,33 @@
+﻿<br/>
+<br/><br/><br/><b>Elemental Spell:</b><br/>Maximum Range: 60 ft <br/>Spell Cast Time: 3 [Action Blocks]<br/>Subtlety Modifier: -10<br/><br/>Base Effect: Deal 6d6 [Damage Dealt] of an element of your choice against a single target. Possible elements include fire, cold, and electricity. [Spell Damage Reduction] reduces the [Damage Dealt].<br/><br/>Offensive Spell Boost: Each [Rank] adds 2d6 [Damage Dealt] to spell.<br/>General Spell Boost: Each [Rank] adds 1d6 [Damage Dealt] to spell.<br/><br/><br/><br/><b>Health Recovery:</b><br/>Maximum Range: 60 ft or Self<br/>Spell Cast Time: 2 [Action Blocks]<br/>Subtlety Modifier: +5<br/><br/>Base Effect: Restore a target's [Current Health Points] by 6d6 [Damage Healed].
+<br/>
+<br/>This healing works on humans and any possessed objects.<br/><br/>Defensive Spell Boost: Each [Rank] adds 2d6 to the [Damage Healed].<br/>General Spell Boost: Each [Rank] adds 1d6 to the [Damage Healed].<br/><br/><br/><br/><b>Gale Burst:</b><br/>Range: 45 ft radius<br/>Spell Cast Time: 3 [Action Blocks]<br/>Subtlety Modifier: -15<br/><br/>Base Effect: All other units within the radius of the [Range] of the caster, both friendly and unfriendly, are considered targets of the spell. Targets are knocked back 30 feet away from the caster. Should this cause the target to hit a wall or stationary object, the target will take 1 [Damage Dealt] per foot left to travel. [Physical Damage Reduction] reduces the [Damage Dealt].
+<br/>
+<br/>A character not supported by the ground at the end of the [Gale Burst] will immediately fall to the ground below them.
+<br/>
+<br/>Offensive Spell Boost: Each [Rank] adds 5 feet to the distance the the targets are knocked back.<br/><br/><br/><br/><b>Spell Barrier:</b><br/>Range: 30 feet or Self<br/>Duration: 30 [Action Blocks]<br/>Spell Cast Time: 3 [Action Blocks]<br/>Subtlety Modifier: +0<br/><br/>Base Effect: Creates a barrier that absorbs 30 [Damage Dealt] from attacks that would be reduced by [Spell Damage Reduction] before breaking.<br/><br/>Defensive Spell Boost: Each [Rank] adds 5 [Damage Dealt] that the barrier can absorb before breaking.<br/>General Spell Boost: Each [Rank] adds 2 [Damage Dealt] that the barrier can absorb before breaking.<br/><br/><br/><br/><b>Physical Barrier:</b><br/>Range: 30 feet or Self<br/>Duration: 30 [Action Blocks]<br/>Spell Cast Time: 3 [Action Blocks]<br/>Subtlety Modifier: +0<br/><br/>Base Effect: Creates a barrier that absorbs 30 [Damage Dealt] from attacks that would be reduced by [Physical Damage Reduction] before breaking.<br/><br/>Defensive Spell Boost: Each [Rank] adds 5 [Damage Dealt] that the barrier can absorb before breaking.<br/>General Spell Boost: Each [Rank] adds 2 [Damage Dealt] that the barrier can absorb before breaking.<br/><br/><br/><br/><b>Elemental Weapon:</b><br/>Range: 30 feet or Self<br/>Duration: 30 [Action Blocks]<br/>Spell Cast Time: 3 [Action Blocks]<br/>Subtlety Modifier: -5<br/><br/>Base Effect: This effect can be placed on either a weapon or a character. If the effect is placed on a character, then the enchantment affects unarmed attacks made by the character.<br/><br/>Enchants a weapon with an element of the caster's choice. Possible elements include fire, cold, and electricity. 
+<br/>
+<br/>Any targets hit by an attack from this weapon are hit with an additional attack with a [Damage Dealt] of 1d6 of that element.
+<br/>
+<br/>[Spell Damage Reduction] reduces the [Damage Dealt].
+<br/>
+<br/>For effects that require the [Damage Dealt] of a weapon to be greater than 0, the [Damage Dealt] of this effect is included in the calculation.<br/><br/>Offensive Spell Boost: Each [Rank] adds 2 to the [Damage Dealt].<br/>General Spell Boost: Each [Rank] adds 1 to the [Damage Dealt].<br/><br/><br/><br/><b>Vampiric Weapon:</b><br/>Range: 30 feet or Self<br/>Duration: 30 [Action Blocks]<br/>Spell Cast Time: 3 [Action Blocks]<br/>Subtlety Modifier: -5<br/><br/>Base Effect: This effect can be placed on either a weapon or a character. If the effect is placed on a character, then the enchantment affects unarmed attacks made by the character.
+<br/>
+<br/>Any character wielding a weapon with this enchantment will have their [Current Health Points] restored by 1d6 [Damage Healed] whenever they hit a target with the weapon and the [Damage Dealt] of the attack is greater than 0.
+<br/>
+<br/>This healing works on humans and any possessed objects.<br/><br/>Defensive Spell Boost: Each [Rank] adds 2 to the [Damage Healed]<br/>General Spell Boost: Each [Rank] adds 1 to the [Damage Healed]<br/><br/><br/><br/><b>Possession:</b><br/>Range: 60 ft<br/>Spell Cast Time: 3 [Action Blocks]<br/>Subtlety Modifier: +10<br/><br/>Base Effect: The [Spell Power] of this spell is 15d6. If the target has a [Current Health Points] less than the [Spell Power], then they are possessed. Targets possessed by the spell have their [Maximum Ghost Power] and [Current Ghost Power] both increased by either [Spell Power] - [Target's Current Health Points] or [Spell Ghost Power], whichever is smaller. This will require the target to make an [Insanity] roll if their [Current Ghost Power] > [Current Health Points].<br/><br/>Offensive Spell Boost: Each [Rank] adds 4d6 to the [Spell Power].<br/>General Spell Boost: Each [Rank] adds 2d6 to the [Spell Power].
+<br/>
+<br/>
+<br/>
+<br/><b>Gather Mist:</b>
+<br/>Range: Self
+<br/>Spell Cast Time: 2 [Action Blocks]
+<br/>Subtlety Modifier: +0
+<br/>
+<br/>Effect: The [Spell Ghost Power] of [Gather Mist] begins as the character's [Maximum Ghost Power] - [Current Ghost Power].
+<br/>
+<br/>The [Spell Ghost Power] of [Gather Mist] is not reduced from the character's [Current Ghost Power] and can exceed the character's [Current Ghost Power].
+<br/>
+<br/>The character's [Current Ghost Power] is increased by the [Spell Ghost Power] when [Gather Mist] activates.
+<br/>
+<br/>If the new [Current Ghost Power] exceeds the [Current Health Points], then an [Insanity Roll] should be made.

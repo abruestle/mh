@@ -1,0 +1,105 @@
+
+
+
+<b>None:</b>
+The character suffers no effects.
+
+
+<b>Increase Roll:</b>
+Add [Severity] to the current [Insanity] roll. Take the new effects.
+
+
+<b>Phobia:</b>
+The character gains a [Phobia] for [Severity] days.  The [Phobia] is dependent on the current situation of the character.  The [Phobia] is decided by the GM.  For the duration of the [Phobia], while in the presence of the [Phobia], any [Defensive Charisma Roll] rolled by the character is reduced by 5.
+
+
+<b>Minor Insanity:</b>
+The character gains a [Minor Insanity] for [Severity] days. 
+The [Minor Insanity] is decided by the GM. 
+For the duration of the [Minor Insanity], any [Defensive Charisma Roll] rolled by the character is reduced by 5.
+
+
+<b>Curse:</b>
+The character seemingly is unaffected. 
+The character is now [Cursed]. 
+The GM can decide the manifestation of the [Curse] at a future time.
+
+
+<b>Spell Drain:</b>
+If the character is casting a spell, the [Spell Ghost Power] is reduced by [Severity].
+
+
+<b>Disruption:</b>
+The character cannot use [Cast Spell] or [Echo Spell] for [Severity] [Action Blocks].
+
+
+<b>Spell Backfire:</b>
+If the character is casting [Elemental Spell], then that spell activates with the caster as the sole target. 
+
+If the character is casting any other spell, then that spell is cancelled.
+
+The [Damage Dealt] by the spell is multiplied by [Severity].
+
+
+<b>Stun:</b>
+The character takes effects dependent on the [Severity].
+
+If the [Severity] is 1, the character's [Current Speed Points] are cut in half and the character's [Current Strength Points] are cut in half. The result is rounded down.
+
+If the [Severity] is 2, the character's [Current Speed Points] become 0 and the character's [Current Strength Points] become 0.
+
+If the [Severity] is 3, the character's [Current Speed Points] become 0 and the character's [Current Strength Points] become 0. The character also cannot use [Restore Speed Points] or [Restore Strength Points] in the current [Action Block] or the next 1d6 [Action Blocks].
+
+
+<b>Unconscious:</b>
+The character's [Current Health Points] are reduced to 0 and they become [Unconscious]. This does not require the character to make an additional [Insanity Roll].
+
+
+<b>Possessed:</b>
+The character takes effects dependent on the [Severity].  
+
+If the [Severity] is 1, ghosts possess the character.
+The ghosts control the character until the character is reduced to 0 [Current Ghost Power].
+The ghosts cannot use [Gather Mist].
+
+If the [Severity] is 2, ghosts possess the character.
+The ghosts control the character until the character is reduced to 0 [Maximum Ghost Power].
+The ghosts can use [Gather Mist].
+
+
+<b>Mutant Transformation:</b>
+The character transforms into a [Mutant].
+
+
+<b>Vanity Transformation:</b>
+The character transforms into a [Vanity].
+
+
+<b>Husk Transformation:</b>
+Transform into a [Husk].
+
+
+<b>Awakened Transformation:</b>
+Transform into an [Awakened].
+
+
+<b>Hardened:</b>
+The character is [Hardened] against mutation. 
+For the next [Severity] times that the character suffers from [Mutant Transformation] or [Vanity Transformation], the character takes no effects.
+
+
+<b>Mist Form:</b>
+The character takes effects dependent on the [Severity].
+
+If the [Severity] is 1, every particle of the character's body dematerializes. 
+In 24 hours, the character will appear 1d6 miles away from the location that the character dematerialized. 
+Roll 65 + 3d6 and the character also takes that effect as an [Insanity Roll].
+
+If the [Severity] is 2, every particle of the character's body dematerializes. 
+In 7 days, the character will appear 3d6 miles away from the location that the character dematerialized. 
+Roll 75 + 3d6 and the character also takes that effect as an [Insanity Roll].
+
+
+<b>Dematerialize:</b>
+Every particle of the character's body dematerializes into mist. 
+The character is dead.

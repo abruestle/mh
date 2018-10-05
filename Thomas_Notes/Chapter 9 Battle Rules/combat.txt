@@ -1,0 +1,244 @@
+<h2>Combat:</h2>
+
+
+
+
+Battle uses a few terms:
+
+[Action Block] - One [Action Block] represents 6 seconds of real time. 
+
+In each [Action Block], each character can perform one [Offensive Action], one [Movement Action], and one [Verbal Action].
+
+Characters can perform a [Defensive Action] in response to the actions of another player when the conditions are met. They can also perform 
+
+
+
+
+[Turn Order] - While every character gets to act in an [Action Block], the [Turn Order] determines when each character gets to act. The [Turn Order] within an [Action Block] is determined by [Maximum Speed Points]. Characters act in descending order of [Maximum Speed Points] with the character with the highest [Maximum Speed Points] going first.
+
+If two or more characters have the same [Maximum Speed Points], they should roll 3d6 against each other to determine who goes first at the start of battle, with the higher roll going first. All ties are re-rolled until there is a clear [Turn Order].
+
+
+[Turn] - The [Turn Order] determines which order the characters act. The point when the character can act in the [Turn Order] is considered their [Turn]. The character can choose to perform up to one [Offensive Action], one [Movement Action], and one [Verbal Action] when it is their [Turn]. Any character can perform a [Defensive Action] on any other character's [Turn], but it must be in response to the appropriate action of another character's action. A character can perform one or more [Spell Casting Modifiers] when using the [Cast Spell] action.
+
+
+[Maximum Battle Strength Points] - When a character is wielding equipment with a [Total Equipment Weight] greater than 0, then they will not have access to all their [Maximum Strength Points] in the battle. Instead, they use [Maximum Battle Strength Points] for calculations in battle. The character's [Maximum Battle Strength Points] are calculated as the character's [Maximum Strength Points] - the character's [Total Equipment Weight]. For multiple weapons, the "Weight" page calculates the character's [Total Equipment Weight].
+
+
+[Current Strength Points] - At the beginning of battle, a character's [Current Strength Points] are restored to the character's [Maximum Battle Strength Points]. Every time an action is performed by the character, their [Current Strength Points] will be reduced by the [Strength Cost] of the action. If the [Strength Cost] of the action exceeds their [Current Strength Points], then the character cannot use the action.
+
+
+[Maximum Battle Speed Points] - When a character is wearing [Armor] with a [Speed Point Reduction] greater than 0, then they will not have access to all their [Maximum Speed Points] in the battle. Instead, they use [Maximum Battle Speed Points] for calculations in battle. The character's [Maximum Battle Speed Points] are calculated as the character's [Maximum Speed Points] - the character's [Speed Point Reduction] of the [Armor].
+
+
+[Current Speed Points] - At the beginning of battle, a character's [Current Speed Points] are restored to the character's [Maximum Battle Speed Points]. Every time an action is performed by the character, their [Current Speed Points] will be reduced by the [Speed Cost] of the action. If the [Speed Cost] of the action exceeds their [Current Speed Points], then the character cannot use the action.
+
+
+[Evasion] - A character's [To Hit Roll] must be greater than or equal to a target's [Evasion] in order to hit a target. This number is either [Passive Evasion] or [Active Evasion] depending on whether or not the target performs a [Dodge] action.
+
+
+[Passive Evasion] - A target's [Passive Evasion] is used as their [Evasion] if a target does not perform a [Dodge] action. [Passive Evasion] of is defined by a character's [Armor], with [Unarmored] having a [Passive Evasion] of 7.
+
+Various [Flairs], [Skills], [Class Abilities], [Dual Class Abilities], and [Actions] can add to this value.
+
+
+[Active Evasion] - A target's [Active Evasion] is used as their [Evasion] if a target performs a [Dodge] action. Every character starts with an [Active Evasion] of 7. This number can be increased with the [Dodge Boost] talent.
+
+Various [Flairs], [Skills], [Class Abilities], [Dual Class Abilities], and [Actions] can add to this value.
+
+
+[Base To Hit Roll] - A [To Hit Roll] must be made to determine if an attack hits a target with a [Melee Attack], [Melee Combo Attack], [Gun Attack], [Aimed Attack], or [Initiate Grapple].
+
+When a character needs to perform a [To Hit Roll], the character rolls 2d6 for the [Base To Hit Roll], or 1d6 for the [Base To Hit Roll] of a [Shotgun].
+
+The [Base To Hit Roll] is used for some calculations, such as determining if the attack is a [Critical Hit].
+
+
+[To Hit Bonus] - This value is added to the [Base To Hit Roll] for a [Melee Attack], [Melee Combo Attack], [Gun Attack], [Aimed Attack], or [Initiate Grapple].
+
+Every weapon has its own [To Hit Bonus].
+
+For [Melee Attack] and [Melee Combo Attack], the [Melee Boost] talent adds to this value.
+
+For a [Gun Attack] and [Aimed Attack], the [Gun Boost] talent adds to this value.
+
+For an [Initiate Grapple], the [Grapple Accuracy Boost] talent adds to this value.
+
+Various [Flairs], [Skills], [Class Abilities], [Dual Class Abilities], and [Actions] can add to this value.
+
+
+[To Hit Roll] - A [To Hit Roll] must be made to determine if an attack hits a target with a [Melee Attack], [Melee Combo Attack], [Gun Attack], [Aimed Attack], or [Initiate Grapple].
+
+The character then adds the [To Hit Bonus] to the [Base To Hit Roll] to determine the [To Hit Roll].
+
+The [To Hit Roll] must exceed the target's [Passive Evasion] in order for the attack to hit the target. If the character is performing a [Dodge] as a [Defensive Action], then the attack must beat the target's [Active Evasion]. If the attack hits the target, then the attack continues with further effects, otherwise, the attack misses.
+
+
+[Base Damage Dealt] - The [Base Damage Dealt] is the calculated when a character hits a target with a [Melee Attack], [Melee Combo Attack], [Gun Attack], or [Aimed Attack].
+
+Every weapon has its own [Damage Dealt] that is rolled for the [Base Damage Dealt].
+
+
+[Damage Dealt Bonus] - The value of a character's [Damage Dealt Bonus] is added to the [Base Damage Dealt] for a [Melee Attack], [Melee Combo Attack], [Gun Attack], or [Aimed Attack].
+
+For [Melee Attack] and [Melee Combo Attack], the [Melee Boost] talent adds to this value.
+
+For a [Gun Attack] and [Aimed Attack], the [Gun Boost] talent adds to this value.
+
+Various [Flairs], [Skills], [Class Abilities], [Dual Class Abilities], and [Actions] can add to this value.
+
+
+[Damage Reduction] - The value of a target's [Damage Dealt Bonus] is subtracted from the [Base Damage Dealt] for a [Melee Attack], [Melee Combo Attack], [Gun Attack], or [Aimed Attack].
+
+For attacks with most weapons, the character uses their [Physical Damage Reduction]. The [Physical Damage Reduction Boost] talent adds to this value.
+
+For attacks with a [Tesla], the character uses their [Spell Damage Reduction]. The [Spell Damage Reduction Boost] talent adds to this value.
+
+Various [Flairs], [Skills], [Class Abilities], [Dual Class Abilities], and [Actions] can add to this value.
+
+
+[Damage Dealt] - The [Damage Dealt] is the calculated when a character hits a target with a [Melee Attack], [Melee Combo Attack], [Gun Attack], or [Aimed Attack].
+
+The [Damage Dealt] of the attack is calculated as the [Base Damage Dealt] plus the [Damage Dealt Bonus] minus the [Damage Reduction]. If the [Damage Dealt] is calculated to be less than 0, then the [Damage Dealt] is 0.
+
+The [Damage Dealt] of the attack is reduced from the target's [Current Health Points]. This may result in the target becoming [Unconscious] or needing to roll an [Insanity Roll].
+
+
+[Critical Hit] -  An attack counts as a [Critical Hit] if the character rolls an 12 on the [Base To Hit Roll].
+
+The [To Hit Roll] must also successfully hit the target.
+
+The [Damage Dealt] of the [Critical Hit] is calculated as double the [Base Damage Dealt] plus double the [Damage Dealt Bonus] minus double the [Damage Reduction]. If the [Damage Dealt] is calculated to be less than 0, then the [Damage Dealt] is 0.
+
+
+[Range] - Each weapon has a [Range] determining how far away a target can be in order to be attacked by the weapon. Each gun has a defined [Range] for the gun. Melee weapons use the character's [Melee Range] for their [Range]. Actions made without weapons also have a [Range]. [Initiate Grapple] uses [Melee Range]. Spells have a [Maximum Range].
+
+[Melee Range] - The [Range] used for melee weapons is [Melee Range]. This value is 5 feet.
+
+Battle runs in this order:
+
+
+1) Battle Begins:
+
+The [Turn Order] of the characters is determined. 
+
+The [Maximum Battle Strength Points] of each character is determined.
+
+The [Maximum Battle Speed Points] of each character is determined.
+
+Each character starts battle with their [Current Speed Points] and [Current Strength Points] restored.
+2) A character's [Turn]:
+
+If a character's [Physical Damage Reduction] is reduced, such as by the [Physical Damage Reduction Damage] of a [Drill], then the [Physical Damage Reduction] will regenerate by 1 at the start of the character's [Turn] up to their undamaged [Physical Damage Reduction].
+
+The character selects one [Offensive Action], one [Movement Action], and one [Verbal Action]. Any or all of these actions can be skipped. These actions can be executed in any order.
+
+The target or targets of any action must be within the [Range] of the action.
+
+Each action has a set [Speed Cost] and [Strength Cost]. When a character uses the action, the character's [Current Speed Points] are reduced by the action's [Speed Cost], and the character's [Current Strength Points] are reduced by the action's [Strength Cost]. If the action would reduce the character's [Current Speed Points] or [Current Strength Points] to below 0, then the user cannot perform the action.
+
+When a character performs [Melee Attack], [Melee Combo Attack], [Gun Attack], or [Aimed Attack], they can add [Attack Modifiers] to the attack before rolling their [To Hit Roll]. This alters the effects of the attack.
+
+When a character performs [Cast Spell] or [Echo Spell], they can add [Spell Casting Modifiers] to the [Spell]. This alters the effects of the [Spell].
+
+Any character can perform [Defensive Actions] on another character's [Turn] if the character's with the [Turn] performs actions that trigger the [Defensive Action].
+
+A character can perform unlimited [Bonus Actions]. [Bonus Actions] may require an additional [Condition] to be met in order to perform the [Bonus Action]. Some [Bonus Actions] can only be performed once per [Action Block].
+
+
+
+
+3) A character performs [Melee Attack], [Melee Combo Attack], [Gun Attack], or [Aimed Attack] as an [Offensive Action]:
+
+The character must choose all [Attack Modifiers] to apply to the attack.
+
+The character must choose a target in [Range] of the attack. Various [Attack Modifiers] allow multiple targets to be chosen, but the rolls for target are calculated separately.
+
+Before the [Base To Hit Roll] is made, the target of the attack can decide to perform [Dodge] as a [Defensive Action], using their [Active Evasion] instead of their [Passive Evasion] for their [Evasion].
+
+The character then rolls their [Base To Hit Roll].
+
+If the [Base To Hit Roll] qualifies for a [Critical Hit], then the attack will be considered a [Critical Hit] if it hits.
+
+The character adds their [To Hit Bonus] to the [Base To Hit Roll] to determine the [To Hit Roll].
+
+If the [To Hit Roll] is greater than or equal to the target's [Evasion], then the attack hits. Otherwise, the attack misses and no additional effects take place.
+
+If the attack hits, then the character will roll for [Damage Dealt].
+
+Before the [Base Damage Dealt] is made, the target of the attack can decide to perform [Block], [Heavy Block], or [Super Block] as a [Defensive Action]. They can also perform [Shield Block] at the same time if they haven't used their [Shield] to perform an [Offensive Action] in the same [Action Block]. This causes the target to enter the [Block Stance], [Heavy Block Stance], [Super Block Stance], [Shield Block Stance], [Heavy Shield Block Stance], or [Super Shield Block Stance]. These [Stances] will increase the [Physical Damage Reduction] of the target.
+
+The character then rolls their [Base Damage Dealt].
+
+The character adds their [Damage Dealt Bonus] to the [Base Damage Dealt] and subtracts the target's [Damage Reduction] to determine the [Damage Dealt]. This calculation is altered by a [Critical Hit].
+
+The target reduces their [Current Health Points] by the [Damage Dealt].
+
+If the target's [Current Health Points] are reduced to less than their [Current Ghost Power], then the character may have to make an [Insanity Roll]. See the "Insanity" page for details.
+
+If the target's [Current Health Points] is reduced to 0 or less, the target becomes [Unconscious]. See the "Stances" page for details.
+
+If target takes any additional [Damage Dealt] while [Unconscious], then they become [Dead] and can no longer be healed by any means. See the "Stances" page for details.
+
+
+
+
+4) A character performs [Initiate Grapple] as an [Offensive Action]:
+
+The character must choose a target in [Range] of the [Initiate Grapple].
+
+Before the [Base To Hit Roll] is made, the target of the [Initiate Grapple] can decide to perform [Dodge] as a [Defensive Action], using their [Active Evasion] instead of their [Passive Evasion] for their [Evasion].
+
+The character then rolls their [Base To Hit Roll].
+
+The character adds their [To Hit Bonus] to the [Base To Hit Roll] to determine the [To Hit Roll].
+
+If the [To Hit Roll] is greater than or equal to the target's [Evasion], then the [Initiate Grapple] hits. Otherwise, the [Initiate Grapple] misses and no additional effects take place.
+
+If the [Initiate Grapple] hits, then the character enters the [Grappling Stance] and the target enters the [Grappled Stance]. See the "Stances" page for details.
+
+
+
+
+4) A character performs [Cast Spell] or [Echo Spell] as a [Verbal Action]:
+
+The character enters the [Spell Casting Stance]. See the "Stances" page for details.
+
+The character must choose all [Spell Casting Modifiers] to apply to the [Spell].
+
+
+
+
+5) A character performs [Activate Spell] as a [Bonus Action]:
+
+The character activates the [Spell].
+
+The [Effect] of the [Spell] is detailed on the "Spells" page. The [Effect] is calculated by adding all [Offensive Spell Boost], [Defensive Spell Boost], and [General Spell Boost] effects the [Base Effect].
+
+See the "Stances" page for details.
+
+
+
+
+6) A character performs a [Charisma Skill] as a [Verbal Action]:
+
+The character chooses a target. Various [Charisma Skills] allow multiple targets to be chosen, but the rolls for target are calculated separately.
+
+The character rolls their [Offensive Charisma Roll].
+
+The target rolls their [Defensive Charisma Roll].
+
+If the [Offensive Charisma Roll] is greater than or equal to the [Defensive Charisma Roll], then the [Charisma Skill] is successful. Otherwise, the [Charisma Skill] fails and no additional effects take place.
+
+The target takes the [Effect] of the [Charisma Skill]. See the "Charisma Skills" page for details.
+
+Various [Charisma Skills] require multiple rolls.
+
+
+
+
+6) A character performs a [Movement Action]:
+
+The character decides their [Movement Action].
+
+If another character is within [Melee Range], then the character can perform [Obstruct Movement] to end the [Movement Action].

@@ -1,0 +1,142 @@
+<h2>Attack Modifier Flairs:</h2>
+<br/>
+<br/>
+<br/>
+<br/><b>True Strike:</b>
+<br/>The character can add [True Strike] as an [Attack Modifier].
+<br/>
+<br/>Normal: A character cannot add [True Strike] as an [Attack Modifier]. 
+<br/>
+<br/>
+<br/>
+<br/><b>Spinning Strike:</b>
+<br/>The character can add [Spinning Strike] as an [Attack Modifier].
+<br/>
+<br/>Normal: A character cannot add [Spinning Strike] as an [Attack Modifier]. 
+<br/>
+<br/>
+<br/>
+<br/><b>Whirlwind Strike:</b>
+<br/>Pre-requisite: [Spinning Strike]
+<br/>The character can add [Whirlwind Strike] as an [Attack Modifier].
+<br/>
+<br/>Normal: A character cannot add [Whirlwind Strike] as an [Attack Modifier].
+<br/>
+<br/>
+<br/>
+<br/><b>Charging Spinning Strike:</b>
+<br/>Pre-requisite: [Spinning Strike]
+<br/>The targets of a [Spinning Strike] or [Whirlwind Strike] receive additional [Damage Dealt] from [Charge] and [Fast Charge].
+<br/>
+<br/>Normal: The targets of a [Spinning Strike] or [Whirlwind Strike] receive no additional [Damage Dealt] from [Charge] and [Fast Charge].
+<br/>
+<br/>
+<br/>
+<br/><b>Agile Whirlwind Strike:</b>
+<br/>Pre-requisite: [Spinning Strike], [Whirlwind Strike]
+<br/>If a character performing [Whirlwind Strike] fails to perform a [Movement Action] because of [Obstruct Movement], then the character instead performs a [Spinning Strike] for the same [Strength Cost] and [Speed Cost].
+<br/>
+<br/>Normal: If a character performing [Whirlwind Strike] fails to perform a [Movement Action] because of [Obstruct Movement], then the attack fails and the [Strength Cost] and [Speed Cost] are lost.
+<br/>
+<br/>
+<br/>
+<br/><b>Advanced Agile Whirlwind Strike:</b>
+<br/>Pre-requisite: [Spinning Strike], [Whirlwind Strike], [Agile Whirlwind Strike]
+<br/>If a character is performing [Whirlwind Strike], then they cannot be targeted with [Obstruct Movement] to stop their [Movement Action].
+<br/>
+<br/>Normal: If a character is performing [Whirlwind Strike], then they can be targeted with [Obstruct Movement] to stop their [Movement Action].
+<br/>
+<br/>
+<br/>
+<br/><b>Power Attack:</b>
+<br/>The character can add [Power Attack] as an [Attack Modifier]. 
+<br/>
+<br/>Normal: A character cannot add [Power Attack] as an [Attack Modifier].
+<br/>
+<br/>
+<br/>
+<br/><b>Crushing Blow:</b>
+<br/>Pre-requisite: [True Strike], [Power Attack]
+<br/>The character can add [Crushing Blow] as an [Attack Modifier]. 
+<br/>
+<br/>Normal: A character cannot add [Crushing Blow] as an [Attack Modifier].
+<br/>
+<br/>
+<br/>
+<br/><b>Advanced Crushing Blow:</b>
+<br/>Pre-requisite: [True Strike], [Power Attack], [Crushing Blow]
+<br/>The [Strength Cost] of [Crushing Blow] is reduced to 1.
+<br/>
+<br/>Normal: The [Strength Cost] of [Crushing Blow] is 1.
+<br/>
+<br/>
+<br/>
+<br/><b>Greater Crushing Blow:</b>
+<br/>Pre-requisite: [True Strike], [Power Attack], [Crushing Blow], [Advanced Crushing Blow]
+<br/>The [Strength Cost] of [Crushing Blow] is reduced to 0.
+<br/>
+<br/>Normal: With [Advanced Crushing Blow], the [Strength Cost] of [Crushing Blow] is 1.
+<br/>
+<br/>
+<br/>
+<br/><b>Shoot Through:</b>
+<br/>The character can add [Shoot Through] as an [Attack Modifier]. 
+<br/>
+<br/>Normal: A character cannot add [Shoot Through] as an [Attack Modifier]. 
+<br/>
+<br/>
+<br/>
+<br/><b>Surprise Shoot Through:</b>
+<br/>Pre-requisite: [Shoot Through]
+<br/>When using [Shoot Through], after the first target is successfully hit via a [To Hit Roll], all future targets in the line can not perform a [Dodge] action.
+<br/>
+<br/>For shotguns, each bullet is calculated individually for factoring if the bullet hit a previous target.
+<br/>
+<br/>Normal: When using [Shoot Through], each target can perform a [Dodge] action.
+<br/>
+<br/>
+<br/>
+<br/><b>Piercing Shoot Through:</b>
+<br/>Pre-requisite: [Shoot Through]
+<br/>When using [Shoot Through], after the first target is successfully hit via a [To Hit Roll], all future targets in the line do not gain additional [Physical Damage Reduction] from a [Block Stance], a [Heavy Block Stance], a [Super Block Stance], a [Shield Block Stance], a [Heavy Shield Block Stance], or a [Super Shield Block Stance].
+<br/>
+<br/>For shotguns, each bullet is calculated individually for factoring if the bullet hit a previous target.
+<br/>
+<br/>Normal: Each target can gain additional [Physical Damage Reduction] from [Block], [Heavy Block], [Super Block], or [Shield Block].
+<br/>
+<br/>
+<br/>
+<br/><b>Advanced Piercing Shoot Through:</b>
+<br/>Pre-requisite: [Shoot Through], [Piercing Shoot Through]
+<br/>Action: [Gun Attack], [Aimed Attack]
+<br/>Applies to Bonus Actions: No
+<br/>Condition: 2 targets in [Range] in a line
+<br/>When using [Shoot Through], after the first target is successfully hit via a [To Hit Roll], all future targets in the line that are in a [Block Stance], a [Heavy Block Stance], a [Super Block Stance], a [Shield Block Stance], a [Heavy Shield Block Stance], or a [Super Shield Block Stance] will leave their stance and enter [No Stance]. [Shield Deflection] can still be used.
+<br/>
+<br/>For shotguns, each bullet is calculated individually for factoring if the bullet hit a previous target.
+<br/>
+<br/>Normal: Targets maintain their  [Block Stance], [Heavy Block Stance], [Super Block Stance], [Shield Block Stance], [Heavy Shield Block Stance], or [Super Shield Block Stance] when hit with attacks.
+<br/>
+<br/>
+<br/>
+<br/><b>Combo Finisher:</b>
+<br/>Pre-requisite: [True Strike], [Second Attack], [Third Attack]
+<br/>The character can add [Combo Finisher] as an [Attack Modifier]. 
+<br/>
+<br/>Normal: A character cannot add [Combo Finisher] as an [Attack Modifier]
+<br/>
+<br/>
+<br/>
+<br/><b>Advanced Combo Finisher:</b>
+<br/>Pre-requisite: [True Strike], [Second Attack], [Third Attack], [Combo Finisher]
+<br/>If the attack is a [Combo Finisher], then the [Damage Dealt] is further increased by an additional 1d6 for each point the [To Hit Roll] of the [Second Melee Attack], [Second Gun Attack], or [Second Aimed Attack] exceeded the target's [Evasion].
+<br/>
+<br/>Normal:>The [Combo Finisher] only has its [Damage Dealt] increased by an amount based on the [To Hit Roll] of the [Third Melee Attack], [Third Gun Attack], or [Third Aimed Attack].
+<br/>
+<br/>
+<br/>
+<br/><b>Greater Combo Finisher:</b>
+<br/>Pre-requisite: [True Strike], [Second Attack], [Third Attack], [Combo Finisher], [Advanced Combo Finisher]
+<br/>If the attack is a [Combo Finisher], then the [Damage Dealt] is further increased by an additional 1d6 for each point the [To Hit Roll] of the [Melee Attack], [Melee Combo Attack], [Gun Attack], or [Aimed Attack] exceeded the target's [Evasion].
+<br/>
+<br/>Normal:With [Advanced Combo Finisher], the [Combo Finisher] only has its [Damage Dealt] increased by an amount based on the [To Hit Roll] of the [Third Melee Attack], [Third Gun Attack], or [Third Aimed Attack] and an additional amount based on the [To Hit Roll] of the [Second Melee Attack], [Second Gun Attack], or [Second Aimed Attack].

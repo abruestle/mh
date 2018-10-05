@@ -1,0 +1,11 @@
+<h2>Carry Weight:</h2>
+
+The sum of weight of all items held by the character is the [Load Weight]. This includes the weapons wielded by the character and the armor worn by the character. This value is calculated in pounds.
+
+Depending on the character's [Load Weight], they must find the lowest [Associated Strength] where the [Load Weight] is less than or equal to the [Light Load Weight]. If the [Associated Strength] is less than or equal to the character's [Maximum Strength Points], then their [Carry Weight] is 0.
+
+If the [Associated Strength] is greater than their [Maximum Strength Points], then their [Carry Weight] is ([Maximum Strength Points] - [Associated Strength]).
+
+As a reference, the [Associated Strength] also has a [Maximum Load Weight]. If the character has a [Maximum Strength Points] equal to the [Associated Strength], then this value is the absolute maximum [Load Weight] that the character can hold without any equipped [Weapon Weight] or equipped [Armor Weight].
+
+As weapons and armor don't have a listed weight in pounds, but rather a [Weapon Weight] and [Armor Weight]. This can be converted to weight in pounds.

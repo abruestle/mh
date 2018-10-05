@@ -1,0 +1,63 @@
+<h2>Class Special Abilities:</h2>
+<br/>
+<br/>A character will gain a [Class Special Ability] in whatever [Class] the character chooses. Characters with the [Dual-Class] talent gain the [Class Special Abilities] of both [Classes].
+<br/>
+<br/>Every [Class Special Ability] will have a [Rank] determined by the sum of the character's [Maximum Strength Points] and [Maximum Speed Points]. For every 10 points in the sum of the character's [Maximum Strength Points] and [Maximum Speed Points], the [Class Special Ability] gains an additional [Rank].
+<br/>
+<br/>
+<br/>
+<br/><span style="font-size:1.25em;"><b>Inhuman Strength</b></span>
+<br/>Rank: 1 for every 10 ([Maximum Strength Points] + [Maximum Speed Points])
+<br/>Class: [Grand Devourer]
+<br/>
+<br/>The character's [Maximum Battle Strength Points] are increased by [Rank].
+<br/>
+<br/>The character's [Maximum Total Equipment Weight] is increased by [Rank].
+<br/>
+<br/>
+<br/>
+<br/><span style="font-size:1.25em;"><b>Caravan Master</b></span>
+<br/>Rank: 1 for every 10 ([Maximum Strength Points] + [Maximum Speed Points])
+<br/>Class: [Skiffmaster]
+<br/>
+<br/>The character can have a maximum number of [Crew Members] equal to their [Rank] in [Caravan Master].
+<br/>
+<br/>[Recruit] can be used to recruit new [Crew Members].
+<br/>
+<br/>[Crew Members] can be replaced if they die.
+<br/>
+<br/>The [Crew Member] is detailed on the "Crew Member" page.
+<br/>
+<br/>
+<br/>
+<br/><span style="font-size:1.25em;"><b>Riposte</b></span>
+<br/>Rank: 1 for every 10 ([Maximum Strength Points] + [Maximum Speed Points])
+<br/>Class: [Duelist]
+<br/>
+<br/>The character can perform [Riposte Melee Attack] as a [Bonus Action].
+<br/>
+<br/>
+<br/>
+<br/><span style="font-size:1.25em;"><b>Concentration</b></span>
+<br/>Rank: 1 for every 10 ([Maximum Strength Points] + [Maximum Speed Points])
+<br/>Class: [Vessel]
+<br/>
+<br/>The amount of the [Spell Ghost Power] is reduced when their [Current Health Points] are reduced is decreased by 3 times their [Rank] in [Concentration].
+<br/>
+<br/>
+<br/>
+<br/><span style="font-size:1.25em;"><b>Mech Training</b></span>
+<br/>Rank: 1 for every 10 ([Maximum Strength Points] + [Maximum Speed Points])
+<br/>Class: [Techie]
+<br/>
+<br/>The character can drive any Mech of requiring [Rank] in [Mech Training] or less.
+<br/>
+<br/>See the "Mech Piloting" page for details.
+<br/>
+<br/>
+<br/>
+<br/><span style="font-size:1.25em;"><b>Inhuman Speed</b></span>
+<br/>Rank: 1 for every 10 ([Maximum Strength Points] + [Maximum Speed Points])
+<br/>Class: [Ghost Hunter]
+<br/>
+<br/>The character's [Maximum Battle Speed Points] are increased by [Rank].

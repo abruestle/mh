@@ -1,0 +1,8 @@
+<br/>
+<br/>Anyone with at least 1 [Current Ghost Power] can use the [Cast Spell] or [Echo Spell] as a [Verbal Action] to begin casting a [Spell] and enter the [Spell Casting Stance].<br/><br/>At this time, the character can add additional [Spell Casting Modifiers] to the [Spell].<br/><br/>The character must reduce the [Remaining Spell Cast Time] to 0 with [Channel Spell] as an [Offensive Action] in order to use [Activate Spell] as a [Bonus Action].
+<br/>
+<br/>[Activate Spell] will cause the spell to take effect.
+<br/>
+<br/>If the character manages to perform an [Elemental Riposte], then they can activate the spell without reducing the [Remaining Spell Cast Time] to 0.
+<br/>
+<br/>If the character manages to perform an [Elemental Riposte], then they can activate the spell without reducing the [Remaining Spell Cast Time] to 0.

@@ -1,0 +1,65 @@
+﻿For Miridon:
+
+* Flair Tree for 1 Sword Riposte (Block and Riposte)
+* 1 Flair for 10-12 Critical Hit Range
+* Flair Tree for Possession
+* Remove Stat Associations with Classes
+* Skill Mapping:
+
+	Diplomacy					All Charisma Skills
+	Perception					All Charisma Skills
+	Sense Motive				All Charisma Skills
+	Bluff						Deception (Replaces Haunt)
+	Disguise					Deception
+	Sleight of Hand				Deception
+	Stealth						Deception
+	Appraise					Diplomacy
+	Knowledge (history)			Ghost Hunting (Replaces Puzzle Weapon Training)
+	Linguistics					Ghost Hunting
+	Intimidate					Intimidate
+	Acrobatics					No Skill
+	Climb						No Skill
+	Escape Artist				No Skill
+	Fly							No Skill
+	Ride						No Skill
+	Swim						No Skill
+	Heal						Survivalist
+	Knowledge (geography)		Survivalist
+	Knowledge (nature)			Survivalist
+	Profession					Survivalist
+	Survival					Survivalist
+	Craft						Technician
+	Disable Device				Technician
+	Knowledge (dungeoneering)	Technician
+	Knowledge (engineering)		Technician
+	Use Magic Device			Technician
+	
+* Mutant Rules - Enable Flair Tree, Allow for Flair Replacement
+* Flair Tree for Mutant Types - Rather than skills
+* Update Insanity List - More Temp Effects
+
+
+
+Elemental Spell:
+Spell Cast Time - 3 Action Blocks
+6d6 Base Damage
+
+Health Recovery:
+Spell Cast Time - 2 Action Blocks
+6d6 Base Healing
+
+Elemental Weapon:
+Spell Cast Time - 3 Action Blocks
+
+Vampiric Weapon:
+Spell Cast Time - 3 Action Blocks
+
+Possession:
+Spell Cast Time - 3 Action Blocks
+15d6 Base Damage
+
+
+
+* Replace Passive Actions with Verbal Action
+
+

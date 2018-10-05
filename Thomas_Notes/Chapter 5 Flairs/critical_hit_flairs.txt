@@ -1,0 +1,196 @@
+<h2>Critical Hit Flairs:</h2>
+<br/>
+<br/>
+<br/>
+<br/><b>Advanced Critical Hit:</b>
+<br/>An attack also counts as a [Critical Hit] if the character rolls an 11 on the [Base To Hit Roll].
+<br/>
+<br/>Normal: The attack only counts as a [Critical Hit] if the roll was a 12 on the [Base To Hit Roll].
+<br/>
+<br/>
+<br/>
+<br/><b>Greater Critical Hit:</b>
+<br/>Pre-requisite: [Advanced Critical Hit]
+<br/>An attack also counts as a [Critical Hit] if the character rolls an 10 on the [Base To Hit Roll].
+<br/>
+<br/>Normal: With [Advanced Critical Hit], the attack only counts as a [Critical Hit] if the roll was a 11 or 12 on the [Base To Hit Roll].
+<br/>
+<br/>
+<br/>
+<br/><b>Piercing Critical Hit:</b>
+<br/>Pre-requisite: [Advanced Critical Hit]
+<br/>The [Damage Reduction] of a [Critical Hit] is not doubled.
+<br/>
+<br/>The [Damage Dealt] of the [Critical Hit] is calculated as double the [Base Damage Dealt] plus double the [Damage Dealt Bonus] minus the [Damage Reduction].
+<br/>
+<br/>Normal: The [Damage Dealt] of the [Critical Hit] is calculated as double the [Base Damage Dealt] plus double the [Damage Dealt Bonus] minus double the [Damage Reduction].
+<br/>
+<br/>
+<br/>
+<br/><b>Disrupting Critical Hit:</b>
+<br/>If a target hit with [Critical Hit] is currently casting a [Spell], then the [Remaining Spell Cast Time] of the spell is increased by 1.
+<br/>
+<br/>Normal: A [Critical Hit] does not effect delay a spell.
+<br/>
+<br/>
+<br/>
+<br/><b>Cancelling Critical Hit:</b>
+<br/>Pre-requisite: [Disrupting Critical Hit]
+<br/>If a target hit with [Critical Hit] is currently casting a [Spell], then the [Spell] is cancelled.
+<br/>
+<br/>[Recover Ghost Power] cannot be used to negate this effect.
+<br/>
+<br/>Normal: With [Disrupting Critical Hit], a [Critical Hit] only delays a spell.
+<br/>
+<br/>
+<br/>
+<br/><b>Backfire Critical Hit:</b>
+<br/>Pre-requisite: [Cancelling Critical Hit], [Disrupting Critical Hit]
+<br/>If a target's [Spell] is cancelled with [Cancelling Critical Hit], then the target will take [Spell Ghost Power] of the [Spell] in [Damage Dealt].
+<br/>
+<br/>This [Spell Ghost Power] is not reduced from the [Damage Dealt] by the [Critical Hit]. This [Damage Dealt] bypasses [Physical Damage Reduction] and [Spell Damage Reduction].
+<br/>
+<br/>Normal: With [Cancelling Critical Hit], the caster doesn't take any additional [Damage Dealt].
+<br/>
+<br/>
+<br/>
+<br/><b>Draining Critical Hit:</b>
+<br/>Pre-requisite: [Cancelling Critical Hit], [Disrupting Critical Hit], [Backfire Critical Hit]
+<br/>If a target's [Spell] is cancelled with [Cancelling Critical Hit], then the target will have their remaining [Current Ghost Power] reduced to 0.
+<br/>
+<br/>Normal: With [Cancelling Critical Hit], the caster's [Current Ghost Power] is not affected by the attack.
+<br/>
+<br/>
+<br/>
+<br/><b>Sword Critical Hit:</b>
+<br/>Pre-requisite: [Piercing Critical Hit]
+<br/>The [Damage Reduction] of a [Critical Hit] with a [Sword] is not doubled.
+<br/>
+<br/>The [Damage Dealt] of the [Critical Hit] is calculated as double the [Base Damage Dealt] plus double the [Damage Dealt Bonus].
+<br/>
+<br/>Normal: When a character performs a [Piercing Critical Hit], the [Damage Dealt] of the [Critical Hit] is calculated as double the [Base Damage Dealt] plus double the [Damage Dealt Bonus] minus the [Damage Reduction].
+<br/>
+<br/>
+<br/>
+<br/><b>Critical Shield Block:</b>
+<br/>The character can perform [Critical Shield Block] as a [Bonus Action].
+<br/>The character can [Critical Shield Block] as a [Bonus Action]. 
+<br/>
+<br/>Normal: A character cannot perform [Critical Shield Block].
+<br/>
+<br/>
+<br/>
+<br/><b>Drill Critical Hit:</b>
+<br/>When a character wielding a [Drill] hits with a [Critical Hit], the [Physical Damage Reduction Damage] and [Mech Physical Damage Reduction Damage] is doubled.
+<br/>
+<br/>Normal: With [Critical Hit], the attack does the normal amount of [Physical Damage Reduction Damage] and [Mech Physical Damage Reduction Damage].
+<br/>
+<br/>
+<br/>
+<br/><b>Advanced Drill Critical Hit:</b>
+<br/>Pre-requisite: [Drill Critical Hit]
+<br/>When a character wielding a [Drill] hits with a [Critical Hit], the [Physical Damage Reduction Damage] and [Mech Physical Damage Reduction Damage] is tripled.
+<br/>
+<br/>Normal: With [Drill Critical Hit], the attack does the double the normal amount of [Physical Damage Reduction Damage] and [Mech Physical Damage Reduction Damage].
+<br/>
+<br/>
+<br/>
+<br/><b>Greater Drill Critical Hit:</b>
+<br/>Pre-requisite: [Drill Critical Hit], [Advanced Drill Critical Hit]
+<br/>When a character wielding a [Drill] hits with a [Critical Hit], the [Physical Damage Reduction Damage] is quadrupled.
+<br/>
+<br/>The [Mech Physical Damage Reduction Damage] is multiplied by 5.
+<br/>
+<br/>Normal: With [Advanced Drill Critical Hit], the attack does triple the normal amount of [Physical Damage Reduction Damage] and [Mech Physical Damage Reduction Damage].
+<br/>
+<br/>
+<br/>
+<br/><b>Hammer Critical Hit:</b>
+<br/>When a character wielding a [Hammer] hits with a [Critical Hit], the [Speed Point Damage] is doubled.
+<br/>
+<br/>Normal: With [Critical Hit], the attack does the normal amount of [Speed Point Damage].
+<br/>
+<br/>
+<br/>
+<br/><b>Advanced Hammer Critical Hit:</b>
+<br/>Pre-requisite: [Hammer Critical Hit]
+<br/>When a character wielding a [Hammer] hits with a [Critical Hit], the [Speed Point Damage] is tripled.
+<br/>
+<br/>Normal: With [Hammer Critical Hit], the attack does double the normal amount of [Speed Point Damage].
+<br/>
+<br/>
+<br/>
+<br/><b>Greater Hammer Critical Hit:</b>
+<br/>Pre-requisite: [Hammer Critical Hit], [Advanced Hammer Critical Hit]
+<br/>When a character wielding a [Hammer] hits with a [Critical Hit], the [Speed Point Damage] is quadrupled.
+<br/>
+<br/>Normal: With [Advanced Hammer Critical Hit], the attack does triple the normal amount of [Speed Point Damage].
+<br/>
+<br/>
+<br/>
+<br/><b>Grappling Weapon Critical Hit:</b>
+<br/>When a character wielding a [Grappling Weapon] hits with a [Critical Hit], the character will enter the [Grappling Stance] and the target will enter the [Grappled Stance] as if they hit the target with [Initiate Grapple].
+<br/>
+<br/>Normal: With [Critical Hit], the attack does not enter the [Grappling Stance].
+<br/>
+<br/>
+<br/>
+<br/><b>Rapid Fire Gun Attack:</b>
+<br/>The character can perform [Rapid Fire Gun Attack] as a [Bonus Action]. 
+<br/>
+<br/>Normal: A character cannot perform [Rapid Fire Gun Attack].
+<br/>
+<br/>
+<br/>
+<br/><b>Sniper Rifle Critical Hit:</b>
+<br/>Pre-requisite: [Advanced Critical Hit], [Greater Critical Hit]
+<br/>While a character is wielding a [Sniper Rifle] and the attack has a [Steady Shot Bonus], an attack also counts as a [Critical Hit] if the character rolls an 9 on the [Base To Hit Roll].
+<br/>
+<br/>Normal: With [Greater Critical Hit], the attack only counts as a [Critical Hit] if the roll was a 10, 11, or 12 on the [Base To Hit Roll].
+<br/>
+<br/>
+<br/>
+<br/><b>Advanced Sniper Rifle Critical Hit:</b>
+<br/>Pre-requisite: [Advanced Critical Hit], [Greater Critical Hit], [Sniper Rifle Critical Hit]
+<br/>While a character is wielding a [Sniper Rifle] and the attack has a [Steady Shot Bonus], an attack also counts as a [Critical Hit] if the character rolls an 8 on the [Base To Hit Roll].
+<br/>
+<br/>Normal: With [Sniper Rifle Critical Hit], the attack only counts as a [Critical Hit] if the roll was a 9, 10, 11, or 12 on the [Base To Hit Roll].
+<br/>
+<br/>
+<br/>
+<br/><b>Greater Sniper Rifle Critical Hit:</b>
+<br/>Pre-requisite: [Advanced Critical Hit], [Greater Critical Hit], [Sniper Rifle Critical Hit], [Advanced Sniper Rifle Critical Hit]
+<br/>While a character is wielding a [Sniper Rifle] and the attack has a [Steady Shot Bonus], an attack also counts as a [Critical Hit] if the character rolls an 7 on the [Base To Hit Roll].
+<br/>
+<br/>Normal: With [Advanced Sniper Rifle Critical Hit], the attack only counts as a [Critical Hit] if the roll was a 8, 9, 10, 11, or 12 on the dice for the [Base To Hit Roll].
+<br/>
+<br/>
+<br/>
+<br/><b>Shotgun Critical Hit:</b>
+<br/>Pre-requisite: [Advanced Critical Hit], [Greater Critical Hit]
+<br/>A character wielding a [Shotgun] can perform a [Critical Hit]. A roll of 6 on the 1d6 [Base To Hit Roll] of a shotgun counts as a [Critical Hit].
+<br/>
+<br/>Normal: If a character is wielding a [Shotgun], they cannot perform a [Critical Hit].
+<br/>
+<br/>
+<br/>
+<br/><b>Tesla Critical Hit:</b>
+<br/>When a character wielding a [Tesla] hits with a [Critical Hit], the [Strength Point Damage] and the [Speed Point Damage] is doubled.
+<br/>
+<br/>Normal: With [Critical Hit], the attack does the normal amount of [Strength Point Damage] and [Speed Point Damage].
+<br/>
+<br/>
+<br/>
+<br/><b>Advanced Tesla Critical Hit:</b>
+<br/>Pre-requisite: [Tesla Critical Hit]
+<br/>When a character wielding a [Tesla] hits with a [Critical Hit], the [Strength Point Damage] and the [Speed Point Damage] is tripled.
+<br/>
+<br/>Normal: With [Tesla Critical Hit], the attack does the double the normal amount of [Strength Point Damage] and [Speed Point Damage].
+<br/>
+<br/>
+<br/>
+<br/><b>Greater Tesla Critical Hit:</b>
+<br/>Pre-requisite: [Tesla Critical Hit], [Advanced Tesla Critical Hit]
+<br/>When a character wielding a [Tesla] hits with a [Critical Hit], the [Strength Point Damage] and the [Speed Point Damage] is quadrupled.
+<br/>
+<br/>Normal: With [Advanced Tesla Critical Hit], the attack does the triple the normal amount of [Strength Point Damage] and [Speed Point Damage].
