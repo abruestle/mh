@@ -1,0 +1,227 @@
+
+
+
+Dragon Elemental Affinity :
+Pre-requisite: [Dragon] Mutation
+The character gains scales.
+
+The character adds a new statistic [Dragon Elemental Affinity] that begins at 0.
+
+Every time that the character is hit with the [Cold] element, the character's [Dragon Elemental Affinity] is decreased by 1 to a minimum of -10.
+
+Every time that the character is hit with the [Fire] element, the character's [Dragon Elemental Affinity] is increased by 1 to a maximum of +10.
+
+If a character has less than -1 as their [Dragon Elemental Affinity], then they become an [Ice Dragon]. The [Ice Dragon] has a [Dragon Elemental Affinity] with the [Cold] element.
+
+If a character has greater than +1 as their [Dragon Elemental Affinity], then they become a [Fire Dragon]. The [Fire Dragon] has a [Dragon Elemental Affinity] with the [Fire] element.
+
+If a character has -1, 0, or +1 as their [Dragon Elemental Affinity], then they become a [Purple Dragon]. The [Purple Dragon] has a [Dragon Elemental Affinity] with the [Electricity] element.
+
+All attacks against the character with the element of the character's [Dragon Elemental Affinity] have their [Damage Dealt] reduced to 0.
+
+Normal: The [Damage Dealt] of all elemental attacks is not negated.
+
+
+
+Dragon Recovery:
+Pre-requisite: [Dragon] Mutation, [Dragon Elemental Affinity]
+If a character is hit with the element of their [Dragon Elemental Affinity], they they recover a [Damage Healed] to their [Current Health Points] equal to the [Damage Dealt] they would have received before any [Spell Damage Reduction] is applied.
+
+Normal: The character recovers no [Current Health Points] when hit with the element of their [Dragon Elemental Affinity].
+
+
+
+Dragon Breath:
+Pre-requisite: [Dragon] Mutation, [Dragon Elemental Affinity]
+The character can use the [Dragon Breath] as a [Verbal Action].
+
+This attack hits for 1d6 [Damage Dealt] for every point in the character's [Maximum Speed Points].
+
+This [Verbal Action] have a cost of 3 [Strength Cost] and 3 [Speed Cost].
+
+If the character is an [Ice Dragon] then their [Dragon Breath] is of the [Cold] element.
+
+If the character is an [Fire Dragon] then their [Dragon Breath] is of the [Fire] element.
+
+If the character is an [Purple Dragon] then their [Dragon Breath] is of the [Electricity] element.
+
+Normal: The character cannot perform a [Dragon Breath].
+
+
+
+Dragon Claw:
+Pre-requisite: [Dragon] Mutation, [Dragon Elemental Affinity]
+The character's arms and legs mutate into claws.
+
+When the character is wielding the [Unarmed] weapon, the effects of the [Melee Boost] talent are doubled.
+
+The character loses the ability to use any weapons other than the [Unarmed] weapon.
+
+Normal: The [Melee Boost] is not doubled when wielding the [Unarmed] weapon.
+
+The character can use any weapons that they meet the [Maximum Strength Points] requirement to wield.
+
+
+
+Dragon Tail Whip:
+Pre-requisite: [Dragon] Mutation, [Dragon Elemental Affinity], [Dragon Claw]
+The character gains a tail.
+
+When the character performs a [Redouble] while wielding the [Unarmed] weapon, the character can perform a second [Redouble] for 0 [Strength Points] and 0 [Speed Points].
+
+Normal: The character only performs a single [Redouble].
+
+
+
+Dragon Flight:
+Pre-requisite: [Dragon] Mutation, [Dragon Elemental Affinity]
+The character gains wings.
+
+The character can use any [Movement Action] to move in any direction, even if that direction is vertical.
+
+The character no longer falls when in the air.
+
+Normal: The character can only move on the surface.
+
+The character falls when in the air.
+
+
+
+Dragon Wing Buffet:
+Pre-requisite: [Dragon] Mutation, [Dragon Elemental Affinity], [Dragon Claw], [Dragon Tail Whip], [Dragon Flight]
+The character can perform a [Melee Attack] or [Melee Combo Attack] action with the [Unarmed] weapon as a [Movement Action].
+
+This allows the character to perform a [Melee Attack] or [Melee Combo Attack] as well as any [Offensive Action].
+
+Normal: The [Melee Attack] and [Melee Combo Attack] actions are [Offensive Actions].
+
+
+
+Eldritch Blast:
+Pre-requisite: [Eldritch Beast] Mutation
+When the character casts [Possession], the base [Spell Cast Time] is 0.
+
+Normal: The base [Spell Cast Time] is not modified.
+
+
+
+Eldritch Strike:
+Pre-requisite: [Eldritch Beast] Mutation, [Eldritch Blast]
+If the character hits a target with a [Melee Attack] or [Melee Combo Attack] while wielding the [Unarmed] weapon before using their [Verbal Action] for that [Action Block], then the character can use their [Verbal Action] to perform an [Eldritch Strike].
+
+With the [Eldritch Strike], a character casts the [Possession] spell with a base [Spell Cast Time] of 0.
+
+The [Possession] spell cast with [Eldritch Strike] costs 0 [Strength Points] and 0 [Speed Points].
+
+Normal: The [Possession] with [Eldritch Blast] costs the normal [Strength Points] and [Speed Points] as if the character used the [Cast Spell] action.
+
+
+
+Eldritch Grasp:
+Pre-requisite: [Eldritch Beast] Mutation, [Eldritch Strike]
+When the character is wielding the [Unarmed] weapon, the effects of the [Melee Boost] talent are doubled.
+
+Normal: The [Melee Boost] is not doubled when wielding the [Unarmed] weapon.
+
+
+
+Death Worm Body:
+Pre-requisite: [Death Worm] Mutation
+The character loses their arms and legs to be replaced with a worm-like body.
+
+When the character is wielding the [Unarmed] weapon, the effects of the [Melee Boost] talent are doubled.
+
+The character loses the ability to use any weapons other than the [Unarmed] weapon.
+
+Normal: The [Melee Boost] is not doubled when wielding the [Unarmed] weapon.
+
+The character can use any weapons that they meet the [Maximum Strength Points] requirement to wield.
+
+
+
+Death Worm Maw:
+Pre-requisite: [Death Worm] Mutation, [Death Worm Body]
+The character can perform a [Melee Attack] or [Melee Combo Attack] action with the [Unarmed] weapon as a [Verbal Action].
+
+This allows the character to perform a [Melee Attack] or [Melee Combo Attack] as well as any [Offensive Action].
+
+Normal: The [Melee Attack] and [Melee Combo Attack] actions are [Offensive Actions].
+
+
+
+Death Worm Bite:
+Pre-requisite: [Death Worm] Mutation, [Death Worm Body], [Death Worm Maw]
+If the character hits a target with a [Melee Attack] or [Melee Combo Attack] action performed as a [Verbal Action] with [Death Worm Maw], then the character can choose to begin grappling the target as if they hit the target with [Initiate Grapple].
+
+Normal: With [Death Worm Maw], the attack does not initiate a [Grapple].
+
+
+
+Death Worm Burrow:
+Pre-requisite: [Death Worm] Mutation, [Death Worm Body]
+When a character is above sand, the character can use any [Movement Action] to burrow underground. While underground, they cannot be targeted with any ability. While underground, they also cannot target anyone with any ability. They can use another [Movement Action] to move around underground or to return to the surface.
+
+When the character returns to the surface with a [Movement Action], they cannot perform any [Offensive Action], [Defensive Action], or [Verbal Action] in the same [Action Block].
+
+Normal: The character can only move on the surface.
+
+
+
+Death Worm Tremor Sense:
+Pre-requisite: [Death Worm] Mutation, [Death Worm Body], [Death Worm Burrow]
+When the character returns to the surface with a [Movement Action] after burrowing with [Death Worm Burrow], they can perform any [Offensive Action], [Defensive Action], or [Verbal Action] in the same [Action Block].
+
+Normal: When the character returns to the surface with a [Movement Action] after burrowing with [Death Worm Burrow], they cannot perform any [Offensive Action], [Defensive Action], or [Verbal Action] in the same [Action Block].
+
+
+
+Advanced Death Worm Tremor Sense:
+Pre-requisite: [Death Worm] Mutation, [Death Worm Body], [Death Worm Burrow], [Death Worm Tremor Sense]
+When the character returns to the surface with a [Movement Action] after burrowing with [Death Worm Burrow], targets cannot perform a [Dodge] action against the character's attacks in the same [Action Block].
+
+Normal: When the character returns to the surface with a [Movement Action] after burrowing with [Death Worm Burrow], targets can perform a [Dodge] action against the character's attacks in the same [Action Block].
+
+Demon
+
+Phoenix
+
+Werebeast
+
+
+
+
+Lust
+
+Gluttony
+
+Greed
+
+Sloth
+
+Wrath
+
+Envy
+
+Pride
+
+
+
+
+
+
+Flesh Husk
+
+Bone Husk
+
+Blood Husk
+
+Crystal Husk
+
+Plant Husk
+
+Metal Husk
+
+
+
+Awakened
+

@@ -1,0 +1,239 @@
+<h2>Action Flairs:</h2>
+<br/>
+<br/>
+<br/>
+<br/><b>Shield Bash:</b>
+<br/>Action: [Melee Attack], [Melee Combo Attack]
+<br/>A [Shield Block] can be performed with a [Shield] after a [Melee Attack] or [Melee Combo Attack] is performed with the same [Shield] in the same [Action Block].
+<br/>
+<br/>Normal: A [Shield Block] can not be performed with a [Shield] after a [Melee Attack] or [Melee Combo Attack] is performed with the same [Shield] in the same [Action Block].
+<br/>
+<br/>
+<br/>
+<br/><b>Shield Deflection:</b>
+<br/>Action: [Shield Deflection]
+<br/>The character can perform [Shield Deflection] as a [Bonus Action].
+<br/>
+<br/>Normal: A character cannot perform [Shield Deflection].
+<br/>
+<br/>
+<br/>
+<br/><b>Magic Shield Deflection:</b>
+<br/>Pre-requisite: [Shield Deflection]
+<br/>Action: [Magic Shield Deflection]
+<br/>The character can perform [Magic Shield Deflection] as a [Defensive Action].
+<br/>
+<br/>Normal: A character cannot perform [Magic Shield Deflection].
+<br/>
+<br/>
+<br/>
+<br/><b>Magic Shield Redirection:</b>
+<br/>Pre-requisite: [Shield Deflection], [Magic Shield Deflection]
+<br/>Action: [Magic Shield Deflection]
+<br/>When a character performs [Magic Shield Deflection] against an [Elemental Spell] cast against the character, the character that originally cast [Elemental Spell] will be included as an additional target of the [Elemental Spell].
+<br/>
+<br/>The original caster reduces the [Damage Dealt] of the [Elemental Spell] by their [Spell Damage Reduction] as if they were originally a target of the spell.
+<br/>
+<br/>Normal: The caster of the [Elemental Spell] is not a target of the [Elemental Spell].
+<br/>
+<br/>
+<br/>
+<br/><b>Advanced Magic Shield Redirection:</b>
+<br/>Pre-requisite: [Shield Deflection], [Magic Shield Deflection], [Magic Shield Redirection]
+<br/>Action: [Magic Shield Deflection]
+<br/>The caster of the [Elemental Spell] does not apply their [Spell Damage Reduction] to the [Damage Dealt].
+<br/>
+<br/>Normal: The caster of the [Elemental Spell] applies their [Spell Damage Reduction] to the [Damage Dealt].
+<br/>
+<br/>
+<br/>
+<br/><b>Dual Shield Deflection:</b>
+<br/>Pre-requisite: [Shield Deflection], [Ambidexterity]
+<br/>If the character is wielding two [Shields], and a [Shield Deflection] is used then the character remains in the original [Stance]. This can only be performed once per [Action Block].
+<br/>
+<br/>Normal: The character changes their [Stance] when [Shield Deflection] is used.
+<br/>
+<br/>
+<br/>
+<br/><b>Strong Attack:</b>
+<br/>Action: [Melee Attack], [Melee Combo Attack]
+<br/>Applies to Bonus Actions: Yes
+<br/>When performing a [Melee Attack] or [Melee Combo Attack], every 1d6 rolled for [Damage Dealt] will be re-rolled if it rolls a 1. If the re-roll is also a 1, then the roll will be repeated until the 1d6 roll for [Damage Dealt] is greater than 1. The new values rolled will be used.
+<br/>
+<br/>Normal: When performing a [Melee Attack] or [Melee Combo Attack], the 1d6 rolls for [Damage Dealt] will not be re-rolled if they roll a 1.
+<br/>
+<br/>
+<br/>
+<br/><b>Advanced Strong Attack:</b>
+<br/>Pre-requisite: [Strong Attack]
+<br/>Action: [Melee Attack], [Melee Combo Attack]
+<br/>Applies to Bonus Actions: Yes
+<br/>When performing a [Melee Attack] or [Melee Combo Attack], every 1d6 rolled for [Damage Dealt] will be re-rolled if it rolls a 1 or 2. If the re-roll is also a 1 or 2, then the roll will be repeated until the 1d6 roll for [Damage Dealt] is greater than 2. The new values rolled will be used.
+<br/>
+<br/>Normal: When performing [Strong Attack], the 1d6 rolls for [Damage Dealt] will only be re-rolled if they roll a 1.
+<br/>
+<br/>
+<br/>
+<br/><b>Strong Shot:</b>
+<br/>Action: [Gun Attack], [Aimed Attack]
+<br/>Applies to Bonus Actions: Yes
+<br/>When performing a [Gun Attack] or [Aimed Attack], every 1d6 rolled for [Damage Dealt] will be re-rolled if it rolls a 1. If the re-roll is also a 1, then the roll will be repeated until the 1d6 roll for [Damage Dealt] is greater than 1. The new values rolled will be used.
+<br/>
+<br/>Normal: When performing a [Gun Attack] or [Aimed Attack], the 1d6 rolls for [Damage Dealt] will not be re-rolled if they roll a 1.
+<br/>
+<br/>
+<br/>
+<br/><b>Advanced Strong Shot:</b>
+<br/>Pre-requisite: [Strong Shot]
+<br/>Action: [Gun Attack], [Aimed Attack]
+<br/>Applies to Bonus Actions: Yes
+<br/>When performing a [Gun Attack] or [Aimed Attack], every 1d6 rolled for [Damage Dealt] will be re-rolled if it rolls a 1 or 2. If the re-roll is also a 1 or 2, then the roll will be repeated until the 1d6 roll for [Damage Dealt] is greater than 2. The new values rolled will be used.
+<br/>
+<br/>Normal: When performing [Strong Shot], the 1d6 rolls for [Damage Dealt] will only be re-rolled if they roll a 1.
+<br/>
+<br/>
+<br/>
+<br/><b>Efficient Recover Ghost Power:</b>
+<br/>Action: [Recover Ghost Power]
+<br/>The caster can choose to replenish [Spell Ghost Power] at a rate of either 2 [Spell Ghost Power] per [Strength Point] spent or 2 [Spell Ghost Power] per [Speed Point] spent.
+<br/>
+<br/>Normal: The caster can choose to replenish [Spell Ghost Power] at a rate of either 1 [Spell Ghost Power] per [Strength Point] spent or 1 [Spell Ghost Power] per [Speed Point] spent.
+<br/>
+<br/>
+<br/>
+<br/><b>Advanced Efficient Recover Ghost Power:</b>
+<br/>Action: [Recover Ghost Power]
+<br/>Pre-requisite: [Efficient Recover Ghost Power]
+<br/>The caster can choose to replenish [Spell Ghost Power] at a rate of either 3 [Spell Ghost Power] per [Strength Point] spent or 3 [Spell Ghost Power] per [Speed Point] spent.
+<br/>
+<br/>Normal: With [Efficient Recover Ghost Power], the caster can choose to replenish [Spell Ghost Power] at a rate of either 2 [Spell Ghost Power] per [Strength Point] spent or 2 [Spell Ghost Power] per [Speed Point] spent.
+<br/>
+<br/>
+<br/>
+<br/><b>Strong Spell:</b>
+<br/>Spell: [Elemental Spell], [Health Recovery], [Possession]
+<br/>When [Elemental Spell], [Health Recovery], or [Possession] is activated by [Activate Spell] or [Elemental Riposte], every 1d6 rolled for the [Effect] of the [Spell] will be re-rolled if it rolls a 1. If the re-roll is also a 1, then the roll will be repeated until the 1d6 roll for [Damage Dealt] is greater than 1. The new values rolled will be used.
+<br/>
+<br/>Normal: When [Elemental Spell], [Health Recovery], or [Possession] is activated, the 1d6 rolls for the [Effect] of the [Spell] will not be re-rolled if they roll a 1.
+<br/>
+<br/>
+<br/>
+<br/><b>Advanced Strong Spell:</b>
+<br/>Pre-requisite: [Strong Spell]
+<br/>Spell: [Elemental Spell], [Health Recovery], [Possession]
+<br/>When [Elemental Spell], [Health Recovery], or [Possession] is activated by [Activate Spell] or [Elemental Riposte], every 1d6 rolled for the [Effect] of the [Spell] will be re-rolled if it rolls a 1 or 2. If the re-roll is also a 1 or 2, then the roll will be repeated until the 1d6 roll for [Damage Dealt] is greater than 2. The new values rolled will be used.
+<br/>
+<br/>Normal: When performing [Strong Spell], when [Elemental Spell], [Health Recovery], or [Possession] is activated, the 1d6 rolls for the [Effect] of the [Spell] will only be re-rolled if they roll a 1.
+<br/>
+<br/>
+<br/>
+<br/><b>Double Grapple:</b>
+<br/>The character can perform [Initiate Grapple] while in the [Grappling Stance] to add an additional target into the [Grappled Stance] within [Melee Range]. On a successful [Initiate Grapple], both the original target and new target will be in the [Grappled Stance].
+<br/>
+<br/>While grappling two targets, [Maintain Grapple] is performed separately for each target. The [Strength Cost] is applied separately.
+<br/>
+<br/>Normal: After performing [Initiate Grapple], the character will be grappling a target. While grappling a single target, the character will not be able to perform any actions.
+<br/>
+<br/>
+<br/>
+<br/><b>Advanced Double Grapple:</b>
+<br/>Pre-requisite: [Double Grapple]
+<br/>While grappling two targets, [Maintain Grapple] is performed only once and the [Strength Cost] is reduced only once.
+<br/>
+<br/>Normal: While grappling two targets, [Maintain Grapple] is performed separately for each target.
+<br/>
+<br/>
+<br/>
+<br/><b>Moving Grapple:</b>
+<br/>Pre-requisite: [Double Grapple]
+<br/>The character can perform [Movement Actions] while in the [Grappling Stance].
+<br/>
+<br/>The [Grappled] single target moves with the character.
+<br/>
+<br/>Normal: After performing [Initiate Grapple], the character will be grappling a target. While grappling a single target, the character will not be able to perform any actions.
+<br/>
+<br/>
+<br/>
+<br/><b>Second Attack:</b>
+<br/>The character can perform [Second Melee Attack], [Second Gun Attack], or [Second Aimed Attack] as a [Bonus Action].
+<br/>
+<br/>Normal: A character cannot perform [Second Melee Attack], [Second Gun Attack], or [Second Aimed Attack].
+<br/>
+<br/>
+<br/>
+<br/><b>Advanced Second Attack:</b>
+<br/>Pre-requisite: [Second Attack]
+<br/>A [Second Melee Attack] has a [Strength Cost] of 1 and a [Speed Cost] of 1.
+<br/>
+<br/>A [Second Gun Attack] has a [Strength Cost] of 0 and a [Speed Cost] of 1.
+<br/>
+<br/>A [Second Aimed Attack] has a [Strength Cost] of 0 and a [Speed Cost] of 2.
+<br/>
+<br/>Normal: With [Second Attack], a [Second Melee Attack] has a [Strength Cost] of 1 and a [Speed Cost] of 2.
+<br/>
+<br/>With [Second Attack], a [Second Gun Attack] has a [Strength Cost] of 0 and a [Speed Cost] of 2.
+<br/>
+<br/>With [Second Attack], a [Second Aimed Attack] has a [Strength Cost] of 0 and a [Speed Cost] of 3.
+<br/>
+<br/>
+<br/>
+<br/><b>Greater Second Attack:</b>
+<br/>Pre-requisite: [Second Attack], [Advanced Second Attack]
+<br/>A [Second Melee Attack] has a [Strength Cost] of 1 and a [Speed Cost] of 0.
+<br/>
+<br/>A [Second Gun Attack] has a [Strength Cost] of 0 and a [Speed Cost] of 0.
+<br/>
+<br/>A [Second Aimed Attack] has a [Strength Cost] of 0 and a [Speed Cost] of 1.
+<br/>
+<br/>Normal: With [Advanced Second Attack], a [Second Melee Attack] has a [Strength Cost] of 1 and a [Speed Cost] of 1.
+<br/>
+<br/>With [Advanced Second Attack], a [Second Gun Attack] has a [Strength Cost] of 0 and a [Speed Cost] of 1.
+<br/>
+<br/>With [Advanced Second Attack], a [Second Aimed Attack] has a [Strength Cost] of 0 and a [Speed Cost] of 2.
+<br/>
+<br/>
+<br/>
+<br/><b>Third Attack:</b>
+<br/>Pre-requisite: [Second Attack]
+<br/>The character can perform [Third Melee Attack], [Third Gun Attack], or [Third Aimed Attack] as a [Bonus Action].
+<br/>
+<br/>Normal: A character cannot perform [Third Melee Attack], [Third Gun Attack], or [Third Aimed Attack].
+<br/>
+<br/>
+<br/>
+<br/><b>Advanced Third Attack:</b>
+<br/>Pre-requisite: [Second Attack], [Advanced Second Attack], [Third Attack]
+<br/>A [Third Melee Attack] has a [Strength Cost] of 1 and a [Speed Cost] of 1.
+<br/>
+<br/>A [Third Gun Attack] has a [Strength Cost] of 0 and a [Speed Cost] of 1.
+<br/>
+<br/>A [Third Aimed Attack] has a [Strength Cost] of 0 and a [Speed Cost] of 2.
+<br/>
+<br/>Normal: With [Third Attack], a [Third Melee Attack] has a [Strength Cost] of 1 and a [Speed Cost] of 2.
+<br/>
+<br/>With [Third Attack], a [Third Gun Attack] has a [Strength Cost] of 0 and a [Speed Cost] of 2.
+<br/>
+<br/>With [Third Attack], a [Third Aimed Attack] has a [Strength Cost] of 0 and a [Speed Cost] of 3.
+<br/>
+<br/>
+<br/>
+<br/><b>Greater Third Attack:</b>
+<br/>Pre-requisite: [Second Attack], [Advanced Second Attack], [Greater Second Attack], [Third Attack], [Advanced Third Attack]
+<br/>A [Third Melee Attack] has a [Strength Cost] of 1 and a [Speed Cost] of 0.
+<br/>
+<br/>A [Third Gun Attack] has a [Strength Cost] of 0 and a [Speed Cost] of 0.
+<br/>
+<br/>A [Third Aimed Attack] has a [Strength Cost] of 0 and a [Speed Cost] of 1.
+<br/>
+<br/>Normal: With [Advanced Third Attack], a [Third Melee Attack] has a [Strength Cost] of 1 and a [Speed Cost] of 1.
+<br/>
+<br/>With [Advanced Third Attack], a [Third Gun Attack] has a [Strength Cost] of 0 and a [Speed Cost] of 1.
+<br/>
+<br/>With [Advanced Third Attack], a [Third Aimed Attack] has a [Strength Cost] of 0 and a [Speed Cost] of 2.
+<br/>
+<br/>
+<br/>
+<br/><b>Quick Reload:</b>
+<br/>The character can perform [Quick Reload] as a [Bonus Action].
+<br/>
+<br/>Normal: A character cannot perform [Quick Reload].

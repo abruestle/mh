@@ -1,0 +1,23 @@
+
+<br/><b>Tyrant:</b></span>
+<br/>This use of [Intimidate] can only be used outside battle. This can only be performed if the target has at least 1 [Rank] in the [Tyrant] special ability. If successful, then target will be influenced to serve the character. In order for this to succeed, the [Offensive Charisma Roll] must exceed the [Defensive Charisma Roll] by at least 10.
+<br/>
+<br/>If the target is currently captured by the character, then the [Defensive Charisma Roll] is reduced by 5.
+<br/>
+<br/>If the target finished battle with the character, then the [Defensive Charisma Roll] is reduced by 5.
+<br/>
+<br/>
+<br/><b>Tyrant Command:</b></span>
+<br/>This use of [Intimidate] is used automatically both inside battle and outside battle when it is required. It affects targets that were previously recruited with [Tyrant] to serve the character. If successful, then target recruited with [Tyrant] will continue serve the character. Unlike [Tyrant], in order for this to succeed, the [Offensive Charisma Roll] only needs to be greater than or equal to the [Defensive Charisma Roll].
+<br/>
+<br/>[Tyrant Command] is rolled when a number of days equal to the character's [Rank] in the [Tyrant] special ability have elapsed since the a target recruited with [Tyrant] was last affected by [Tyrant] or [Tyrant Command]. 
+<br/>
+<br/>[Tyrant Command] is rolled when the character recruits a new target with [Tyrant] and the character already has a target recruited with [Tyrant] serving them. The character rolls a single [Offensive Charisma Roll]. Every target recruited with [Tyrant] other than the newly recruited target will roll a [Defensive Charisma Roll].
+<br/>
+<br/>[Tyrant Command] is rolled when the character becomes [Unconscious]. The character rolls a single [Offensive Charisma Roll]. Every target recruited with [Tyrant] will roll a [Defensive Charisma Roll]. If a target is currently [Unconscious], then they do not make this roll.
+<br/>
+<br/>If the character is [Unconscious], then their [Offensive Charisma Roll] is reduced by 10.
+<br/>
+<br/>For each target recruited with [Tyrant] beyond the first, the [Defensive Charisma Roll] of every target is increased by 10. [Unconscious] targets are not included in this calculation.
+<br/>
+<br/>If the character fails this roll against a target, the target will wait until they have an opportunity to betray the character. The character will not know that their roll failed until this happened. This betrayal usually just means that the target will flee, but in some cases, the opportunity presented to the target will encourage them to attack the character.

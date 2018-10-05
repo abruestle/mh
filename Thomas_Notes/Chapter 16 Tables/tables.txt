@@ -1,0 +1,1570 @@
+
+tables-leveling-maxweight
+<b>Table 1.1 - Maximum Total Equipment Weight:</b>
+<table class="contenttable">
+	<tr>	<td>Maximum Strength<br/>Points</td>	<td>Maximum Total<br/>Equipment Weight</td>	</tr>
+	<tr>	<td>0-5</td>				<td>2</td>				</tr>
+	<tr>	<td>6-7</td>				<td>3</td>				</tr>
+	<tr>	<td>8-9</td>				<td>4</td>				</tr>
+	<tr>	<td>10-11</td>				<td>5</td>				</tr>
+	<tr>	<td>12-13</td>				<td>6</td>				</tr>
+	<tr>	<td>14-15</td>				<td>7</td>				</tr>
+	<tr>	<td>16-17</td>				<td>8</td>				</tr>
+	<tr>	<td>18-19</td>				<td>9</td>				</tr>
+	<tr>	<td>20-21</td>				<td>10</td>				</tr>
+	<tr>	<td>22-23</td>				<td>11</td>				</tr>
+	<tr>	<td>24-25</td>				<td>12</td>				</tr>
+	<tr>	<td>26-27</td>				<td>13</td>				</tr>
+	<tr>	<td>28-29</td>				<td>14</td>				</tr>
+	<tr>	<td>30-31</td>				<td>15</td>				</tr>
+	<tr>	<td>32-33</td>				<td>16</td>				</tr>
+	<tr>	<td>34-35</td>				<td>17</td>				</tr>
+	<tr>	<td>36-37</td>				<td>18</td>				</tr>
+	<tr>	<td>38-39</td>				<td>19</td>				</tr>
+	<tr>	<td>40-41</td>				<td>20</td>				</tr>
+	<tr>	<td>+2</td>					<td>+1</td>				</tr>
+</table>
+
+
+
+tables-battlerules-grapplemaxpoints
+<b>Table 1.2 - Maximum Grapple Strength:</b>
+<table class="contenttable">
+	<tr><td>Maximum Strength<br/>Points</td><td>Maximum Grapple<br/>Strength</td></tr>
+	<tr><td>0-9</td>			<td>1</td></tr>
+	<tr><td>10-14</td>			<td>2</td></tr>
+	<tr><td>15-19</td>			<td>3</td></tr>
+	<tr><td>20-24</td>			<td>4</td></tr>
+	<tr><td>25-29</td>			<td>5</td></tr>
+	<tr><td>30-34</td>			<td>6</td></tr>
+	<tr><td>35-39</td>			<td>7</td></tr>
+	<tr><td>40+</td>			<td>8</td></tr>
+</table>
+
+
+
+tables-skills-classskills
+<b>Table 3.1 - Class Skills:</b>
+<table class="contenttable">
+	<tr>
+		<td>Skill Name</td>
+		<td>Grand Devourer</td>
+		<td>Skiffmaster</td>
+		<td>Duelist</td>
+		<td>Vessel</td>
+		<td>Techie</td>
+		<td>Ghost Hunter</td>
+	</tr>
+	
+	<tr><td>Intimidate</td>					<td>X</td>	<td></td>	<td></td>	<td></td>	<td></td>	<td></td>	</tr>
+	<tr><td>Camaraderie</td>				<td></td>	<td>X</td>	<td></td>	<td></td>	<td></td>	<td></td>	</tr>
+	<tr><td>Rile</td>						<td></td>	<td></td>	<td>X</td>	<td></td>	<td></td>	<td></td>	</tr>
+	<tr><td>Subtlety</td>					<td></td>	<td></td>	<td></td>	<td>X</td>	<td></td>	<td></td>	</tr>
+	<tr><td>Jargon</td>						<td></td>	<td></td>	<td></td>	<td></td>	<td>X</td>	<td></td>	</tr>
+	<tr><td>Negotiation</td>				<td></td>	<td></td>	<td></td>	<td></td>	<td></td>	<td>X</td>	</tr>
+	
+	<tr><td>Metal Crafting</td>				<td>X</td>	<td></td>	<td>X</td>	<td></td>	<td></td>	<td></td>	</tr>
+	<tr><td>Machinery Crafting</td>			<td></td>	<td>X</td>	<td></td>	<td></td>	<td>X</td>	<td></td>	</tr>
+	<tr><td>Technology Crafting</td>		<td></td>	<td>X</td>	<td></td>	<td></td>	<td>X</td>	<td></td>	</tr>
+	<tr><td>Magic Crafting</td>				<td></td>	<td></td>	<td></td>	<td>X</td>	<td></td>	<td></td>	</tr>
+	<tr><td>Puzzle Crafting</td>			<td></td>	<td></td>	<td></td>	<td></td>	<td></td>	<td>X</td>	</tr>
+</table>
+
+
+
+tables-weapons-swords
+<b>Table 6.1.1 - Swords:</b>
+<table class="contenttable">
+	<tr><td>Weapon Name</td>		<td>Weapon Weight</td>	<td>Damage</td>	<td>To Hit Bonus</td>	</tr>
+	<tr><td>Longsword</td>			<td>2</td>				<td>1d6+1</td>	<td>+1</td>				</tr>
+	<tr><td>Claymore (sword)</td>	<td>4</td>				<td>2d6</td>	<td>+2</td>				</tr>
+	<tr><td>Greatsword</td>			<td>7</td>				<td>3d6</td>	<td>+3</td>				</tr>
+	<tr><td>Grand Saber</td>		<td>10</td>				<td>4d6</td>	<td>+4</td>				</tr>
+	<tr><td>Monument Sword</td>		<td>15</td>				<td>6d6</td>	<td>+6</td>				</tr>
+</table>
+
+
+
+tables-weapons-shields
+<b>Table 6.2.1 - Shields:</b>
+<table class="contenttable">
+	<tr>
+		<td>Weapon Name</td>	<td>Weapon Weight</td>	<td>Damage</td>	<td>To Hit Bonus</td>	
+		<td>Block Bonus</td>	<td>Heavy Block Bonus</td>	<td>Super Block Bonus</td>
+	</tr>
+	<tr>
+		<td>Small Shield</td>	<td>2</td>				<td>0</td>		<td>+2</td>
+		<td>+1</td>				<td>+1</td>					<td>+1</td>
+	</tr>
+	<tr>
+		<td>Large Shield</td>	<td>4</td>				<td>1d6-1</td>	<td>+4</td>
+		<td>+2</td>				<td>+4</td>					<td>+6</td>
+	</tr>
+	<tr>
+		<td>Great Shield</td>	<td>7</td>				<td>1d6+1</td>	<td>+5</td>
+		<td>+3</td>				<td>+5</td>					<td>+7</td>
+	</tr>
+	<tr>
+		<td>Grand Shield</td>	<td>10</td>				<td>2d6</td>	<td>+7</td>
+		<td>+5</td>				<td>+8</td>					<td>+10</td>
+	</tr>
+	<tr>
+		<td>Monument Shield</td><td>15</td>				<td>3d6</td>	<td>+9</td>
+		<td>+7</td>				<td>+10</td>				<td>+15</td>
+	</tr>
+</table>
+
+
+
+tables-weapons-drills
+<b>Table 6.3.1 - Drills:</b>
+<table class="contenttable">
+	<tr>
+		<td>Weapon Name</td>	<td>Weapon Weight</td>	<td>Damage</td>	<td>To Hit Bonus</td>	
+		<td>Physical Damage</br>Reduction Damage</td>	<td>Mech Physical</br>Damage Reduction</br>Damage</td>
+	</tr>
+	<tr>
+		<td>Hand Drill</td>		<td>2</td>				<td>1d6</td>	<td>+0</td>
+		<td>0</td><td>1</td>
+	</tr>
+	<tr>
+		<td>Arm Drill</td>		<td>5</td>				<td>2d6</td>	<td>+1</td>
+		<td>1</td><td>1</td>
+	</tr>
+	<tr>
+		<td>Power Drill</td>	<td>7</td>				<td>3d6</td>	<td>+2</td>
+		<td>1</td><td>2</td>
+	</tr>
+	<tr>
+		<td>Grand Drill</td>	<td>10</td>				<td>4d6</td>	<td>+3</td>
+		<td>1</td><td>3</td>
+	</tr>
+	<tr>
+		<td>Star Drill</td>		<td>15</td>				<td>6d6</td>	<td>+4</td>
+		<td>2</td><td>5</td>
+	</tr>
+	<tr>
+		<td>Heavenly Drill</td>	<td>20</td>				<td>8d6</td>	<td>+6</td>
+		<td>2</td><td>7</td>
+	</tr>
+</table>
+
+
+
+tables-weapons-hammers
+<b>Table 6.4.1 - Hammers:</b>
+<table class="contenttable">
+	<tr>
+		<td>Weapon Name</td>	<td>Weapon Weight</td>	<td>Damage</td>	<td>To Hit Bonus</td>
+		<td>Speed Point Damage</td>
+	</tr>
+	<tr>
+		<td>Hand hammer</td>	<td>2</td>				<td>1d6</td>	<td>+0</td>
+		<td>0</td>
+	</tr>
+	<tr>
+		<td>War Hammer</td>		<td>6</td>				<td>3d6</td>	<td>+1</td>
+		<td>1</td>
+	</tr>
+	<tr>
+		<td>Maul</td>			<td>10</td>				<td>5d6</td>	<td>+2</td>
+		<td>3</td>
+	</tr>
+	<tr>
+		<td>Great Maul</td>		<td>15</td>				<td>8d6</td>	<td>+3</td>
+		<td>4</td>
+	</tr>
+	<tr>
+		<td>The Crusher</td>	<td>20</td>				<td>10d6</td>	<td>+5</td>
+		<td>5</td>
+	</tr>
+</table>
+
+
+
+tables-weapons-grapplingweapons
+<b>Table 6.5.1 - Grappling Weapons:</b>
+<table class="contenttable">
+	<tr>
+		<td>Weapon Name</td>		<td>Weapon Weight</td>	<td>Damage</td>	<td>To Hit Bonus</td>
+		<td>Grapple<br/>Attack Damage</td>	<td>Grapple<br/>Speed Damage</td>
+		<td>Grapple<br/>To Hit Bonus</td>	<td>Maximum Grapple<br/>Strength</td>
+	</tr>
+	<tr>
+		<td>Unarmed</td>			<td>0</td>				<td>1</td>		<td>+0</td>
+		<td>0</td>		<td>3</td>	<td>+0</td>	<td>0</td>
+	</tr>
+	<tr>
+		<td>Claw</td>				<td>1</td>				<td>1d6-1</td>	<td>+0</td>
+		<td>1d6</td>	<td>4</td>	<td>+0</td>	<td>0</td>
+	</tr>
+	<tr>
+		<td>Gauntlet</td>			<td>3</td>				<td>1d6+1</td>	<td>+1</td>
+		<td>2d6</td>	<td>4</td>	<td>+1</td>	<td>1</td>
+	</tr>
+	<tr>
+		<td>Clawed Gauntlet</td>	<td>5</td>				<td>2d6-1</td>	<td>+2</td>
+		<td>3d6</td>	<td>5</td>	<td>+2</td>	<td>1</td>
+	</tr>
+	<tr>
+		<td>Heavy Gauntlet</td>		<td>8</td>				<td>2d6+1</td>	<td>+3</td>
+		<td>4d6</td>	<td>5</td>	<td>+3</td>	<td>2</td>
+	</tr>
+	<tr>
+		<td>Giant Gauntlet</td>		<td>10</td>				<td>3d6</td>	<td>+3</td>
+		<td>5d6</td>	<td>6</td>	<td>+3</td>	<td>2</td>
+	</tr>
+	<tr>
+		<td>King's Gauntlet</td>	<td>16</td>				<td>4d6</td>	<td>+4</td>
+		<td>6d6</td>	<td>7</td>	<td>+4</td>	<td>3</td>
+	</tr>
+</table>
+
+
+
+tables-weapons-staves
+<b>Table 6.6.1 - Staves:</b>
+<table class="contenttable">
+	<tr>
+		<td>Weapon Name</td>		<td>Weapon Weight</td>	<td>Damage</td>	<td>To Hit Bonus</td>
+		<td>Ghost Power<br/>Storage</td><td>Cast Spell<br/>Strength Cost</td>
+	</tr>
+	<tr>
+		<td>Short Staff</td>		<td>4</td>				<td>1d6</td>	<td>+0</td>
+		<td>10</td><td>4</td>
+	</tr>
+	<tr>
+		<td>Medium Staff</td>		<td>7</td>				<td>2d6</td>	<td>+1</td>
+		<td>25</td><td>4</td>
+	</tr>
+	<tr>
+		<td>Long Staff</td>			<td>10</td>				<td>3d6</td>	<td>+2</td>
+		<td>40</td><td>3</td>
+	</tr>
+	<tr>
+		<td>Great Staff</td>		<td>13</td>				<td>4d6</td>	<td>+3</td>
+		<td>60</td><td>3</td>
+	</tr>
+	<tr>
+		<td>Giant Staff</td>		<td>17</td>				<td>5d6</td>	<td>+4</td>
+		<td>75</td><td>2</td>
+	</tr>
+</table>
+
+
+
+tables-weapons-pistols
+<b>Table 6.7.1 - Pistols:</b>
+<table class="contenttable">
+	<tr>
+		<td>Weapon Name</td>		<td>Weapon Weight</td>	<td>Damage</td>	<td>To Hit Bonus</td>
+		<td>Range</td>
+	</tr>
+	<tr>
+		<td>Palm Pistol</td>		<td>2</td>				<td>1d6</td>	<td>-0</td>
+		<td>50 ft</td>
+	</tr>
+	<tr>
+		<td>Revolver</td>			<td>5</td>				<td>2d6-1</td>	<td>-0</td>
+		<td>60 ft</td>
+	</tr>
+	<tr>
+		<td>Heavy Revolver</td>		<td>8</td>				<td>3d6</td>	<td>-1</td>
+		<td>70 ft</td>
+	</tr>
+	<tr>
+		<td>Hand Cannon</td>		<td>11</td>				<td>4d6</td>	<td>-2</td>
+		<td>80 ft</td>
+	</tr>
+	<tr>
+		<td>Dreadnaught</td>		<td>15</td>				<td>5d6</td>	<td>-2</td>
+		<td>90 ft</td>
+	</tr>
+</table>
+
+
+
+tables-weapons-sniperrifles
+<b>Table 6.8.1 - Sniper Rifles:</b>
+<table class="contenttable">
+	<tr>
+		<td>Weapon Name</td>		<td>Weapon Weight</td>	<td>Damage</td>	<td>To Hit Bonus</td>
+		<td>Short Range</td>	<td>Medium Range</td>	<td>Long Range </td>	<td>Steady Shot Bonus</td>
+	</tr>
+	<tr>
+		<td>Hunting Rifle</td>		<td>5</td>				<td>1d6+1</td>	<td>-0</td>
+		<td>50 ft</td>			<td>100 ft</td>			<td>150 ft</td>			<td>+2</td>
+	</tr>
+	<tr>
+		<td>Battle Rifle</td>		<td>8</td>				<td>3d6</td>	<td>-1</td>
+		<td>55 ft</td>			<td>110 ft</td>			<td>165 ft</td>			<td>+3</td>
+	</tr>
+	<tr>
+		<td>Heavy Rifle</td>		<td>12</td>				<td>4d6</td>	<td>-2</td>
+		<td>60 ft</td>			<td>120 ft</td>			<td>180 ft</td>			<td>+4</td>
+	</tr>
+	<tr>
+		<td>Targeting Cannon</td>	<td>15</td>				<td>5d6</td>	<td>-3</td>
+		<td>65 ft</td>			<td>130 ft</td>			<td>195 ft</td>			<td>+6</td>
+	</tr>
+	<tr>
+		<td>Hand Howitzer</td>		<td>20</td>				<td>7d6</td>	<td>-4</td>
+		<td>80 ft</td>			<td>160 ft</td>			<td>240 ft</td>			<td>+8</td>
+	</tr>
+</table>
+
+
+
+tables-weapons-shotguns
+<b>Table 6.9.1 - Shotguns:</b>
+<table class="contenttable">
+	<tr>
+		<td>Weapon Name</td>		<td>Weapon Weight</td>	<td>Damage</td>	<td>To Hit Bonus</td>
+		<td>Range</td>	<td>Bullets Fired Per Shot</td>
+	</tr>
+	<tr>
+		<td>Shotgun</td>			<td>5</td>				<td>1d6</td>	<td>-0</td>
+		<td>50 ft</td>	<td>6</td>
+	</tr>
+	<tr>
+		<td>Spreadshot</td>			<td>8</td>				<td>1d6+2</td>	<td>-1</td>
+		<td>50 ft</td>	<td>9</td>
+	</tr>
+	<tr>
+		<td>Scattershot</td>		<td>11</td>				<td>2d6</td>	<td>-1</td>
+		<td>45 ft</td>	<td>12</td>
+	</tr>
+	<tr>
+		<td>Iron Mist</td>			<td>15</td>				<td>2d6+2</td>	<td>-3</td>
+		<td>40 ft</td>	<td>15</td>
+	</tr>
+	<tr>
+		<td>Bullet Rain Storm</td>	<td>20</td>				<td>3d6</td>	<td>-4</td>
+		<td>40 ft</td>	<td>20</td>
+	</tr>
+</table>
+
+
+
+tables-weapons-teslas
+<b>Table 6.10.1 - Teslas:</b>
+<table class="contenttable">
+	<tr>
+		<td>Weapon Name</td>		<td>Weapon Weight</td>	<td>Damage</td>	<td>To Hit Bonus</td>
+		<td>Range</td><td>Strength Point<br/>Damage</td><td>Speed Point<br/>Damage</td>
+	</tr>
+	<tr>
+		<td>Stun Pistol</td>		<td>2</td>				<td>1d6-1</td>	<td>-0</td>
+		<td>20 ft</td><td>2</td><td>1</td>
+	</tr>
+	<tr>
+		<td>Shock Gun</td>			<td>5</td>				<td>1d6</td>	<td>-0</td>
+		<td>20 ft</td><td>4</td><td>2</td>
+	</tr>
+	<tr>
+		<td>Plasma Rifle</td>		<td>9</td>				<td>2d6-1</td>	<td>-1</td>
+		<td>15 ft</td><td>6</td><td>3</td>
+	</tr>
+	<tr>
+		<td>Battery Arm</td>		<td>12</td>				<td>2d6+1</td>	<td>-1</td>
+		<td>15 ft</td><td>8</td><td>5</td>
+	</tr>
+	<tr>
+		<td>Plasma Cannon</td>		<td>15</td>				<td>3d6</td>	<td>-2</td>
+		<td>10 ft</td><td>10</td><td>6</td>
+	</tr>
+</table>
+
+
+
+tables-armor-basicarmor
+<b>Table 7.1.1 - Basic Armor:</b>
+<table class="contenttable">
+	<tr>	<td>Armor Name</td>			<td>Armor Weight</td>		<td>Passive Evasion</td>		<td>Speed Point Reduction</td>		</tr>
+	<tr>	<td>Unarmored</td>			<td>0</td>					<td>7</td>						<td>0</td>							</tr>
+	<tr>	<td>Light Cloak</td>		<td>3</td>					<td>9</td>						<td>1</td>							</tr>
+	<tr>	<td>Heavy Cloak</td>		<td>6</td>					<td>11</td>						<td>2</td>							</tr>
+	<tr>	<td>Light Chain Mail</td>	<td>9</td>					<td>13</td>						<td>3</td>							</tr>
+	<tr>	<td>Heavy Chain Mail</td>	<td>12</td>					<td>15</td>						<td>4</td>							</tr>
+	<tr>	<td>Light Plate Mail</td>	<td>15</td>					<td>17</td>						<td>5</td>							</tr>
+	<tr>	<td>Heavy Plate Mail</td>	<td>18</td>					<td>19</td>						<td>6</td>							</tr>
+</table>
+
+
+tables-weight-loadweight
+<b>Table 8.1 - Load Weight:</b>
+<table class="contenttable">
+	<tr>	<td>Associated Strength</td>		<td>Light Load Weight (lbs)</td>		<td>Maximum	Load Weight (lbs)</td>	</tr>
+	<tr>	<td>1</td>							<td>10</td>								<td>15</td>							</tr>
+	<tr>	<td>2</td>							<td>15</td>								<td>20</td>							</tr>
+	<tr>	<td>3</td>							<td>15</td>								<td>25</td>							</tr>
+	<tr>	<td>4</td>							<td>20</td>								<td>30</td>							</tr>
+	<tr>	<td>5</td>							<td>25</td>								<td>35</td>							</tr>
+	<tr>	<td>6</td>							<td>30</td>								<td>50</td>							</tr>
+	<tr>	<td>7</td>							<td>35</td>								<td>55</td>							</tr>
+	<tr>	<td>8</td>							<td>40</td>								<td>80</td>							</tr>
+	<tr>	<td>9</td>							<td>50</td>								<td>95</td>							</tr>
+	<tr>	<td>10</td>							<td>55</td>								<td>135</td>						</tr>
+	<tr>	<td>11</td>							<td>65</td>								<td>160</td>						</tr>
+	<tr>	<td>12</td>							<td>80</td>								<td>225</td>						</tr>
+	<tr>	<td>13</td>							<td>95</td>								<td>270</td>						</tr>
+	<tr>	<td>14</td>							<td>115</td>							<td>380</td>						</tr>
+	<tr>	<td>15</td>							<td>135</td>							<td>455</td>						</tr>
+	<tr>	<td>16</td>							<td>160</td>							<td>640</td>						</tr>
+	<tr>	<td>17</td>							<td>190</td>							<td>760</td>						</tr>
+	<tr>	<td>18</td>							<td>225</td>							<td>1075</td>						</tr>
+	<tr>	<td>19</td>							<td>270</td>							<td>1280</td>						</tr>
+	<tr>	<td>20</td>							<td>320</td>							<td>1810</td>						</tr>
+	<tr>	<td>21</td>							<td>380</td>							<td>2155</td>						</tr>
+	<tr>	<td>22</td>							<td>455</td>							<td>3045</td>						</tr>
+	<tr>	<td>23</td>							<td>540</td>							<td>3620</td>						</tr>
+	<tr>	<td>24</td>							<td>640</td>							<td>5120</td>						</tr>
+	<tr>	<td>25</td>							<td>760</td>							<td>6090</td>						</tr>
+	<tr>	<td>26</td>							<td>905</td>							<td>8610</td>						</tr>
+	<tr>	<td>27</td>							<td>1075</td>							<td>10240</td>						</tr>
+	<tr>	<td>28</td>							<td>1280</td>							<td>14480</td>						</tr>
+	<tr>	<td>29</td>							<td>1520</td>							<td>17220</td>						</tr>
+	<tr>	<td>30</td>							<td>1810</td>							<td>24360</td>						</tr>
+	<tr>	<td>31</td>							<td>2155</td>							<td>28960</td>						</tr>
+	<tr>	<td>32</td>							<td>2560</td>							<td>40960</td>						</tr>
+	<tr>	<td>33</td>							<td>3045</td>							<td>48720</td>						</tr>
+	<tr>	<td>34</td>							<td>3620</td>							<td>68880</td>						</tr>
+	<tr>	<td>35</td>							<td>4305</td>							<td>81920</td>						</tr>
+	<tr>	<td>36</td>							<td>5120</td>							<td>115840</td>						</tr>
+	<tr>	<td>37</td>							<td>6090</td>							<td>137760</td>						</tr>
+	<tr>	<td>38</td>							<td>7240</td>							<td>194880</td>						</tr>
+	<tr>	<td>39</td>							<td>8610</td>							<td>231680</td>						</tr>
+	<tr>	<td>40</td>							<td>10240</td>							<td>327680</td>						</tr>
+	<tr>	<td>+8</td>							<td>x4</td>								<td>x8</td>							</tr>
+</table>
+
+
+
+tables-weight-realweight
+<b>Table 8.2 - Real Weight:</b>
+<table class="contenttable">
+	<tr>	<td>Item Weight</td>		<td>Weight (lbs)</td>	</tr>
+	<tr>	<td>0</td>					<td>0</td>				</tr>
+	<tr>	<td>1</td>					<td>1</td>				</tr>
+	<tr>	<td>2</td>					<td>2</td>				</tr>
+	<tr>	<td>3</td>					<td>3</td>				</tr>
+	<tr>	<td>4</td>					<td>4</td>				</tr>
+	<tr>	<td>5</td>					<td>6</td>				</tr>
+	<tr>	<td>6</td>					<td>8</td>				</tr>
+	<tr>	<td>7</td>					<td>11</td>				</tr>
+	<tr>	<td>8</td>					<td>16</td>				</tr>
+	<tr>	<td>9</td>					<td>23</td>				</tr>
+	<tr>	<td>10</td>					<td>32</td>				</tr>
+	<tr>	<td>11</td>					<td>45</td>				</tr>
+	<tr>	<td>12</td>					<td>64</td>				</tr>
+	<tr>	<td>13</td>					<td>91</td>				</tr>
+	<tr>	<td>14</td>					<td>128</td>			</tr>
+	<tr>	<td>15</td>					<td>181</td>			</tr>
+	<tr>	<td>16</td>					<td>256</td>			</tr>
+	<tr>	<td>17</td>					<td>362</td>			</tr>
+	<tr>	<td>18</td>					<td>512</td>			</tr>
+	<tr>	<td>19</td>					<td>724</td>			</tr>
+	<tr>	<td>20</td>					<td>1024</td>			</tr>
+	<tr>	<td>+2</td>					<td>x2</td>				</tr>
+</table>
+
+
+
+tables-ghostrules-insanity
+<b>Table 9.1 - Insanity Roll Effects:</b>
+<table class="contenttable">
+	<tr><td>Insanity Roll</td><td>Effect</td><td>Severity</td></td>
+	<tr><td>10 or less</td><td>None</td><td></td></td>
+	<tr><td>11</td><td>Phobia</td><td>1</td></td>
+	<tr><td>12</td><td>Spell Drain</td><td>1</td></td>
+	<tr><td>13</td><td>None</td><td></td></td>
+	<tr><td>14</td><td>Minor Insanity</td><td>1d6</td></td>
+	<tr><td>15</td><td>Increase Roll</td><td>1d6</td></td>
+	<tr><td>16</td><td>None</td><td></td></td>
+	<tr><td>17</td><td>Phobia</td><td>1d6</td></td>
+	<tr><td>18</td><td>Stun</td><td>1</td></td>
+	<tr><td>19</td><td>Mutant Transformation</td><td></td></td>
+	<tr><td>20</td><td>Increase Roll</td><td>2d6</td></td>
+	<tr><td>21</td><td>None</td><td></td></td>
+	<tr><td>22</td><td>Spell Drain</td><td>30</td></td>
+	<tr><td>23</td><td>None</td><td></td></td>
+	<tr><td>24</td><td>Minor Insanity</td><td>2d6</td></td>
+	<tr><td>25</td><td>Increase Roll</td><td>3d6</td></td>
+	<tr><td>26</td><td>Mutant Transformation</td><td></td></td>
+	<tr><td>27</td><td>Phobia</td><td>2d6</td></td>
+	<tr><td>28</td><td>Stun</td><td>2</td></td>
+	<tr><td>29</td><td>Disruption</td><td>1d6</td></td>
+	<tr><td>30</td><td>Increase Roll</td><td>2d6</td></td>
+	<tr><td>31</td><td>Mutant Transformation</td><td></td></td>
+	<tr><td>32</td><td>Spell Drain</td><td>50</td></td>
+	<tr><td>33</td><td>Possessed</td><td>1</td></td>
+	<tr><td>34</td><td>Vanity Transformation</td><td></td></td>
+	<tr><td>35</td><td>Increase Roll</td><td>1d6</td></td>
+	<tr><td>36</td><td>Mutant Transformation</td><td></td></td>
+	<tr><td>37</td><td>Hardened</td><td>1</td></td>
+	<tr><td>38</td><td>Stun</td><td>3</td></td>
+	<tr><td>39</td><td>Disruption</td><td>2d6</td></td>
+	<tr><td>40</td><td>Increase Roll</td><td>2d6</td></td>
+	<tr><td>41</td><td>Mutant Transformation</td><td></td></td>
+	<tr><td>42</td><td>Spell Drain</td><td>70</td></td>
+	<tr><td>43</td><td>Possessed</td><td>1</td></td>
+	<tr><td>44</td><td>Vanity Transformation</td><td></td></td>
+	<tr><td>45</td><td>Increase Roll</td><td>1d6</td></td>
+	<tr><td>46</td><td>Mutant Transformation</td><td></td></td>
+	<tr><td>47</td><td>Hardened</td><td>1</td></td>
+	<tr><td>48</td><td>Unconscious</td><td></td></td>
+	<tr><td>49</td><td>Disruption</td><td>3d6</td></td>
+	<tr><td>50</td><td>Increase Roll</td><td>3d6</td></td>
+	<tr><td>51</td><td>Vanity Transformation</td><td></td></td>
+	<tr><td>52</td><td>Spell Drain</td><td>90</td></td>
+	<tr><td>53</td><td>Possessed</td><td>1</td></td>
+	<tr><td>54</td><td>Spell Backfire</td><td>1</td></td>
+	<tr><td>55</td><td>Increase Roll</td><td>1d6</td></td>
+	<tr><td>56</td><td>Vanity Transformation</td><td></td></td>
+	<tr><td>57</td><td>Hardened</td><td>2</td></td>
+	<tr><td>58</td><td>Unconscious</td><td></td></td>
+	<tr><td>59</td><td>Husk Transformation</td><td></td></td>
+	<tr><td>60</td><td>Increase Roll</td><td>2d6</td></td>
+	<tr><td>61</td><td>Vanity Transformation</td><td></td></td>
+	<tr><td>62</td><td>Spell Drain</td><td>110</td></td>
+	<tr><td>63</td><td>Possessed</td><td>1</td></td>
+	<tr><td>64</td><td>Spell Backfire</td><td>1</td></td>
+	<tr><td>65</td><td>Increase Roll</td><td>1d6</td></td>
+	<tr><td>66</td><td>Vanity Transformation</td><td></td></td>
+	<tr><td>67</td><td>Hardened</td><td>2d6</td></td>
+	<tr><td>68</td><td>Unconscious</td><td></td></td>
+	<tr><td>69</td><td>Husk Transformation</td><td></td></td>
+	<tr><td>70</td><td>Increase Roll</td><td>1d6</td></td>
+	<tr><td>71</td><td>Vanity Transformation</td><td></td></td>
+	<tr><td>72</td><td>Spell Drain</td><td>130</td></td>
+	<tr><td>73</td><td>Possessed</td><td>1</td></td>
+	<tr><td>74</td><td>Spell Backfire</td><td>2</td></td>
+	<tr><td>75</td><td>Increase Roll</td><td>3d6</td></td>
+	<tr><td>76</td><td>Husk Transformation</td><td></td></td>
+	<tr><td>77</td><td>Hardened</td><td>3d6</td></td>
+	<tr><td>78</td><td>Unconscious</td><td></td></td>
+	<tr><td>79</td><td>Mist Form</td><td>1</td></td>
+	<tr><td>80</td><td>Increase Roll</td><td>2d6</td></td>
+	<tr><td>81</td><td>Husk Transformation</td><td></td></td>
+	<tr><td>82</td><td>Spell Drain</td><td>150</td></td>
+	<tr><td>83</td><td>Possessed</td><td>2</td></td>
+	<tr><td>84</td><td>Awakened Transformation</td><td></td></td>
+	<tr><td>85</td><td>Increase Roll</td><td>1d6</td></td>
+	<tr><td>86</td><td>Husk Transformation</td><td></td></td>
+	<tr><td>87</td><td>None</td><td></td></td>
+	<tr><td>88</td><td>Curse</td><td></td></td>
+	<tr><td>89</td><td>Mist Form</td><td>2</td></td>
+	<tr><td>90</td><td>Increase Roll</td><td>2d6</td></td>
+	<tr><td>91</td><td>Husk Transformation</td><td></td></td>
+	<tr><td>92</td><td>Spell Drain</td><td>170</td></td>
+	<tr><td>93</td><td>Possessed</td><td>2</td></td>
+	<tr><td>94</td><td>Awakened Transformation</td><td></td></td>
+	<tr><td>95</td><td>Increase Roll</td><td>1d6</td></td>
+	<tr><td>96</td><td>Husk Transformation</td><td></td></td>
+	<tr><td>97</td><td>Dematerialize</td><td></td></td>
+	<tr><td>98</td><td>Dematerialize</td><td></td></td>
+	<tr><td>99</td><td>Awakened Transformation</td><td></td></td>
+	<tr><td>100 or more</td><td>Dematerialize</td><td></td></td>
+</table>
+
+
+
+tables-mechrules-mechbody-stats
+<b>Table 10.1.1 - Mech Body Statistics:</b>
+<table class="contenttable">
+	<tr>
+		<td>Statistic</td>					<td>Base</td>	<td>Boost Effect</td>	<td>Boost Cost</td>	<td>Max Boost</td>
+	</tr>
+	<tr>
+		<td>Maximum Health Points</td>		<td>100</td>	<td>+3</td>				<td>1</td>			<td>-</td>
+	</tr>
+	<tr>
+		<td>Health Points Regen</td>			<td>1</td>		<td>+1</td>				<td>3</td>			<td>-</td>
+	</tr>
+	<tr>
+		<td>Physical Damage Reduction</td>	<td>5</td>		<td>+1</td>				<td>4</td>			<td>-</td>
+	</tr>
+	<tr>
+		<td>Physical Damage Reduction Regen</td>	
+											<td>1</td>		<td>+1</td>				<td>25</td>			<td>2</td>
+	</tr>
+	<tr>
+		<td>Spell Damage Reduction</td>		<td>0</td>		<td>+1</td>				<td>4</td>			<td>-</td>
+	</tr>
+	<tr>
+		<td>Auto Deflection</td>			<td>+2</td>		<td>+1</td>				<td>10</td>			<td>-</td>
+	</tr>
+	<tr>
+		<td>Max Speed Points</td>			<td>0</td>		<td>-</td>				<td>-</td>			<td>-</td>
+	</tr>
+	<tr>
+		<td>Speed Point Regen</td>			<td>0</td>		<td>-</td>				<td>-</td>			<td>-</td>
+	</tr>
+</table>
+
+
+tables-mechrules-mechbody-action
+<b>Table 10.1.2 - Mech Body Actions:</b>
+<table class="contenttable">
+	<tr>
+		<td>Action</td>				<td>Speed Point Cost</td>	<td>Unlock Cost</td>
+	</tr>
+	<tr>
+		<td>Enter Mech</td>				<td>0</td>					<td>0</td>
+	</tr>
+	<tr>
+		<td>Exit Mech</td>				<td>0</td>					<td>0</td>
+	</tr>
+</table>
+
+tables-mechrules-mechlegs-stats
+<b>Table 10.2.1 - Mech Legs Statistics:</b>
+<table class="contenttable">
+	<tr>
+		<td>Statistic</td>			<td>Base</td>	<td>Boost Effect</td>	<td>Boost Cost</td>	<td>Max Boost</td>
+	</tr>
+	<tr>
+		<td>To Hit Bonus</td>		<td>+0</td>		<td>+1</td>				<td>10</td>			<td>-</td>
+	</tr>
+	<tr>
+		<td>Damage</td>				<td>1d6</td>	<td>+1d6</td>			<td>6</td>			<td>-</td>
+	</tr>
+	<tr>
+		<td>Max Speed Points</td>	<td>4</td>		<td>+1</td>				<td>5</td>			<td>-</td>
+	</tr>
+	<tr>
+		<td>Speed Point Regen</td>	<td>1</td>		<td>+1</td>				<td>25</td>			<td>1</td>
+	</tr>
+</table>
+
+
+tables-mechrules-mechlegs-action
+<b>Table 10.2.2 - Mech Legs Actions:</b>
+<table class="contenttable">
+	<tr>
+		<td>Action</td>				<td>Speed Point Cost</td>	<td>Unlock Cost</td>
+	</tr>
+	<tr>
+		<td>Sidestep</td>			<td>1</td>					<td>0</td>
+	</tr>
+	<tr>
+		<td>Fast Sidestep</td>		<td>3</td>					<td>0</td>
+	</tr>
+	<tr>
+		<td>Charge</td>				<td>2</td>					<td>0</td>
+	</tr>
+	<tr>
+		<td>Fast Charge</td>		<td>4</td>					<td>10</td>
+	</tr>
+	<tr>
+		<td>Turn</td>				<td>0</td>					<td>0</td>
+	</tr>
+	<tr>
+		<td>Melee Attack</td>		<td>4</td>					<td>10</td>
+	</tr>
+</table>
+
+
+tables-mechrules-mechtreads-stats
+<b>Table 10.3.1 - Mech Treads Statistics:</b>
+<table class="contenttable">
+	<tr>
+		<td>Statistic</td>			<td>Base</td>	<td>Boost Effect</td>	<td>Boost Cost</td>	<td>Max Boost</td>
+	</tr>
+	<tr>
+		<td>To Hit Bonus</td>		<td>+0</td>		<td>+1</td>				<td>6</td>			<td>-</td>
+	</tr>
+	<tr>
+		<td>Damage</td>				<td>1d6</td>	<td>+1d6</td>			<td>10</td>			<td>-</td>
+	</tr>
+	<tr>
+		<td>Max Speed Points</td>	<td>4</td>		<td>+1</td>				<td>5</td>			<td>-</td>
+	</tr>
+	<tr>
+		<td>Speed Point Regen</td>	<td>1</td>		<td>+1</td>				<td>25</td>			<td>1</td>
+	</tr>
+</table>
+
+
+tables-mechrules-mechtreads-action
+<b>Table 10.3.2 - Mech Treads Actions:</b>
+<table class="contenttable">
+	<tr>
+		<td>Action</td>				<td>Speed Point Cost</td>	<td>Unlock Cost</td>
+	</tr>
+	<tr>
+		<td>Charge</td>				<td>1</td>					<td>0</td>
+	</tr>
+	<tr>
+		<td>Fast Charge</td>		<td>2</td>					<td>0</td>
+	</tr>
+	<tr>
+		<td>Turn</td>				<td>2</td>					<td>0</td>
+	</tr>
+	<tr>
+		<td>Melee Attack</td>		<td>4</td>					<td>10</td>
+	</tr>
+</table>
+
+
+tables-mechrules-mechgun-stats
+<b>Table 10.4.1 - Mech Gun Statistics:</b>
+<table class="contenttable">
+	<tr>
+		<td>Statistic</td>			<td>Base</td>	<td>Boost Effect</td>	<td>Boost Cost</td>	<td>Max Boost</td>
+	</tr>
+	<tr>
+		<td>To Hit Bonus</td>		<td>+0</td>		<td>+1</td>				<td>5</td>			<td>-</td>
+	</tr>
+	<tr>
+		<td>Damage</td>				<td>1d6</td>	<td>+1d6</td>			<td>5</td>			<td>-</td>
+	</tr>
+	<tr>
+		<td>Max Speed Points</td>	<td>2</td>		<td>+1</td>				<td>5</td>			<td>-</td>
+	</tr>
+	<tr>
+		<td>Speed Point Regen</td>	<td>1</td>		<td>+1</td>				<td>25</td>			<td>1</td>
+	</tr>
+	<tr>
+		<td>Range</td>				<td>50'</td>	<td>+5'</td>			<td>3</td>			<td>10</td>
+	</tr>
+</table>
+
+
+tables-mechrules-mechgun-action
+<b>Table 10.4.2 - Mech Gun Actions:</b>
+<table class="contenttable">
+	<tr>
+		<td>Action</td>				<td>Speed Point Cost</td>	<td>Unlock Cost</td>
+	</tr>
+	<tr>
+		<td>Gun Attack</td>			<td>2</td>					<td>0</td>
+	</tr>
+	<tr>
+		<td>Aimed Attack</td>		<td>3</td>					<td>0</td>
+	</tr>
+</table>
+
+
+tables-mechrules-mechblade-stats
+<b>Table 10.5.1 - Mech Blade Statistics:</b>
+<table class="contenttable">
+	<tr>
+		<td>Statistic</td>			<td>Base</td>	<td>Boost Effect</td>	<td>Boost Cost</td>	<td>Max Boost</td>
+	</tr>
+	<tr>
+		<td>To Hit Bonus</td>		<td>+0</td>		<td>+1</td>				<td>6</td>			<td>-</td>
+	</tr>
+	<tr>
+		<td>Damage</td>				<td>2d6</td>	<td>+1d6</td>			<td>4</td>			<td>-</td>
+	</tr>
+	<tr>
+		<td>Max Speed Points</td>	<td>2</td>		<td>+1</td>				<td>5</td>			<td>-</td>
+	</tr>
+	<tr>
+		<td>Speed Point Regen</td>	<td>1</td>		<td>+1</td>				<td>25</td>			<td>1</td>
+	</tr>
+</table>
+
+
+tables-mechrules-mechblade-action
+<b>Table 10.5.2 - Mech Blade Actions:</b>
+<table class="contenttable">
+	<tr>
+		<td>Action</td>					<td>Speed Point Cost</td>	<td>Unlock Cost</td>
+	</tr>
+	<tr>
+		<td>Melee Attack</td>			<td>2</td>					<td>0</td>
+	</tr>
+	<tr>
+		<td>Melee Combo Attack</td>		<td>1</td>					<td>0</td>
+	</tr>
+</table>
+
+
+tables-mechrules-mechgrapplingdevice-stats
+<b>Table 10.6.1 - Mech Grappling Device Statistics:</b>
+<table class="contenttable">
+	<tr>
+		<td>Statistic</td>					<td>Base</td>	<td>Boost Effect</td>	<td>Boost Cost</td>	<td>Max Boost</td>
+	</tr>
+	<tr>
+		<td>To Hit Bonus</td>				<td>+1</td>		<td>+1</td>				<td>3</td>			<td>-</td>
+	</tr>
+	<tr>
+		<td>Grapple Attack</td>				<td>4</td>		<td>+1</td>				<td>3</td>			<td>-</td>
+	</tr>
+	<tr>
+		<td>Grapple Speed Damage Bonus</td>	<td>+0</td>		<td>+1</td>				<td>10</td>			<td>-</td>
+	</tr>
+	<tr>
+		<td>Strength Point Investment</td>	<td>1</td>		<td>+1</td>				<td>15</td>			<td>-</td>
+	</tr>
+	<tr>
+		<td>Max Speed Points</td>			<td>2</td>		<td>+1</td>				<td>15</td>			<td>-</td>
+	</tr>
+	<tr>
+		<td>Speed Point Regen</td>			<td>1</td>		<td>+1</td>				<td>25</td>			<td>1</td>
+	</tr>
+	<tr>
+		<td>Range</td>						<td>5'</td>		<td>+5'</td>			<td>10</td>			<td>10</td>
+	</tr>
+	<tr>
+		<td>Grapple Targets</td>			<td>1</td>		<td>+1</td>				<td>25</td>			<td>2</td>
+	</tr>
+</table>
+
+
+tables-mechrules-mechgrapplingdevice-action
+<b>Table 10.6.2 - Mech Grappling Device Actions:</b>
+<table class="contenttable">
+	<tr>
+		<td>Action</td>					<td>Speed Point Cost</td>	<td>Unlock Cost</td>
+	</tr>
+	<tr>
+		<td>Initiate Grapple</td>		<td>2</td>					<td>0</td>
+	</tr>
+	<tr>
+		<td>Invest Strength Points</td>	<td>1</td>					<td>0</td>
+	</tr>
+</table>
+
+
+tables-mechrules-mechspellcore-stats
+<b>Table 10.7.1 - Mech Spell Core Statistics:</b>
+<table class="contenttable">
+	<tr>
+		<td>Statistic</td>				<td>Base</td>	<td>Boost Effect</td>	<td>Boost Cost</td>	<td>Max Boost</td>
+	</tr>
+	<tr>
+		<td>Offensive Spell Boost</td>	<td>1</td>		<td>+1</td>				<td>5</td>			<td>-</td>
+	</tr>
+	<tr>
+		<td>Defensive Spell Boost</td>	<td>1</td>		<td>+1</td>				<td>5</td>			<td>-</td>
+	</tr>
+	<tr>
+		<td>General Spell Boost</td>	<td>1</td>		<td>+1</td>				<td>5</td>			<td>-</td>
+	</tr>
+	<tr>
+		<td>Max Speed Points</td>		<td>5</td>		<td>+1</td>				<td>5</td>			<td>-</td>
+	</tr>
+	<tr>
+		<td>Speed Point Regen</td>		<td>1</td>		<td>+1</td>				<td>25</td>			<td>1</td>
+	</tr>
+	<tr>
+		<td>Spell Ghost Power</td>			<td>10</td>		<td>+2</td>				<td>1</td>			<td>-</td>
+	</tr>
+	<tr>
+		<td>Teleport Range</td>			<td>5'</td>		<td>+5'</td>			<td>20</td>			<td>2</td>
+	</tr>
+</table>
+
+
+tables-mechrules-mechspellcore-action
+<b>Table 10.7.2 - Mech Spell Core Actions:</b>
+<table class="contenttable">
+	<tr>
+		<td>Action</td>							<td>Speed Point Cost</td>	<td>Unlock Cost</td>
+	</tr>
+	<tr>
+		<td>Cast Spell - Elemental Spell</td>	<td>5</td>					<td>25</td>
+	</tr>
+	<tr>
+		<td>Cast Spell - Health Recovery</td>	<td>5</td>					<td>25</td>
+	</tr>
+	<tr>
+		<td>Cast Spell - Gale Burst</td>		<td>5</td>					<td>25</td>
+	</tr>
+	<tr>
+		<td>Cast Spell - Spell Barrier</td>		<td>5</td>					<td>25</td>
+	</tr>
+	<tr>
+		<td>Cast Spell - Physical Barrier</td>	<td>5</td>					<td>25</td>
+	</tr>
+	<tr>
+		<td>Cast Spell - Elemental Weapon</td>	<td>5</td>					<td>25</td>
+	</tr>
+	<tr>
+		<td>Cast Spell - Vampiric Weapon</td>	<td>5</td>					<td>25</td>
+	</tr>
+	<tr>
+		<td>Cast Spell - Possession</td>		<td>5</td>					<td>25</td>
+	</tr>
+	<tr>
+		<td>Continue Spell</td>					<td>1</td>					<td>0</td>
+	</tr>
+	<tr>
+		<td>Teleport</td>						<td>3</td>					<td>25</td>
+	</tr>
+</table>
+
+
+tables-mechrules-mechpuzzlegun-stats
+<b>Table 10.8.1 - Mech Puzzle Gun Statistics:</b>
+<table class="contenttable">
+	<tr>
+		<td>Statistic</td>			<td>Base</td>	<td>Boost Effect</td>	<td>Boost Cost</td>	<td>Max Boost</td>
+	</tr>
+	<tr>
+		<td>To Hit Bonus</td>		<td>+0</td>		<td>+1</td>				<td>5</td>			<td>-</td>
+	</tr>
+	<tr>
+		<td>Damage</td>				<td>1d6</td>	<td>+1d6</td>			<td>5</td>			<td>-</td>
+	</tr>
+	<tr>
+		<td>Max Speed Points</td>	<td>2</td>		<td>+1</td>				<td>5</td>			<td>-</td>
+	</tr>
+	<tr>
+		<td>Speed Point Regen</td>	<td>1</td>		<td>+1</td>				<td>25</td>			<td>1</td>
+	</tr>
+	<tr>
+		<td>Range</td>				<td>50'</td>	<td>+5'</td>			<td>3</td>			<td>10</td>
+	</tr>
+</table>
+
+
+tables-mechrules-mechpuzzlegun-action
+<b>Table 10.8.2 - Mech Puzzle Gun Actions:</b>
+<table class="contenttable">
+	<tr>
+		<td>Action</td>				<td>Speed Point Cost</td>	<td>Unlock Cost</td>
+	</tr>
+	<tr>
+		<td>Gun Attack</td>			<td>2</td>					<td>0</td>
+	</tr>
+	<tr>
+		<td>Aimed Attack</td>		<td>3</td>					<td>0</td>
+	</tr>
+</table>
+
+
+tables-mechrules-mechpuzzleblade-stats
+<b>Table 10.9.1 - Mech Puzzle Blade Statistics:</b>
+<table class="contenttable">
+	<tr>
+		<td>Statistic</td>			<td>Base</td>	<td>Boost Effect</td>	<td>Boost Cost</td>	<td>Max Boost</td>
+	</tr>
+	<tr>
+		<td>To Hit Bonus</td>		<td>+0</td>		<td>+1</td>				<td>6</td>			<td>-</td>
+	</tr>
+	<tr>
+		<td>Damage</td>				<td>2d6</td>	<td>+1d6</td>			<td>4</td>			<td>-</td>
+	</tr>
+	<tr>
+		<td>Max Speed Points</td>	<td>2</td>		<td>+1</td>				<td>5</td>			<td>-</td>
+	</tr>
+	<tr>
+		<td>Speed Point Regen</td>	<td>1</td>		<td>+1</td>				<td>25</td>			<td>1</td>
+	</tr>
+</table>
+
+
+tables-mechrules-mechpuzzleblade-action
+<b>Table 10.9.2 - Mech Puzzle Blade Actions:</b>
+<table class="contenttable">
+	<tr>
+		<td>Action</td>					<td>Speed Point Cost</td>	<td>Unlock Cost</td>
+	</tr>
+	<tr>
+		<td>Melee Attack</td>			<td>2</td>					<td>0</td>
+	</tr>
+	<tr>
+		<td>Melee Combo Attack</td>		<td>1</td>					<td>0</td>
+	</tr>
+</table>
+
+
+
+tables-battlerules-offensiveactions
+<b>Table 11.1 - Offensive Actions:</b>
+<table class="contenttable">
+	<tr>
+		<td>Action</td><td>Function</td>
+		<td>Strength<br/>Cost</td><td>Speed<br/>Cost</td><td>Subtlety<br/>Modifier</td>
+	</tr>
+	<tr>
+		<td>Melee Attack</td><td>
+			Attack with melee weapon
+		</td>
+		<td>2</td><td>1</td><td>-5</td>
+	</tr>
+	<tr>
+		<td>Melee Combo Attack</td>
+		<td>
+			Attack with melee weapon
+			<br/>Act as [Melee Attack]
+			<br/>Must follow another [Melee Attack]
+			<br/>or [Melee Combo Attack]
+		</td>
+		<td>1</td><td>2</td><td>-5</td>
+	</tr>
+	<tr>
+		<td>Gun Attack</td><td>
+			Attack with gun
+		</td>
+		<td>0</td><td>2</td><td>+5</td>
+	</tr>
+	<tr>
+		<td>Aimed Attack</td>
+		<td>
+			Attack with gun
+			<br/>Act as [Gun Attack]
+			<br/>Add +3 [To Hit Bonus]
+		</td>
+		<td>0</td><td>3</td><td>+5</td>
+	</tr>
+	<tr>
+		<td>Arm Trap</td>
+		<td>Use [Tech Training] to arm a trap</td>
+		<td>1</td><td>4</td><td>-5</td>
+	</tr>
+	<tr>
+		<td>Disarm Trap</td>
+		<td>Use [Tech Training] to disarm a trap</td>
+		<td>1</td><td>4</td><td>-5</td>
+	</tr>
+	<tr>
+		<td>Initiate Grapple</td>
+		<td>Attempt to initiate a [Grappling Stance]</td>
+		<td>1</td><td>1</td><td>+10</td>
+	</tr>
+	<tr>
+		<td>Break Grapple</td>
+		<td>Attempt to break a [Grappled Stance]</td>
+		<td>Special</td><td>0</td><td>+10</td>
+	</tr>
+	<tr>
+		<td>Reload</td>
+		<td>Reloads a Gun to Full Ammo</td>
+		<td>1</td><td>0</td><td>-</td>
+	</tr>
+	<tr>
+		<td>Channel Spell</td>
+		<td>Reduce remaining [Spell Cast Time] by 1</td>
+		<td>0</td><td>0</td><td>-</td>
+	</tr>
+	<tr>
+		<td>Restore Strength Points</td><td>Restore some [Current Strength Points]</td>
+		<td>0</td><td>0</td><td>+10</td>
+	</tr>
+</table>
+
+
+
+tables-battlerules-movementactions
+<b>Table 11.2 - Movement Actions:</b>
+<table class="contenttable">
+	<tr>
+		<td>Action</td><td>Function</td>
+		<td>Strength<br/>Cost</td><td>Speed<br/>Cost</td><td>Subtlety<br/>Modifier</td>
+	</tr>
+	<tr>
+		<td>Sidestep</td><td>
+			Move 5 ft in any direction
+			<br/>Face the direction of movement
+		</td>
+		<td>0</td><td>1</td><td>+10</td>
+	</tr>
+	<tr>
+		<td>Fast Sidestep</td><td>
+			Move 10 ft in any direction
+			<br/>Face the direction of movement
+		</td>
+		<td>0</td><td>3</td><td>+0</td>
+	</tr>
+	<tr>
+		<td>Charge</td>
+		<td>
+			Turn up to 60°
+			<br/>Run Forward 10 ft
+			<br/>Face the direction of movement
+			<br/>Add [Weapon Weight] to [Damage Dealt] for a [Melee Attack] or [Melee Combo Attack]
+			<br/>performed in the same action block
+		</td>
+		<td>0</td><td>1</td><td>+0</td>
+	</tr>
+	<tr>
+		<td>Fast Charge</td>
+		<td>
+			Turn up to 60°
+			<br/>Run Forward 20 ft
+			<br/>Face the direction of movement
+			<br/>Add 2*[Weapon Weight] to [Damage Dealt] for a [Melee Attack] or [Melee Combo Attack]
+			<br/>performed in the same action block
+		</td>
+		<td>0</td><td>2</td><td>-10</td>
+	</tr>
+	<tr>
+		<td>Turn</td><td>Turn to face any direction</td>
+		<td>0</td><td>0</td><td>-</td>
+	</tr>
+	<tr>
+		<td>Teleport</td><td>
+			5 ft*[Teleport] movement in any direction
+			<br/>Spend 1 [Ghost Power] per foot
+		</td>
+		<td>0</td><td>0</td><td>+10</td>
+	</tr>
+	<tr>
+		<td>Fly</td><td>Move 10 ft in any direction
+			<br/>Movement includes vertical directions</td>
+		<td>0</td><td>1</td><td>+5</td>
+	</tr>
+	<tr>
+		<td>Advanced Fly</td><td>Move 15 ft in any direction
+			<br/>Movement includes vertical directions</td>
+		<td>0</td><td>2</td><td>+0</td>
+	</tr>
+	<tr>
+		<td>Greater Fly</td><td>Move 20 ft in any direction
+			<br/>Movement includes vertical directions</td>
+		<td>0</td><td>3</td><td>-5</td>
+	</tr>
+	<tr>
+		<td>Restore Speed Points</td><td>Restore some [Current Speed Points]</td>
+		<td>0</td><td>0</td><td>-</td>
+	</tr>
+</table>
+
+
+
+tables-battlerules-verbalactions
+<b>Table 11.3 - Verbal Actions:</b>
+<table class="contenttable">
+	<tr>
+		<td>Action</td><td>Function</td>
+		<td>Strength<br/>Cost</td><td>Speed<br/>Cost</td><td>Subtlety<br/>Modifier</td>
+	</tr>
+	<tr>
+		<td>Battle Communication</td><td>Communicate with your allies</td>
+		<td>0</td><td>0</td><td>-10</td>
+	</tr>
+	<tr>
+		<td>Stunning Scream</td><td>Attempt to stun a target</td>
+		<td>1</td><td>0</td><td>-10</td>
+	</tr>
+	<tr>
+		<td>Battle Strategy</td><td>Attempt to coordinate an attack</td>
+		<td>1</td><td>0</td><td>-10</td>
+	</tr>
+	<tr>
+		<td>Taunt</td><td>Attempt to draw a target's attention</td>
+		<td>1</td><td>0</td><td>-10</td>
+	</tr>
+	<tr>
+		<td>Stealth</td><td>Enter [Stealth Stance]</td>
+		<td>1</td><td>0</td><td>-</td>
+	</tr>
+	<tr>
+		<td>False Reload</td><td>Pretend to reload a weapon</td>
+		<td>1</td><td>0</td><td>-</td>
+	</tr>
+	<tr>
+		<td>False Weakness</td><td>Expose a false weakness</td>
+		<td>1</td><td>0</td><td>-</td>
+	</tr>
+	<tr>
+		<td>Cast Spell</td><td>Begin casting a spell</td>
+		<td>5</td><td>5</td><td>Special</td>
+	</tr>
+	<tr>
+		<td>Echo Spell</td><td>Begin casting a spell with special rules.</td>
+		<td>3</td><td>0</td><td>Special</td>
+	</tr>
+	<tr>
+		<td>Healing Word</td>
+		<td>Heal a target for 1d6 per [Healing Word]</td>
+		<td>1</td><td>1</td><td>-</td>
+	</tr>
+	<tr>
+		<td>Guidance</td>
+		<td>Boost all rolls made by the target for an [Action Block]</td>
+		<td>1</td><td>1</td><td>-</td>
+	</tr>
+</table>
+
+
+
+tables-battlerules-defensiveactions
+<b>Table 11.4 - Defensive Actions:</b>
+<table class="contenttable">
+	<tr>
+		<td>Action</td><td>Function</td>
+		<td>Strength<br/>Cost</td><td>Speed<br/>Cost</td><td>Subtlety<br/>Modifier</td>
+	</tr>
+	<tr>
+		<td>Block</td><td>Increase [Physical Damage Reduction] by 5<br/>Ignore 5ft knock back</td>
+		<td>2</td><td>0</td><td>-</td>
+	</tr>
+	<tr>
+		<td>Heavy Block</td><td>Increase [Physical Damage Reduction] by 10<br/>Ignore 10ft knock back</td>
+		<td>4</td><td>0</td><td>-</td>
+	</tr>
+	<tr>
+		<td>Super Block</td><td>Increase [Physical Damage Reduction] by 15<br/>Ignore 20ft knock back</td>
+		<td>6</td><td>0</td><td>-</td>
+	</tr>
+	<tr>
+		<td>Obstruct Movement</td><td>Cancel a [Movement Action]</td>
+		<td>2</td><td>2</td><td>-</td>
+	</tr>
+	<tr>
+		<td>Dodge</td><td>Use [Active Evasion]</td>
+		<td>0</td><td>1</td><td>-</td>
+	</tr>
+	<tr>
+		<td>Magic Shield Deflection</td><td>Use [Active Evasion]</td>
+		<td>0</td><td>1</td><td>-</td>
+	</tr>
+	<tr>
+		<td>Maintain Grapple</td>
+		<td>Attempt to maintain a [Grappling Stance]</td>
+		<td>Special</td><td>0</td><td>+10</td>
+	</tr>
+</table>
+
+
+
+tables-battlerules-bonusactions
+<b>Table 11.5 - Bonus Actions:</b>
+<table class="contenttable">
+	<tr>
+		<td>Action</td><td>Function</td><td>Requirement</td>
+		<td>Strength<br/>Cost</td><td>Speed<br/>Cost</td><td>Subtlety<br/>Modifier</td>
+	</tr>
+	
+	<tr>
+		<td>Second Melee Attack</td>
+		<td>
+			Act as [Melee Attack]
+		</td>
+		<td>
+			Wielding Two Weapons<br/>
+			[Second Attack]
+		</td>
+		<td>1</td><td>2</td><td>-5</td>
+	</tr>
+	<tr>
+		<td>Second Gun Attack</td>
+		<td>
+			Act as [Gun Attack]
+		</td>
+		<td>
+			Wielding Two Weapons<br/>
+			[Second Attack]
+		</td>
+		<td>0</td><td>2</td><td>+5</td>
+	</tr>
+	<tr>
+		<td>Second Aimed Attack</td>
+		<td>
+			Act as [Aimed Attack]
+		</td>
+		<td>
+			Wielding Two Weapons<br/>
+			[Second Attack]
+		</td>
+		<td>0</td><td>3</td><td>+5</td>
+	</tr>
+	
+	<tr>
+		<td>Third Melee Attack</td>
+		<td>
+			Act as [Melee Attack]
+		</td>
+		<td>
+			Wielding Two Weapons<br/>
+			[Third Attack]
+		</td>
+		<td>1</td><td>2</td><td>-5</td>
+	</tr>
+	<tr>
+		<td>Third Gun Attack</td>
+		<td>
+			Act as [Gun Attack]
+		</td>
+		<td>
+			Wielding Two Weapons<br/>
+			[Third Attack]
+		</td>
+		<td>0</td><td>2</td><td>+5</td>
+	</tr>
+	<tr>
+		<td>Third Aimed Attack</td>
+		<td>
+			Act as [Aimed Attack]
+		</td>
+		<td>
+			Wielding Two Weapons<br/>
+			[Third Attack]
+		</td>
+		<td>0</td><td>3</td><td>+5</td>
+	</tr>
+	
+	<tr>
+		<td>Riposte Melee Attack</td>
+		<td>
+			Act as [Melee Attack]
+		</td>
+		<td>
+			[Rank] 1 [Riposte]
+		</td>
+		<td>1</td><td>0</td><td>-5</td>
+	</tr>
+	
+	<tr>
+		<td>Redouble Melee Attack</td>
+		<td>
+			Act as [Melee Attack]
+		</td>
+		<td>
+			[Rank] 1 [Redouble]
+		</td>
+		<td>0</td><td>0</td><td>-5</td>
+	</tr>
+	
+	<tr>
+		<td>Bullet Hell Melee Attack</td>
+		<td>
+			Act as [Melee Attack]
+		</td>
+		<td>
+			[Rank] 1 [Bullet Hell]
+		</td>
+		<td>1</td><td>2</td><td>-5</td>
+	</tr>
+	<tr>
+		<td>Bullet Hell Gun Attack</td>
+		<td>
+			Act as [Gun Attack]
+		</td>
+		<td>
+			[Rank] 1 [Bullet Hell]
+		</td>
+		<td>0</td><td>2</td><td>+5</td>
+	</tr>
+	
+	<tr>
+		<td>Rapid Fire Gun Attack</td>
+		<td>
+			Act as [Gun Attack]
+		</td>
+		<td>
+			[Rapid Fire Gun Attack]
+		</td>
+		<td>0</td><td>0</td><td>+5</td>
+	</tr>
+	
+	<tr>
+		<td>Quick Reload</td>
+		<td>Reloads a Gun to Full Ammo</td>
+		<td>1</td><td>0</td><td>-</td>
+	</tr>
+	
+	<tr>
+		<td>Activate Spell</td>
+		<td>
+			Activate a spell
+		</td>
+		<td></td>
+		<td>0</td><td>0</td><td>Special</td>
+	</tr>
+	
+	<tr>
+		<td>Cancel Stance</td>
+		<td>
+			Cancel a Stance
+		</td>
+		<td></td>
+		<td>0</td><td>0</td><td>-</td>
+	</tr>
+	
+	<tr>
+		<td>Elemental Riposte</td>
+		<td>
+			Activate [Elemental Spell]
+		</td>
+		<td>
+			[Rank] 1 [Elemental Riposte]
+		</td>
+		<td>0</td><td>0</td><td>Special</td>
+	</tr>
+	
+	<tr>
+		<td>Shield Block</td>
+		<td>
+			Add [Shield Block] bonus
+		</td>
+		<td>0</td><td>0</td><td>-</td>
+	</tr>
+	
+	<tr>
+		<td>Critical Shield Block</td>
+		<td>
+			Add [Shield Block] bonus
+		</td>
+		<td>0</td><td>0</td><td>-</td>
+	</tr>
+	
+	<tr>
+		<td>Shield Deflection</td>
+		<td>
+			Remain in [Block Stance] while<br/>
+			only losing bonus from [Shield Block]
+		</td>
+		<td>
+			[Shield Deflection]
+		</td>
+		<td>0</td><td>0</td><td>-</td>
+	</tr>
+	
+	<tr>
+		<td>Recover Ghost Power</td><td>Recover [Spell Ghost Power]</td>
+		<td>Special</td><td>Special</td><td>-</td>
+	</tr>
+	
+	<tr>
+		<td>Veil</td><td>Disguise a spell</td>
+		<td>1</td><td>0</td><td>-10</td>
+	</tr>
+</table>
+
+
+
+tables-battlerules-attackmodifiers
+<b>Table 11.6 - Attack Modifiers:</b>
+<table class="contenttable">
+	<tr>
+		<td>Action</td><td>Function</td>
+		<td>Strength<br/>Cost</td><td>Speed<br/>Cost</td><td>Subtlety<br/>Modifier</td>
+	</tr>
+	<tr>
+		<td>Spinning Strike</td><td>Attack multiple targets in [Melee Range]</td>
+		<td>1</td><td>1</td><td>-5</td>
+	</tr>
+	<tr>
+		<td>Whirlwind Spinning Strike</td><td>Attack multiple targets in [Melee Range] while moving</td>
+		<td>1</td><td>2</td><td>-10</td>
+	</tr>
+	<tr>
+		<td>Power Attack</td><td>Sacrifice [To Hit Bonus] for [Damage Dealt]</td>
+		<td>0</td><td>0</td><td>+0</td>
+	</tr>
+	<tr>
+		<td>Crushing Blow</td><td>Increase [Damage Dealt]</td>
+		<td>2</td><td>0</td><td>+0</td>
+	</tr>
+	<tr>
+		<td>Shoot Through</td><td>Attack multiple targets in a straight line</td>
+		<td>1</td><td>1</td><td>+0</td>
+	</tr>
+	<tr>
+		<td>True Strike</td><td>Increase [Damage Dealt]</td>
+		<td>0</td><td>0</td><td>+0</td>
+	</tr>
+	<tr>
+		<td>Combo Finisher</td><td>[Third Attack] increases [Damage Dealt]</td>
+		<td>1</td><td>1</td><td>-10</td>
+	</tr>
+</table>
+
+
+
+tables-battlerules-spellcastingmodifiers
+<b>Table 11.7 - Spell Casting Modifiers:</b>
+<table class="contenttable">
+	<tr>
+		<td>Action</td><td>Function</td>
+		<td>Strength<br/>Cost</td><td>Speed<br/>Cost</td><td>Subtlety<br/>Modifier</td>
+	</tr>
+	<tr>
+		<td>Shorten Spell 1</td><td>Reduces the [Spell Cast Time]<br/>by 1 [Action Block]</td>
+		<td>0</td><td>5</td><td>-</td>
+	</tr>
+	<tr>
+		<td>Shorten Spell 2</td><td>Reduces the [Spell Cast Time]<br/>by 2 [Action Blocks]</td>
+		<td>0</td><td>15</td><td>-</td>
+	</tr>
+	
+	<tr>
+		<td>Explosive Spell</td><td>[Elemental Spell],[Health Recovery]<br/>Area becomes 5 ft radius</td>
+		<td>0</td><td>0</td><td>-</td>
+	</tr>
+	<tr>
+		<td>Advanced Explosive Spell</td><td>[Elemental Spell],[Health Recovery]<br/>Area becomes 10 ft radius</td>
+		<td>0</td><td>0</td><td>-</td>
+	</tr>
+	<tr>
+		<td>Beam Spell</td><td>[Elemental Spell],[Health Recovery]<br/>Area becomes straight line</td>
+		<td>0</td><td>0</td><td>-</td>
+	</tr>
+	
+	<tr>
+		<td>Selective Gale Burst</td><td>[Gale Burst]<br/>Alter affect by target</td>
+		<td>0</td><td>0</td><td>-</td>
+	</tr>
+	<tr>
+		<td>Flying</td><td>[Gale Burst]<br/>Grant ability to [Fly]</td>
+		<td>0</td><td>0</td><td>-</td>
+	</tr>
+	<tr>
+		<td>Advanced Flying</td><td>[Gale Burst]<br/>Grant ability to [Advanced Fly]</td>
+		<td>0</td><td>0</td><td>-</td>
+	</tr>
+	<tr>
+		<td>Greater Flying</td><td>[Gale Burst]<br/>Grant ability to [Greater Fly]</td>
+		<td>0</td><td>0</td><td>-</td>
+	</tr>
+	
+	<tr>
+		<td>Multiple Enhancement</td><td>[Spell Barrier], [Physical Barrier],<br/>[Elemental Weapon], [Vampiric Weapon]<br/>Apply the [Effects] of 2 [Spells]</td>
+		<td>5</td><td>5</td><td>-</td>
+	</tr>
+	<tr>
+		<td>Advanced Multiple Enhancement</td><td>[Spell Barrier], [Physical Barrier],<br/>[Elemental Weapon], [Vampiric Weapon]<br/>Apply the [Effects] of 3 [Spells]</td>
+		<td>10</td><td>10</td><td>-</td>
+	</tr>
+	<tr>
+		<td>Greater Multiple Enhancement</td><td>[Spell Barrier], [Physical Barrier],<br/>[Elemental Weapon], [Vampiric Weapon]<br/>Apply the [Effects] of 4 [Spells]</td>
+		<td>15</td><td>15</td><td>-</td>
+	</tr>
+	<tr>
+		<td>Spread Enhancement</td><td>[Spell Barrier], [Physical Barrier],<br/>[Elemental Weapon], [Vampiric Weapon]<br/>Choose 2 targets</td>
+		<td>5</td><td>5</td><td>-</td>
+	</tr>
+	<tr>
+		<td>Advanced Spread Enhancement</td><td>[Spell Barrier], [Physical Barrier],<br/>[Elemental Weapon], [Vampiric Weapon]<br/>Choose 3 targets</td>
+		<td>10</td><td>10</td><td>-</td>
+	</tr>
+	<tr>
+		<td>Greater Spread Enhancement</td><td>[Spell Barrier], [Physical Barrier],<br/>[Elemental Weapon], [Vampiric Weapon]<br/>Choose 4 targets</td>
+		<td>15</td><td>15</td><td>-</td>
+	</tr>
+	
+	<tr>
+		<td>Weakening Possession</td><td>[Possession]<br/>Reduce [Strength Points] of target</td>
+		<td>5</td><td>5</td><td>-</td>
+	</tr>
+	<tr>
+		<td>Slowing Possession</td><td>[Possession]<br/>Reduce [Speed Points] of target</td>
+		<td>5</td><td>5</td><td>-</td>
+	</tr>
+	
+	<tr>
+		<td>Controlling Possession</td><td>[Possession]<br/>Controls the target</td>
+		<td>5</td><td>5</td><td>-</td>
+	</tr>
+	<tr>
+		<td>Advanced Controlling Possession</td><td>[Possession]<br/>Controls the target</td>
+		<td>10</td><td>10</td><td>-</td>
+	</tr>
+	<tr>
+		<td>Greater Controlling Possession</td><td>[Possession]<br/>Controls the target</td>
+		<td>15</td><td>15</td><td>-</td>
+	</tr>
+	
+	<tr>
+		<td>Fast Gather Mist</td><td>[Gather Mist]<br/>Reduces the [Spell Cast Time]<br/>by 1 [Action Block]</td>
+		<td>0</td><td>0</td><td>-</td>
+	</tr>
+</table>
