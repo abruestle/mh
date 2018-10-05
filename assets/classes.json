@@ -1,0 +1,124 @@
+{
+  "GHU": {
+    "description": "GHU classes make up the normal group that GHU members may travel with. A party of GHU members and associates are probably the closest Miridon has to adventurers, as they travel more often than most people. Activities range from defending a particular town, making an area is safe, vetting a new town, or going on produce collecting trips.",
+    "classes": [
+      {
+        "name": "Grand Devourer",
+        "quote": "I find philosophers are like mathematicians.  Both of them taste good despite being on the scrawny side.",
+        "description": "Grand devourers are the strongest of the strong on Miridon. Aside from already having immense strength, grand devourers can furter boost their innate strength with discipline and training. Grand devourers are generally considered the rulers of Miridon's towns and the empire. The most famous grand devourer is the emperor himself.",
+        "abilities": {
+          "special ability": {
+            "name": "Inhuman Strength",
+            "prerequisite": "5*[rank] strength",
+            "description": "A grand devourer has an additional [rank] [strength points] to use in battle. They can also use weapons with weight of [rank] higher than normally allowed for their [maximum strength points].",
+            "example": "A character with 10 [maximum strength points] and 10 [maximum speed points] can normally only wield a weapon of up to 5 [weapon weight]. In doing so, at the start of every round the character will recover up to 5 [strength points] and 10 [speed points]. A grand devourer with those stats would have 2 [Inhuman Strength], recovering 7 [strength points] and 10 [speed points]. The grand devourer can also use a 7 [weapon weight] weapon an recover up to 5 [strength points] and 10 [speed points]."
+          }
+        }
+      },
+      {
+        "name": "Skiffmaster",
+        "quote": "Life is easier when you have trustworthy cannon fodder to watch your back and check for traps.",
+        "description": "Skiffmasters are a versatile class, focusing on non-battle skills to build up a parties power. Skiffmasters command troops into battle, attempting to use the power of numbers to their advantage. A skiffmaster will rarely be the front-line fighters of Miridon, despite being able to hold their own, but they will organize the weaker units, arm the warriors, and fortify the defenses. They also build and run the mobile fortresses known as skiffs. They build the infrastructure of Miridon and manage their underlings. Behind every grand devourer claiming to be the ruler of an area, there are several skiffmasters actually managing the domain.",
+        "abilities": {
+          "special ability": {
+            "name": "Caravan Master",
+            "prerequisite": "5*[rank] strength",
+            "description": "The skiffmaster has enough faith to lead a caravan of X total crew members. New crew members must be gotten in town via their Camaraderie skill. Should a crew member die, they can be replaced in the same matter. See the Crew Member class for more details.",
+            "example": ""
+          }
+        }
+      },
+      {
+        "name": "Duelist",
+        "quote": "If you were a real man then you would walk right into my spinning blades of death!",
+        "description": "Duelists are talented fighters that make light of battle. They specialize in fast attacks and jeers. While they are necessarily strategically the best targets to go after on the battlefield, their flamboyant attitude will draw many attackers to focus their attacks on them. Many town protectors and homicide division members are duelists.",
+        "abilities": {
+          "special ability": {
+            "name": "Riposte",
+            "prerequisite": "4*X speed, 4*X strength",
+            "description": "The character can perform the defensive action 'Riposte'. A character can attempt to dodge an attack. Any attack against the character will have the 'To Hit' bonus reduced by the character's [Dodge Boost]. If the attack misses, the character will perform a 'Riposte' attack without any cost in strength points or speed points. This attack will have a bonus 'To Hit' equal to a character's [Riposte] skill. Attacks from 'Riposte' can trigger a 'Redouble' attack.",
+            "example": ""
+          }
+        }
+      },
+      {
+        "name": "Vessel",
+        "quote": "Insanity is subjective. In reality I'm the only sane man. Kittens!!!!",
+        "description": "While any human being can be possessed by ghosts, only vessels have trained their bodies to make full use of the benefits possession has to offer. They learn to control the ghosts to an extent that few others would even think possible, turning potential insanity into a powerful weapon. They can even use their ghosts to curse another with insanity. In the Miridonian world, one famous vessel is the mad Gogo, who houses one thousand ghosts.",
+        "abilities": {
+          "special ability": {
+            "name": "Concentration",
+            "prerequisite": "4*X strength, 4*X speed",
+            "description": "For any action that reduces Spell Ghost HP, the first X points of reduction are prevented without spending any Spell Ghost HP.",
+            "example": ""
+          }
+        }
+      },
+      {
+        "name": "Techie",
+        "quote": "As long as you stay in the eye of the storm you can weather anything.  Get a giant robot just to be on the safe side, though.",
+        "description": "Techies are researchers of the lost arts. While Miridonians are descendents and remnants of the space faring human race, many have lost all knowledge of such technologies. The loss of interest generally comes from the fact that human strength and speed far surpasses that of most technology. Techies, however, believe otherwise and work to create guns and mechs that can compete with powerful Miridonians. Techies do their best work in private, and are often found in underground caves building giant robotic armies. While they may not be able to compete physically with many Miridonians, their technology is a force to be reckoned with.",
+        "abilities": {
+          "special ability": {
+            "name": "Mech Training",
+            "prerequisite": "5*X speed",
+            "description": "The techie can drive any Mech of X quality or less after familiarizing their self with the controls.",
+            "example": ""
+          }
+        }
+      },
+      {
+        "name": "Ghost Hunter",
+        "quote": "The first step to changing the world is to change your self.  Then you need firepower.",
+        "description": "Ghost hunters are the most critical characters in any party. While many characters are trained in the art of killing other humans, only ghost hunters are trained in capturing the ghosts of the world. Because of their unique skill set and the laws protecting ghost hunters, they are generally treated as heroes. All ghost hunters are trained by another ghost hunter and can trace their training back to the first ghost hunter, Warren. Warren invented ghost bullets, and, despite being still alive and openly traveling the world, is revered as a sort of mythical hero of old. Warren himself has even found it impossible to convince others of his identity.",
+        "abilities": {
+          "special ability": {
+            "name": "Puzzle Creation",
+            "prerequisite": "5*X speed",
+            "description": "Any ghost hunter is adept at making puzzle weapons. The weapon will be able to hold a ghost for X + 1d6 days. The 1d6 roll is taken upon capturing a ghost with 0 Hp with a puzzle weapon. Puzzle weapons and bullets deal the same damage as their physical counterparts as puzzle damage, but do not other damage boosts or reduction. Puzzle creation is also a standard test for ghost hunters, as only an individual trained by the IOGH or GHU can create puzzles. In order to take any points in the skill one has to learn the basics from another ghost hunter. Anyone with points in puzzle creation should instantly be able to notice a fake puzzle.",
+            "example": ""
+          }
+        }
+      }
+    ]
+  },
+  "Unique Classes": {
+    "description": "Unique Classes cannot dual-class. They are so unique that they cannot fit into the classifications of the other classes. Generally, starting players should not be allowed to play a unique class. Unique classes cannot learn the abilities of any other classes.",
+    "classes": [
+      {
+        "name": "Crew member",
+        "description" :"Crew members work for a skiffmaster. They follow the skiffmaster and his or her skiff and will fight with the utmost loyalty. In general, crew members work best manning the skiff into battle. Crew members are an NPC class, and are under the control of the player who plays the skiffmaster.",
+        "Leader": "Skiffmaster",
+        "Special Notes": "Crew members have their strength points, speed points, skills, and talents based on the stats of their skiffmaster leader.",
+        "Strength Points": "When recruited, the crew member will have a maximum strength points equal to 3 fewer than their skiffmaster's maximum strength points.",
+        "Speed Points": "When recruited, the crew member will have a maximum speed points equal to 3 fewer than their skiffmaster's maximum speed points.",
+        "Skills": " The crew member will have their skills at a [Rank] equal to 2 fewer than the skiffmaster's [Rank] in that skill.",
+        "Talents": "The crew member will have their talents at a [Rank] equal to 2 fewer than the skiffmaster's [Rank] in that talent."
+      }
+    ]
+  },
+  "Renegade": {
+
+  },
+  "Imperial": {
+
+  },
+  "Horde": {
+
+  },
+  "Church of Spiritualism": {
+
+  },
+  "Vanity": {
+
+  },
+  "Husk": {
+
+  },
+  "Chimera": {
+
+  },
+  "Empty Husk": {
+
+  }
+}
