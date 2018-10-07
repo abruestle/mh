@@ -570,7 +570,7 @@
         "name": "Automaton",
         "types": ["ghost", "speed"],
         "quote": "",
-        "description": "",
+        "description": "A husk that controls and is bonded to mechanical parts.",
         "abilities": {
           "special ability": {
             "name": "",
@@ -584,7 +584,7 @@
         "name": "Ent",
         "types": ["ghost", "strength"],
         "quote": "",
-        "description": "",
+        "description": "A husk that controls and is bonded to vegetation. Fairly rare due to the rareness of vegetation.",
         "abilities": {
           "special ability": {
             "name": "",
@@ -598,7 +598,7 @@
         "name": "Living Armor",
         "types": ["ghost", "average"],
         "quote": "",
-        "description": "",
+        "description": "A husk that controls and is bonded to metal.",
         "abilities": {
           "special ability": {
             "name": "",
@@ -612,7 +612,7 @@
         "name": "Naiad",
         "types": ["ghost", "average"],
         "quote": "",
-        "description": "",
+        "description": "A husk that controls and is bonded to water. Very rare, as water is rare.",
         "abilities": {
           "special ability": {
             "name": "",
@@ -626,7 +626,7 @@
         "name": "Phoenix",
         "types": ["ghost", "speed"],
         "quote": "",
-        "description": "",
+        "description": "A husk that controls and is bonded to fire.",
         "abilities": {
           "special ability": {
             "name": "",
@@ -640,7 +640,7 @@
         "name": "Skeleton",
         "types": ["ghost", "strength"],
         "quote": "",
-        "description": "",
+        "description": "A husk that controls and is bonded to bone.",
         "abilities": {
           "special ability": {
             "name": "",
@@ -654,7 +654,7 @@
         "name": "Storm Giant",
         "types": ["ghost", "speed"],
         "quote": "",
-        "description": "",
+        "description": "A husk that controls and is bonded to air.",
         "abilities": {
           "special ability": {
             "name": "",
@@ -668,7 +668,7 @@
         "name": "Vampire",
         "types": ["ghost", "average"],
         "quote": "",
-        "description": "",
+        "description": "A husk that controls and is bonded to blood.",
         "abilities": {
           "special ability": {
             "name": "",
@@ -682,7 +682,7 @@
         "name": "Zombie",
         "types": ["ghost", "strength"],
         "quote": "",
-        "description": "",
+        "description": "A husk that controls and is bonded to flesh.",
         "abilities": {
           "special ability": {
             "name": "",
@@ -846,7 +846,7 @@
         "name": "Sandstorm",
         "types": ["physical/anti-ghost", "average"],
         "quote": "",
-        "description": "",
+        "description": "A tornado with a kick. Moves as a regular weather pattern would, but can be affected by temperature differences in the area. Cannot be possessed, as ghosts can't stand the harsh wind speeds and sand. Cannot duel class due to being a weather pattern.",
         "abilities": {
           "special ability": {
             "name": "",
