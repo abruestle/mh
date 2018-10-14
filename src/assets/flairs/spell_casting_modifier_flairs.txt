@@ -1,0 +1,262 @@
+<h2>Spell Casting Modifier Flairs:</h2>
+<br/>
+<br/>
+<br/>
+<br/><b>Explosive Spell:</b>
+<br/>Spell: [Elemental Spell], [Health Recovery]
+<br/>When a character performs [Cast Spell] or [Echo Spell] to begin casting [Elemental Spell] or [Health Recovery], they can add [Explosive Spell] as a [Spell Casting Modifier].
+<br/>
+<br/>Normal: Characters cannot add [Explosive Spell] as a [Spell Casting Modifier].
+<br/>
+<br/>
+<br/>
+<br/><b>Advanced Explosive Spell:</b>
+<br/>Pre-requisite: [Explosive Spell]
+<br/>Spell: [Elemental Spell], [Health Recovery]
+<br/>When a character performs [Cast Spell] or [Echo Spell] to begin casting [Elemental Spell] or [Health Recovery], they can add [Advanced Explosive Spell] as a [Spell Casting Modifier].
+<br/>
+<br/>Normal: Characters cannot add [Advanced Explosive Spell] as a [Spell Casting Modifier].
+<br/>
+<br/>
+<br/>
+<br/><b>Beam Spell:</b>
+<br/>Spell: [Elemental Spell], [Health Recovery]
+<br/>When a character performs [Cast Spell] or [Echo Spell] to begin casting [Beam Spell] or [Health Recovery], they can add [Beam Spell] as a [Spell Casting Modifier].
+<br/>
+<br/>Normal: Characters cannot add [Beam Spell] as a [Spell Casting Modifier].
+<br/>
+<br/>
+<br/>
+<br/><b>Arc Beam Spell:</b>
+<br/>Pre-requisite: [Beam Spell]
+<br/>Spell: [Elemental Spell], [Health Recovery]
+<br/>When a [Spell] with [Beam Spell] is activated by [Activate Spell] or [Elemental Riposte], targets do not need to be in a straight line. When the spell activates, targets must be chosen in order, with a straight line from the original caster to the first target, and additional straight lines from each previous target to the next target. The sum of the length of the lines must be less than the total [Range] of the [Spell].
+<br/>
+<br/>Each target is only targeted by the spell once.
+<br/>
+<br/>Normal: When using [Beam Spell], the targets must all be in a straight line.
+<br/>
+<br/>
+<br/>
+<br/><b>Chain Beam Spell:</b>
+<br/>Pre-requisite: [Beam Spell], [Arc Beam Spell]
+<br/>Spell: [Elemental Spell], [Health Recovery]
+<br/>When a [Spell] with [Beam Spell] is activated by [Activate Spell] or [Elemental Riposte], only the distance from the either the character or the previous target that was hit by the [Arc Beam Spell] must be less than the total [Range] of the spell.
+<br/>
+<br/>The sum of the length of the lines can be any value.
+<br/>
+<br/>Each target is only targeted by the spell once.
+<br/>
+<br/>Normal: When using [Arc Beam Spell], the sum of the length of the lines must be less than the total range of the weapon.
+<br/>
+<br/>
+<br/>
+<br/><b>Explosive Beam Spell:</b>
+<br/>Pre-requisite: [Explosive Spell], [Beam Spell], [Variant Spell]
+<br/>Spell: [Elemental Spell], [Health Recovery]
+<br/>When a [Spell] with [Beam Spell] is activated by [Activate Spell] or [Elemental Riposte], for each target of the [Spell], the caster can choose for each target to activate an [Explosive Spell] or an [Advanced Explosive Spell] at the location, adding any additional targets hit to the [Spell].
+<br/>
+<br/>Each target is only targeted by the spell once.
+<br/>
+<br/>Only the targets of the original [Beam Spell] can activate an [Explosive Spell] or an [Advanced Explosive Spell], not the new targets.
+<br/>
+<br/>Normal: When using [Beam Spell], the spell only affects targets in a straight line.
+<br/>
+<br/>
+<br/>
+<br/><b>Selective Gale Burst:</b>
+<br/>Spell: [Gale Burst]
+<br/>When a character performs [Cast Spell] or [Echo Spell] to begin casting [Gale Burst], they can add [Selective Gale Burst] as a [Spell Casting Modifier].
+<br/>
+<br/>Normal: Characters cannot add [Selective Gale Burst] as a [Spell Casting Modifier].
+<br/>
+<br/>
+<br/>
+<br/><b>Multi-Directional Gale Burst:</b>
+<br/>Pre-requisite: [Selective Gale Burst]
+<br/>Spell: [Gale Burst]
+<br/>When casting [Selective Gale Burst], the caster can choose to the direction each target is knocked back.
+<br/>
+<br/>The directions of movement of [Multi-Directional Gale Burst] can only be non-vertical directions.
+<br/>
+<br/>The direction is chosen separately for each target.
+<br/>
+<br/>This movement can also be a combination of directions up to a total movement up to the distance of the [Effect] of the original [Spell].
+<br/>
+<br/>When using [Selective Gale Burst], the caster can be chosen as a target of the spell.
+<br/>
+<br/>Normal: When casting [Selective Gale Burst], all targets hit by the [Gale Burst] can only be knocked back directly away from the caster.
+<br/>
+<br/>When using [Selective Gale Burst], the caster cannot be chosen as a target of the spell.
+<br/>
+<br/>
+<br/>
+<br/><b>Aerial Gale Burst:</b>
+<br/>Pre-requisite: [Selective Gale Burst], [Multi-Directional Gale Burst]
+<br/>Spell: [Gale Burst]
+<br/>The directions of movement of [Multi-Directional Gale Burst] can include vertical directions.
+<br/>
+<br/>Movement into the ground will cause the target to take damage as if they hit a wall.
+<br/>
+<br/>Normal: The directions of movement of [Multi-Directional Gale Burst] can only be non-vertical directions.
+<br/>
+<br/>
+<br/>
+<br/><b>Flying:</b>
+<br/>Pre-requisite: [Selective Gale Burst], [Multi-Directional Gale Burst], [Aerial Gale Burst]
+<br/>Spell: [Gale Burst]
+<br/>When a character performs [Cast Spell] or [Echo Spell] to begin casting [Gale Burst], they can add [Flying] as a [Spell Casting Modifier].
+<br/>
+<br/>Normal: Characters cannot add [Flying] as a [Spell Casting Modifier].
+<br/>
+<br/>
+<br/>
+<br/><b>Advanced Flying:</b>
+<br/>Pre-requisite: [Selective Gale Burst], [Multi-Directional Gale Burst], [Aerial Gale Burst], [Flying]
+<br/>Spell: [Gale Burst]
+<br/>When a character performs [Cast Spell] or [Echo Spell] to begin casting [Gale Burst], they can add [Advanced Flying] as a [Spell Casting Modifier].
+<br/>
+<br/>Normal: Characters cannot add [Advanced Flying] as a [Spell Casting Modifier].
+<br/>
+<br/>
+<br/>
+<br/><b>Greater Flying:</b>
+<br/>Pre-requisite: [Selective Gale Burst], [Multi-Directional Gale Burst], [Aerial Gale Burst], [Flying], [Advanced Flying]
+<br/>Spell: [Gale Burst]
+<br/>When a character performs [Cast Spell] or [Echo Spell] to begin casting [Gale Burst], they can add [Greater Flying] as a [Spell Casting Modifier].
+<br/>
+<br/>Normal: Characters cannot add [Greater Flying] as a [Spell Casting Modifier].
+<br/>
+<br/>
+<br/>
+<br/><b>Multiple Enhancement:</b>
+<br/>Spell: [Spell Barrier], [Physical Barrier], [Elemental Weapon], [Vampiric Weapon]
+<br/>When a character performs [Cast Spell] or [Echo Spell] to begin casting [Spell Barrier], [Physical Barrier], [Elemental Weapon], or [Vampiric Weapon], they can add [Multiple Enhancement] as a [Spell Casting Modifier].
+<br/>
+<br/>Normal: Characters cannot add [Multiple Enhancement] as a [Spell Casting Modifier].
+<br/>
+<br/>
+<br/>
+<br/><b>Advanced Multiple Enhancement:</b>
+<br/>Pre-requisite: [Multiple Enhancement]
+<br/>Spell: [Spell Barrier], [Physical Barrier], [Elemental Weapon], [Vampiric Weapon]
+<br/>When a character performs [Cast Spell] or [Echo Spell] to begin casting [Spell Barrier], [Physical Barrier], [Elemental Weapon], or [Vampiric Weapon], they can add [Advanced Multiple Enhancement] as a [Spell Casting Modifier].
+<br/>
+<br/>Normal: Characters cannot add [Advanced Multiple Enhancement] as a [Spell Casting Modifier].
+<br/>
+<br/>
+<br/>
+<br/><b>Greater Multiple Enhancement:</b>
+<br/>Pre-requisite: [Multiple Enhancement], [Advanced Multiple Enhancement]
+<br/>Spell: [Spell Barrier], [Physical Barrier], [Elemental Weapon], [Vampiric Weapon]
+<br/>When a character performs [Cast Spell] or [Echo Spell] to begin casting [Spell Barrier], [Physical Barrier], [Elemental Weapon], or [Vampiric Weapon], they can add [Greater Multiple Enhancement] as a [Spell Casting Modifier].
+<br/>
+<br/>Normal: Characters cannot add [Greater Multiple Enhancement] as a [Spell Casting Modifier].
+<br/>
+<br/>
+<br/>
+<br/><b>Spread Enhancement:</b>
+<br/>Spell: [Spell Barrier], [Physical Barrier], [Elemental Weapon], [Vampiric Weapon]
+<br/>When a character performs [Cast Spell] or [Echo Spell] to begin casting [Spell Barrier], [Physical Barrier], [Elemental Weapon], or [Vampiric Weapon], they can add [Spread Enhancement] as a [Spell Casting Modifier].
+<br/>
+<br/>Normal: Characters cannot add [Spread Enhancement] as a [Spell Casting Modifier].
+<br/>
+<br/>
+<br/>
+<br/><b>Advanced Spread Enhancement:</b>
+<br/>Pre-requisite: [Spread Enhancement]
+<br/>Spell: [Spell Barrier], [Physical Barrier], [Elemental Weapon], [Vampiric Weapon]
+<br/>When a character performs [Cast Spell] or [Echo Spell] to begin casting [Spell Barrier], [Physical Barrier], [Elemental Weapon], or [Vampiric Weapon], they can add [Advanced Spread Enhancement] as a [Spell Casting Modifier].
+<br/>
+<br/>Normal: Characters cannot add [Advanced Spread Enhancement] as a [Spell Casting Modifier].
+<br/>
+<br/>
+<br/>
+<br/><b>Greater Spread Enhancement:</b>
+<br/>Pre-requisite: [Spread Enhancement], [Advanced Spread Enhancement]
+<br/>Spell: [Spell Barrier], [Physical Barrier], [Elemental Weapon], [Vampiric Weapon]
+<br/>When a character performs [Cast Spell] or [Echo Spell] to begin casting [Spell Barrier], [Physical Barrier], [Elemental Weapon], or [Vampiric Weapon], they can add [Greater Spread Enhancement] as a [Spell Casting Modifier].
+<br/>
+<br/>Normal: Characters cannot add [Greater Spread Enhancement] as a [Spell Casting Modifier].
+<br/>
+<br/>
+<br/>
+<br/><b>Counter Possession:</b>
+<br/>Spell: [Possession]
+<br/>When a target is in the [Spell Casting Stance] when they are hit with [Possession], the [Spell Power] of the [Possession] is doubled.
+<br/>
+<br/>Normal: The [Spell Power] of the [Possession] spell is not doubled.
+<br/>
+<br/>
+<br/>
+<br/><b>Weakening Possession:</b>
+<br/>Spell: [Possession]
+<br/>When a character performs [Cast Spell] or [Echo Spell] to begin casting [Possession], they can add [Weakening Possession] as a [Spell Casting Modifier].
+<br/>
+<br/>Normal: Characters cannot add [Weakening Possession] as a [Spell Casting Modifier].
+<br/>
+<br/>
+<br/>
+<br/><b>Slowing Possession:</b>
+<br/>Spell: [Possession]
+<br/>When a character performs [Cast Spell] or [Echo Spell] to begin casting [Possession], they can add [Slowing Possession] as a [Spell Casting Modifier].
+<br/>
+<br/>Normal: Characters cannot add [Slowing Possession] as a [Spell Casting Modifier].
+<br/>
+<br/>
+<br/>
+<br/><b>Controlling Possession:</b>
+<br/>Spell: [Possession]
+<br/>When a character performs [Cast Spell] or [Echo Spell] to begin casting [Possession], they can add [Controlling Possession] as a [Spell Casting Modifier].
+<br/>
+<br/>Normal: Characters cannot add [Controlling Possession] as a [Spell Casting Modifier].
+<br/>
+<br/>
+<br/>
+<br/><b>Advanced Controlling Possession:</b>
+<br/>Pre-requisite: [Controlling Possession]
+<br/>Spell: [Possession]
+<br/>When a character performs [Cast Spell] or [Echo Spell] to begin casting [Possession], they can add [Advanced Controlling Possession] as a [Spell Casting Modifier].
+<br/>
+<br/>Normal: Characters cannot add [Advanced Controlling Possession] as a [Spell Casting Modifier].
+<br/>
+<br/>
+<br/>
+<br/><b>Greater Controlling Possession:</b>
+<br/>Pre-requisite: [Controlling Possession], [Advanced Controlling Possession]
+<br/>Spell: [Possession]
+<br/>When a character performs [Cast Spell] or [Echo Spell] to begin casting [Possession], they can add [Greater Controlling Possession] as a [Spell Casting Modifier].
+<br/>
+<br/>Normal: Characters cannot add [Greater Controlling Possession] as a [Spell Casting Modifier].
+<br/>
+<br/>
+<br/>
+<br/><b>Fast Gather Mist:</b>
+<br/>Spell: [Gather Mist]
+<br/>When a character performs [Cast Spell] or [Echo Spell] to begin casting [Gather Mist], they can add [Fast Gather Mist] as a [Spell Casting Modifier].
+<br/>
+<br/>Normal: Characters cannot add [Fast Gather Mist] as a [Spell Casting Modifier].
+<br/>
+<br/>
+<br/>
+<br/><b>Advanced Fast Gather Mist:</b>
+<br/>Pre-requisite: [Fast Gather Mist]
+<br/>Spell: [Gather Mist]
+<br/>When using [Fast Gather Mist], the caster must only make a single [Insanity Roll] and take its effect.
+<br/>
+<br/>Normal: [Fast Gather Mist] requires two [Insanity Rolls].
+<br/>
+<br/>
+<br/>
+<br/><b>Cheaper Shorten Spell:</b>
+<br/>Action: [Shorten Spell 2]
+<br/>The [Speed Cost] of [Shorten Spell 2] is 10.
+<br/>
+<br/>Normal: The [Speed Cost] of [Shorten Spell 2] is 15.
+<br/>
+<br/>
+<br/>
+<br/><b>Variant Spell:</b>
+<br/>The character can add a [Spell Casting Modifier] to a [Spell] when they perform [Activate Spell] or [Elemental Riposte].
+<br/>
+<br/>Normal: The character can add a [Spell Casting Modifier] to a [Spell] when they perform [Cast Spell] or [Echo Spell].

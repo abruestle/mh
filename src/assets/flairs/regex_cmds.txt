@@ -1,0 +1,73 @@
+<br/><b>(.*)</b>
+"flair name": "$1",
+
+<br/>Pre-requisite:\s*(.*)
+"pre-requisites": \[$1\],
+
+(Call the below regex multiple times, until 0 replacements)
+\"pre-requisites\"\:\s*\[(.*)[\[\]](.*)\],
+\"pre-requisites\"\: \[$1\"$2\],
+
+<br/>Spell:\s*(.*)
+"spells": \[$1\],
+
+(Call the below regex multiple times, until 0 replacements)
+\"spells\"\:\s*\[(.*)[\[\]](.*)\],
+\"spells\"\: \[$1\"$2\],
+
+<br/>Action:\s*(.*)
+"actions": \[$1\],
+
+(Call the below regex multiple times, until 0 replacements)
+\"actions\"\:\s*\[(.*)[\[\]](.*)\],
+\"actions\"\: \[$1\"$2\],
+
+<br/>Applies to Bonus Actions:\s*(.*)
+"applies to bonus actions": "$1",
+
+<br/>Condition:\s*(.*)
+"condition": "$1",
+
+(Call the below regex only once)
+((.*\s*\n*)*)
+$1\n"flair name": "EOF",
+
+
+<br/>Normal:\s*((.*\s*\n*)+?)"flair name"
+"normal": \"$1\"\n},\n{\n"flair name"
+
+(replace with blank)
+\s*\n+\s*
+
+("[a-Z0-9\s\-]+"\s*\:\s*"[a-Z0-9\s\-\:]+"\s*,)
+$1\n
+
+("[a-Z0-9\s\-]+"\s*\:\s*\[[a-Z0-9\s\-\:\,\"]+\]\s*,)
+$1\n
+
+\s*\n*\s*(\}\,*)\s*\n*\s*
+\n$1\n
+
+\s*\n*\s*\{\s*\n*\s*"
+\n{\n"
+
+(.*)("normal"\s*\:)
+"description"\: "$1",\n$2
+
+<br/>
+\n
+
+\s*\n\s*("[\n\s]*[},])
+$1
+
+(\:\s*")\s*\n\s*
+$1
+
+,\s*\n*\s*\{\s*\n*\s*"flair name"\: "EOF",\s*\n*\s*
+\n\]
+
+<h2>(.*)</h2>\s*
+"$1": \n\[\n\{\n
+
+([a-Z0-9])\s*\:\"
+$1\"

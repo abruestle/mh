@@ -1,0 +1,110 @@
+"Attack Modifier Flairs": 
+[
+{
+"flair name": "True Strike",
+"description": "The character can add [True Strike] as an [Attack Modifier].",
+"normal": "A character cannot add [True Strike] as an [Attack Modifier]."
+},
+{
+"flair name": "Spinning Strike",
+"description": "The character can add [Spinning Strike] as an [Attack Modifier].",
+"normal": "A character cannot add [Spinning Strike] as an [Attack Modifier]."
+},
+{
+"flair name": "Whirlwind Strike",
+"pre-requisites": ["Spinning Strike"],
+"description": "The character can add [Whirlwind Strike] as an [Attack Modifier].",
+"normal": "A character cannot add [Whirlwind Strike] as an [Attack Modifier]."
+},
+{
+"flair name": "Charging Spinning Strike",
+"pre-requisites": ["Spinning Strike"],
+"description": "The targets of a [Spinning Strike] or [Whirlwind Strike] receive additional [Damage Dealt] from [Charge] and [Fast Charge].",
+"normal": "The targets of a [Spinning Strike] or [Whirlwind Strike] receive no additional [Damage Dealt] from [Charge] and [Fast Charge]."
+},
+{
+"flair name": "Agile Whirlwind Strike",
+"pre-requisites": ["Spinning Strike", "Whirlwind Strike"],
+"description": "If a character performing [Whirlwind Strike] fails to perform a [Movement Action] because of [Obstruct Movement], then the character instead performs a [Spinning Strike] for the same [Strength Cost] and [Speed Cost].",
+"normal": "If a character performing [Whirlwind Strike] fails to perform a [Movement Action] because of [Obstruct Movement], then the attack fails and the [Strength Cost] and [Speed Cost] are lost."
+},
+{
+"flair name": "Advanced Agile Whirlwind Strike",
+"pre-requisites": ["Spinning Strike", "Whirlwind Strike", "Agile Whirlwind Strike"],
+"description": "If a character is performing [Whirlwind Strike], then they cannot be targeted with [Obstruct Movement] to stop their [Movement Action].",
+"normal": "If a character is performing [Whirlwind Strike], then they can be targeted with [Obstruct Movement] to stop their [Movement Action]."
+},
+{
+"flair name": "Power Attack",
+"description": "The character can add [Power Attack] as an [Attack Modifier].",
+"normal": "A character cannot add [Power Attack] as an [Attack Modifier]."
+},
+{
+"flair name": "Crushing Blow",
+"pre-requisites": ["True Strike", "Power Attack"],
+"description": "The character can add [Crushing Blow] as an [Attack Modifier].",
+"normal": "A character cannot add [Crushing Blow] as an [Attack Modifier]."
+},
+{
+"flair name": "Advanced Crushing Blow",
+"pre-requisites": ["True Strike", "Power Attack", "Crushing Blow"],
+"description": "The [Strength Cost] of [Crushing Blow] is reduced to 1.",
+"normal": "The [Strength Cost] of [Crushing Blow] is 1."
+},
+{
+"flair name": "Greater Crushing Blow",
+"pre-requisites": ["True Strike", "Power Attack", "Crushing Blow", "Advanced Crushing Blow"],
+"description": "The [Strength Cost] of [Crushing Blow] is reduced to 0.",
+"normal": "With [Advanced Crushing Blow], the [Strength Cost] of [Crushing Blow] is 1."
+},
+{
+"flair name": "Shoot Through",
+"description": "The character can add [Shoot Through] as an [Attack Modifier].",
+"normal": "A character cannot add [Shoot Through] as an [Attack Modifier]."
+},
+{
+"flair name": "Surprise Shoot Through",
+"pre-requisites": ["Shoot Through"],
+"description": "When using [Shoot Through], after the first target is successfully hit via a [To Hit Roll], all future targets in the line can not perform a [Dodge] action.
+
+For shotguns, each bullet is calculated individually for factoring if the bullet hit a previous target.",
+"normal": "When using [Shoot Through], each target can perform a [Dodge] action."
+},
+{
+"flair name": "Piercing Shoot Through",
+"pre-requisites": ["Shoot Through"],
+"description": "When using [Shoot Through], after the first target is successfully hit via a [To Hit Roll], all future targets in the line do not gain additional [Physical Damage Reduction] from a [Block Stance], a [Heavy Block Stance], a [Super Block Stance], a [Shield Block Stance], a [Heavy Shield Block Stance], or a [Super Shield Block Stance].
+
+For shotguns, each bullet is calculated individually for factoring if the bullet hit a previous target.",
+"normal": "Each target can gain additional [Physical Damage Reduction] from [Block], [Heavy Block], [Super Block], or [Shield Block]."
+},
+{
+"flair name": "Advanced Piercing Shoot Through",
+"pre-requisites": ["Shoot Through", "Piercing Shoot Through"],
+"actions": ["Gun Attack", "Aimed Attack"],
+"applies to bonus actions": "No",
+"condition": "2 targets in [Range] in a line",
+"description": "When using [Shoot Through], after the first target is successfully hit via a [To Hit Roll], all future targets in the line that are in a [Block Stance], a [Heavy Block Stance], a [Super Block Stance], a [Shield Block Stance], a [Heavy Shield Block Stance], or a [Super Shield Block Stance] will leave their stance and enter [No Stance]. [Shield Deflection] can still be used.
+
+For shotguns, each bullet is calculated individually for factoring if the bullet hit a previous target.",
+"normal": "Targets maintain their  [Block Stance], [Heavy Block Stance], [Super Block Stance], [Shield Block Stance], [Heavy Shield Block Stance], or [Super Shield Block Stance] when hit with attacks."
+},
+{
+"flair name": "Combo Finisher",
+"pre-requisites": ["True Strike", "Second Attack", "Third Attack"],
+"description": "The character can add [Combo Finisher] as an [Attack Modifier].",
+"normal": "A character cannot add [Combo Finisher] as an [Attack Modifier]"
+},
+{
+"flair name": "Advanced Combo Finisher",
+"pre-requisites": ["True Strike", "Second Attack", "Third Attack", "Combo Finisher"],
+"description": "If the attack is a [Combo Finisher], then the [Damage Dealt] is further increased by an additional 1d6 for each point the [To Hit Roll] of the [Second Melee Attack], [Second Gun Attack], or [Second Aimed Attack] exceeded the target's [Evasion].",
+"normal": ">The [Combo Finisher] only has its [Damage Dealt] increased by an amount based on the [To Hit Roll] of the [Third Melee Attack], [Third Gun Attack], or [Third Aimed Attack]."
+},
+{
+"flair name": "Greater Combo Finisher",
+"pre-requisites": ["True Strike", "Second Attack", "Third Attack", "Combo Finisher", "Advanced Combo Finisher"],
+"description": "If the attack is a [Combo Finisher], then the [Damage Dealt] is further increased by an additional 1d6 for each point the [To Hit Roll] of the [Melee Attack], [Melee Combo Attack], [Gun Attack], or [Aimed Attack] exceeded the target's [Evasion].",
+"normal": "With [Advanced Combo Finisher], the [Combo Finisher] only has its [Damage Dealt] increased by an amount based on the [To Hit Roll] of the [Third Melee Attack], [Third Gun Attack], or [Third Aimed Attack] and an additional amount based on the [To Hit Roll] of the [Second Melee Attack], [Second Gun Attack], or [Second Aimed Attack]."
+}
+]

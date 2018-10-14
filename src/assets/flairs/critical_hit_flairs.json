@@ -1,0 +1,150 @@
+"Critical Hit Flairs": 
+[
+{
+"flair name": "Advanced Critical Hit",
+"description": "An attack also counts as a [Critical Hit] if the character rolls an 11 on the [Base To Hit Roll].",
+"normal": "The attack only counts as a [Critical Hit] if the roll was a 12 on the [Base To Hit Roll]."
+},
+{
+"flair name": "Greater Critical Hit",
+"pre-requisites": ["Advanced Critical Hit"],
+"description": "An attack also counts as a [Critical Hit] if the character rolls an 10 on the [Base To Hit Roll].",
+"normal": "With [Advanced Critical Hit], the attack only counts as a [Critical Hit] if the roll was a 11 or 12 on the [Base To Hit Roll]."
+},
+{
+"flair name": "Piercing Critical Hit",
+"pre-requisites": ["Advanced Critical Hit"],
+"description": "The [Damage Reduction] of a [Critical Hit] is not doubled.
+
+The [Damage Dealt] of the [Critical Hit] is calculated as double the [Base Damage Dealt] plus double the [Damage Dealt Bonus] minus the [Damage Reduction].",
+"normal": "The [Damage Dealt] of the [Critical Hit] is calculated as double the [Base Damage Dealt] plus double the [Damage Dealt Bonus] minus double the [Damage Reduction]."
+},
+{
+"flair name": "Disrupting Critical Hit",
+"description": "If a target hit with [Critical Hit] is currently casting a [Spell], then the [Remaining Spell Cast Time] of the spell is increased by 1.",
+"normal": "A [Critical Hit] does not effect delay a spell."
+},
+{
+"flair name": "Cancelling Critical Hit",
+"pre-requisites": ["Disrupting Critical Hit"],
+"description": "If a target hit with [Critical Hit] is currently casting a [Spell], then the [Spell] is cancelled.
+
+[Recover Ghost Power] cannot be used to negate this effect.",
+"normal": "With [Disrupting Critical Hit], a [Critical Hit] only delays a spell."
+},
+{
+"flair name": "Backfire Critical Hit",
+"pre-requisites": ["Cancelling Critical Hit", "Disrupting Critical Hit"],
+"description": "If a target's [Spell] is cancelled with [Cancelling Critical Hit], then the target will take [Spell Ghost Power] of the [Spell] in [Damage Dealt].
+
+This [Spell Ghost Power] is not reduced from the [Damage Dealt] by the [Critical Hit]. This [Damage Dealt] bypasses [Physical Damage Reduction] and [Spell Damage Reduction].",
+"normal": "With [Cancelling Critical Hit], the caster doesn't take any additional [Damage Dealt]."
+},
+{
+"flair name": "Draining Critical Hit",
+"pre-requisites": ["Cancelling Critical Hit", "Disrupting Critical Hit", "Backfire Critical Hit"],
+"description": "If a target's [Spell] is cancelled with [Cancelling Critical Hit], then the target will have their remaining [Current Ghost Power] reduced to 0.",
+"normal": "With [Cancelling Critical Hit], the caster's [Current Ghost Power] is not affected by the attack."
+},
+{
+"flair name": "Sword Critical Hit",
+"pre-requisites": ["Piercing Critical Hit"],
+"description": "The [Damage Reduction] of a [Critical Hit] with a [Sword] is not doubled.
+
+The [Damage Dealt] of the [Critical Hit] is calculated as double the [Base Damage Dealt] plus double the [Damage Dealt Bonus].",
+"normal": "When a character performs a [Piercing Critical Hit], the [Damage Dealt] of the [Critical Hit] is calculated as double the [Base Damage Dealt] plus double the [Damage Dealt Bonus] minus the [Damage Reduction]."
+},
+{
+"flair name": "Critical Shield Block",
+"description": "The character can perform [Critical Shield Block] as a [Bonus Action].
+The character can [Critical Shield Block] as a [Bonus Action].",
+"normal": "A character cannot perform [Critical Shield Block]."
+},
+{
+"flair name": "Drill Critical Hit",
+"description": "When a character wielding a [Drill] hits with a [Critical Hit], the [Physical Damage Reduction Damage] and [Mech Physical Damage Reduction Damage] is doubled.",
+"normal": "With [Critical Hit], the attack does the normal amount of [Physical Damage Reduction Damage] and [Mech Physical Damage Reduction Damage]."
+},
+{
+"flair name": "Advanced Drill Critical Hit",
+"pre-requisites": ["Drill Critical Hit"],
+"description": "When a character wielding a [Drill] hits with a [Critical Hit], the [Physical Damage Reduction Damage] and [Mech Physical Damage Reduction Damage] is tripled.",
+"normal": "With [Drill Critical Hit], the attack does the double the normal amount of [Physical Damage Reduction Damage] and [Mech Physical Damage Reduction Damage]."
+},
+{
+"flair name": "Greater Drill Critical Hit",
+"pre-requisites": ["Drill Critical Hit", "Advanced Drill Critical Hit"],
+"description": "When a character wielding a [Drill] hits with a [Critical Hit], the [Physical Damage Reduction Damage] is quadrupled.
+
+The [Mech Physical Damage Reduction Damage] is multiplied by 5.",
+"normal": "With [Advanced Drill Critical Hit], the attack does triple the normal amount of [Physical Damage Reduction Damage] and [Mech Physical Damage Reduction Damage]."
+},
+{
+"flair name": "Hammer Critical Hit",
+"description": "When a character wielding a [Hammer] hits with a [Critical Hit], the [Speed Point Damage] is doubled.",
+"normal": "With [Critical Hit], the attack does the normal amount of [Speed Point Damage]."
+},
+{
+"flair name": "Advanced Hammer Critical Hit",
+"pre-requisites": ["Hammer Critical Hit"],
+"description": "When a character wielding a [Hammer] hits with a [Critical Hit], the [Speed Point Damage] is tripled.",
+"normal": "With [Hammer Critical Hit], the attack does double the normal amount of [Speed Point Damage]."
+},
+{
+"flair name": "Greater Hammer Critical Hit",
+"pre-requisites": ["Hammer Critical Hit", "Advanced Hammer Critical Hit"],
+"description": "When a character wielding a [Hammer] hits with a [Critical Hit], the [Speed Point Damage] is quadrupled.",
+"normal": "With [Advanced Hammer Critical Hit], the attack does triple the normal amount of [Speed Point Damage]."
+},
+{
+"flair name": "Grappling Weapon Critical Hit",
+"description": "When a character wielding a [Grappling Weapon] hits with a [Critical Hit], the character will enter the [Grappling Stance] and the target will enter the [Grappled Stance] as if they hit the target with [Initiate Grapple].",
+"normal": "With [Critical Hit], the attack does not enter the [Grappling Stance]."
+},
+{
+"flair name": "Rapid Fire Gun Attack",
+"description": "The character can perform [Rapid Fire Gun Attack] as a [Bonus Action].",
+"normal": "A character cannot perform [Rapid Fire Gun Attack]."
+},
+{
+"flair name": "Sniper Rifle Critical Hit",
+"pre-requisites": ["Advanced Critical Hit", "Greater Critical Hit"],
+"description": "While a character is wielding a [Sniper Rifle] and the attack has a [Steady Shot Bonus], an attack also counts as a [Critical Hit] if the character rolls an 9 on the [Base To Hit Roll].",
+"normal": "With [Greater Critical Hit], the attack only counts as a [Critical Hit] if the roll was a 10, 11, or 12 on the [Base To Hit Roll]."
+},
+{
+"flair name": "Advanced Sniper Rifle Critical Hit",
+"pre-requisites": ["Advanced Critical Hit", "Greater Critical Hit", "Sniper Rifle Critical Hit"],
+"description": "While a character is wielding a [Sniper Rifle] and the attack has a [Steady Shot Bonus], an attack also counts as a [Critical Hit] if the character rolls an 8 on the [Base To Hit Roll].",
+"normal": "With [Sniper Rifle Critical Hit], the attack only counts as a [Critical Hit] if the roll was a 9, 10, 11, or 12 on the [Base To Hit Roll]."
+},
+{
+"flair name": "Greater Sniper Rifle Critical Hit",
+"pre-requisites": ["Advanced Critical Hit", "Greater Critical Hit", "Sniper Rifle Critical Hit", "Advanced Sniper Rifle Critical Hit"],
+"description": "While a character is wielding a [Sniper Rifle] and the attack has a [Steady Shot Bonus], an attack also counts as a [Critical Hit] if the character rolls an 7 on the [Base To Hit Roll].",
+"normal": "With [Advanced Sniper Rifle Critical Hit], the attack only counts as a [Critical Hit] if the roll was a 8, 9, 10, 11, or 12 on the dice for the [Base To Hit Roll]."
+},
+{
+"flair name": "Shotgun Critical Hit",
+"pre-requisites": ["Advanced Critical Hit", "Greater Critical Hit"],
+"description": "A character wielding a [Shotgun] can perform a [Critical Hit]. A roll of 6 on the 1d6 [Base To Hit Roll] of a shotgun counts as a [Critical Hit].",
+"normal": "If a character is wielding a [Shotgun], they cannot perform a [Critical Hit]."
+},
+{
+"flair name": "Tesla Critical Hit",
+"description": "When a character wielding a [Tesla] hits with a [Critical Hit], the [Strength Point Damage] and the [Speed Point Damage] is doubled.",
+"normal": "With [Critical Hit], the attack does the normal amount of [Strength Point Damage] and [Speed Point Damage]."
+},
+{
+"flair name": "Advanced Tesla Critical Hit",
+"pre-requisites": ["Tesla Critical Hit"],
+"description": "When a character wielding a [Tesla] hits with a [Critical Hit], the [Strength Point Damage] and the [Speed Point Damage] is tripled.",
+"normal": "With [Tesla Critical Hit], the attack does the double the normal amount of [Strength Point Damage] and [Speed Point Damage]."
+},
+{
+"flair name": "Greater Tesla Critical Hit",
+"pre-requisites": ["Tesla Critical Hit", "Advanced Tesla Critical Hit"],
+"description": "When a character wielding a [Tesla] hits with a [Critical Hit], the [Strength Point Damage] and the [Speed Point Damage] is quadrupled.",
+"normal": "With [Advanced Tesla Critical Hit], the attack does the triple the normal amount of [Strength Point Damage] and [Speed Point Damage]."
+}
+]

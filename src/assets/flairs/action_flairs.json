@@ -1,0 +1,193 @@
+"Action Flairs": 
+[
+{
+"flair name": "Shield Bash",
+"actions": ["Melee Attack","Melee Combo Attack"],
+"description": "A [Shield Block] can be performed with a [Shield] after a [Melee Attack] or [Melee Combo Attack] is performed with the same [Shield] in the same [Action Block].",
+"normal": "A [Shield Block] can not be performed with a [Shield] after a [Melee Attack] or [Melee Combo Attack] is performed with the same [Shield] in the same [Action Block]."
+},
+{
+"flair name": "Shield Deflection",
+"actions": ["Shield Deflection"],
+"description": "The character can perform [Shield Deflection] as a [Bonus Action].",
+"normal": "A character cannot perform [Shield Deflection]."
+},
+{
+"flair name": "Magic Shield Deflection",
+"pre-requisites": ["Shield Deflection"],
+"actions": ["Magic Shield Deflection"],
+"description": "The character can perform [Magic Shield Deflection] as a [Defensive Action].",
+"normal": "A character cannot perform [Magic Shield Deflection]."
+},
+{
+"flair name": "Magic Shield Redirection",
+"pre-requisites": ["Shield Deflection","Magic Shield Deflection"],
+"actions": ["Magic Shield Deflection"],
+"description": "When a character performs [Magic Shield Deflection] against an [Elemental Spell] cast against the character,the character that originally cast [Elemental Spell] will be included as an additional target of the [Elemental Spell].
+
+The original caster reduces the [Damage Dealt] of the [Elemental Spell] by their [Spell Damage Reduction] as if they were originally a target of the spell.",
+"normal": "The caster of the [Elemental Spell] is not a target of the [Elemental Spell]."
+},
+{
+"flair name": "Advanced Magic Shield Redirection",
+"pre-requisites": ["Shield Deflection","Magic Shield Deflection","Magic Shield Redirection"],
+"actions": ["Magic Shield Deflection"],
+"description": "The caster of the [Elemental Spell] does not apply their [Spell Damage Reduction] to the [Damage Dealt].",
+"normal": "The caster of the [Elemental Spell] applies their [Spell Damage Reduction] to the [Damage Dealt]."
+},
+{
+"flair name": "Dual Shield Deflection",
+"pre-requisites": ["Shield Deflection","Ambidexterity"],
+"description": "If the character is wielding two [Shields],and a [Shield Deflection] is used then the character remains in the original [Stance]. This can only be performed once per [Action Block].",
+"normal": "The character changes their [Stance] when [Shield Deflection] is used."
+},
+{
+"flair name": "Strong Attack",
+"actions": ["Melee Attack","Melee Combo Attack"],
+"applies to bonus actions": "Yes",
+"description": "When performing a [Melee Attack] or [Melee Combo Attack],every 1d6 rolled for [Damage Dealt] will be re-rolled if it rolls a 1. If the re-roll is also a 1,then the roll will be repeated until the 1d6 roll for [Damage Dealt] is greater than 1. The new values rolled will be used.",
+"normal": "When performing a [Melee Attack] or [Melee Combo Attack],the 1d6 rolls for [Damage Dealt] will not be re-rolled if they roll a 1."
+},
+{
+"flair name": "Advanced Strong Attack",
+"pre-requisites": ["Strong Attack"],
+"actions": ["Melee Attack","Melee Combo Attack"],
+"applies to bonus actions": "Yes",
+"description": "When performing a [Melee Attack] or [Melee Combo Attack],every 1d6 rolled for [Damage Dealt] will be re-rolled if it rolls a 1 or 2. If the re-roll is also a 1 or 2,then the roll will be repeated until the 1d6 roll for [Damage Dealt] is greater than 2. The new values rolled will be used.",
+"normal": "When performing [Strong Attack],the 1d6 rolls for [Damage Dealt] will only be re-rolled if they roll a 1."
+},
+{
+"flair name": "Strong Shot",
+"actions": ["Gun Attack","Aimed Attack"],
+"applies to bonus actions": "Yes",
+"description": "When performing a [Gun Attack] or [Aimed Attack],every 1d6 rolled for [Damage Dealt] will be re-rolled if it rolls a 1. If the re-roll is also a 1,then the roll will be repeated until the 1d6 roll for [Damage Dealt] is greater than 1. The new values rolled will be used.",
+"normal": "When performing a [Gun Attack] or [Aimed Attack],the 1d6 rolls for [Damage Dealt] will not be re-rolled if they roll a 1."
+},
+{
+"flair name": "Advanced Strong Shot",
+"pre-requisites": ["Strong Shot"],
+"actions": ["Gun Attack","Aimed Attack"],
+"applies to bonus actions": "Yes",
+"description": "When performing a [Gun Attack] or [Aimed Attack],every 1d6 rolled for [Damage Dealt] will be re-rolled if it rolls a 1 or 2. If the re-roll is also a 1 or 2,then the roll will be repeated until the 1d6 roll for [Damage Dealt] is greater than 2. The new values rolled will be used.",
+"normal": "When performing [Strong Shot],the 1d6 rolls for [Damage Dealt] will only be re-rolled if they roll a 1."
+},
+{
+"flair name": "Efficient Recover Ghost Power",
+"actions": ["Recover Ghost Power"],
+"description": "The caster can choose to replenish [Spell Ghost Power] at a rate of either 2 [Spell Ghost Power] per [Strength Point] spent or 2 [Spell Ghost Power] per [Speed Point] spent.",
+"normal": "The caster can choose to replenish [Spell Ghost Power] at a rate of either 1 [Spell Ghost Power] per [Strength Point] spent or 1 [Spell Ghost Power] per [Speed Point] spent."
+},
+{
+"flair name": "Advanced Efficient Recover Ghost Power",
+"actions": ["Recover Ghost Power"],
+"pre-requisites": ["Efficient Recover Ghost Power"],
+"description": "The caster can choose to replenish [Spell Ghost Power] at a rate of either 3 [Spell Ghost Power] per [Strength Point] spent or 3 [Spell Ghost Power] per [Speed Point] spent.",
+"normal": "With [Efficient Recover Ghost Power],the caster can choose to replenish [Spell Ghost Power] at a rate of either 2 [Spell Ghost Power] per [Strength Point] spent or 2 [Spell Ghost Power] per [Speed Point] spent."
+},
+{
+"flair name": "Strong Spell",
+"spells": ["Elemental Spell","Health Recovery","Possession"],
+"description": "When [Elemental Spell],[Health Recovery],or [Possession] is activated by [Activate Spell] or [Elemental Riposte],every 1d6 rolled for the [Effect] of the [Spell] will be re-rolled if it rolls a 1. If the re-roll is also a 1,then the roll will be repeated until the 1d6 roll for [Damage Dealt] is greater than 1. The new values rolled will be used.",
+"normal": "When [Elemental Spell],[Health Recovery],or [Possession] is activated,the 1d6 rolls for the [Effect] of the [Spell] will not be re-rolled if they roll a 1."
+},
+{
+"flair name": "Advanced Strong Spell",
+"pre-requisites": ["Strong Spell"],
+"spells": ["Elemental Spell","Health Recovery","Possession"],
+"description": "When [Elemental Spell],[Health Recovery],or [Possession] is activated by [Activate Spell] or [Elemental Riposte],every 1d6 rolled for the [Effect] of the [Spell] will be re-rolled if it rolls a 1 or 2. If the re-roll is also a 1 or 2,then the roll will be repeated until the 1d6 roll for [Damage Dealt] is greater than 2. The new values rolled will be used.",
+"normal": "When performing [Strong Spell],when [Elemental Spell],[Health Recovery],or [Possession] is activated,the 1d6 rolls for the [Effect] of the [Spell] will only be re-rolled if they roll a 1."
+},
+{
+"flair name": "Double Grapple",
+"description": "The character can perform [Initiate Grapple] while in the [Grappling Stance] to add an additional target into the [Grappled Stance] within [Melee Range]. On a successful [Initiate Grapple],both the original target and new target will be in the [Grappled Stance].
+
+While grappling two targets,[Maintain Grapple] is performed separately for each target. The [Strength Cost] is applied separately.",
+"normal": "After performing [Initiate Grapple],the character will be grappling a target. While grappling a single target,the character will not be able to perform any actions."
+},
+{
+"flair name": "Advanced Double Grapple",
+"pre-requisites": ["Double Grapple"],
+"description": "While grappling two targets,[Maintain Grapple] is performed only once and the [Strength Cost] is reduced only once.",
+"normal": "While grappling two targets,[Maintain Grapple] is performed separately for each target."
+},
+{
+"flair name": "Moving Grapple",
+"pre-requisites": ["Double Grapple"],
+"description": "The character can perform [Movement Actions] while in the [Grappling Stance].
+
+The [Grappled] single target moves with the character.",
+"normal": "After performing [Initiate Grapple],the character will be grappling a target. While grappling a single target,the character will not be able to perform any actions."
+},
+{
+"flair name": "Second Attack",
+"description": "The character can perform [Second Melee Attack],[Second Gun Attack],or [Second Aimed Attack] as a [Bonus Action].",
+"normal": "A character cannot perform [Second Melee Attack],[Second Gun Attack],or [Second Aimed Attack]."
+},
+{
+"flair name": "Advanced Second Attack",
+"pre-requisites": ["Second Attack"],
+"description": "A [Second Melee Attack] has a [Strength Cost] of 1 and a [Speed Cost] of 1.
+
+A [Second Gun Attack] has a [Strength Cost] of 0 and a [Speed Cost] of 1.
+
+A [Second Aimed Attack] has a [Strength Cost] of 0 and a [Speed Cost] of 2.",
+"normal": "With [Second Attack],a [Second Melee Attack] has a [Strength Cost] of 1 and a [Speed Cost] of 2.
+
+With [Second Attack],a [Second Gun Attack] has a [Strength Cost] of 0 and a [Speed Cost] of 2.
+
+With [Second Attack],a [Second Aimed Attack] has a [Strength Cost] of 0 and a [Speed Cost] of 3."
+},
+{
+"flair name": "Greater Second Attack",
+"pre-requisites": ["Second Attack","Advanced Second Attack"],
+"description": "A [Second Melee Attack] has a [Strength Cost] of 1 and a [Speed Cost] of 0.
+
+A [Second Gun Attack] has a [Strength Cost] of 0 and a [Speed Cost] of 0.
+
+A [Second Aimed Attack] has a [Strength Cost] of 0 and a [Speed Cost] of 1.",
+"normal": "With [Advanced Second Attack],a [Second Melee Attack] has a [Strength Cost] of 1 and a [Speed Cost] of 1.
+
+With [Advanced Second Attack],a [Second Gun Attack] has a [Strength Cost] of 0 and a [Speed Cost] of 1.
+
+With [Advanced Second Attack],a [Second Aimed Attack] has a [Strength Cost] of 0 and a [Speed Cost] of 2."
+},
+{
+"flair name": "Third Attack",
+"pre-requisites": ["Second Attack"],
+"description": "The character can perform [Third Melee Attack],[Third Gun Attack],or [Third Aimed Attack] as a [Bonus Action].",
+"normal": "A character cannot perform [Third Melee Attack],[Third Gun Attack],or [Third Aimed Attack]."
+},
+{
+"flair name": "Advanced Third Attack",
+"pre-requisites": ["Second Attack","Advanced Second Attack","Third Attack"],
+"description": "A [Third Melee Attack] has a [Strength Cost] of 1 and a [Speed Cost] of 1.
+
+A [Third Gun Attack] has a [Strength Cost] of 0 and a [Speed Cost] of 1.
+
+A [Third Aimed Attack] has a [Strength Cost] of 0 and a [Speed Cost] of 2.",
+"normal": "With [Third Attack],a [Third Melee Attack] has a [Strength Cost] of 1 and a [Speed Cost] of 2.
+
+With [Third Attack],a [Third Gun Attack] has a [Strength Cost] of 0 and a [Speed Cost] of 2.
+
+With [Third Attack],a [Third Aimed Attack] has a [Strength Cost] of 0 and a [Speed Cost] of 3."
+},
+{
+"flair name": "Greater Third Attack",
+"pre-requisites": ["Second Attack","Advanced Second Attack","Greater Second Attack","Third Attack","Advanced Third Attack"],
+"description": "A [Third Melee Attack] has a [Strength Cost] of 1 and a [Speed Cost] of 0.
+
+A [Third Gun Attack] has a [Strength Cost] of 0 and a [Speed Cost] of 0.
+
+A [Third Aimed Attack] has a [Strength Cost] of 0 and a [Speed Cost] of 1.",
+"normal": "With [Advanced Third Attack],a [Third Melee Attack] has a [Strength Cost] of 1 and a [Speed Cost] of 1.
+
+With [Advanced Third Attack],a [Third Gun Attack] has a [Strength Cost] of 0 and a [Speed Cost] of 1.
+
+With [Advanced Third Attack],a [Third Aimed Attack] has a [Strength Cost] of 0 and a [Speed Cost] of 2."
+},
+{
+"flair name": "Quick Reload",
+"description": "The character can perform [Quick Reload] as a [Bonus Action].",
+"normal": "A character cannot perform [Quick Reload]."
+}
+]
