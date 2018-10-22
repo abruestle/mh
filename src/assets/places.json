@@ -18,13 +18,46 @@
   "Outer Rim": {
     "description": "",
     "places": [
-      
+      {
+        "name": "Prometheus",
+        "description": "An impenetrable walled fortress, guarded with robots, traps, and mechs, some of which are new, some old, and some possessed. The walls are made with something thata prevents most ghosts from getting in, but also is durable against most physical attacks. It is theorized only the Emporer could break through the walls. Inside lives a small colony of techies, who mine and build items in peace. Probably more trouble than it is worth to break into...They can't have much meat on their bones when they haven't 'welcomed' visitors in all their two thousand years. Holds the GHU Main Library.",
+        "faction": "Techie City"
+      },
+      {
+        "name": "Evernuke",
+        "description": "The Ghost Hunter Union/Church of Spiritualism war ended with the detonation of a terrible weapon...a ghost nuke fueled by thoughts. As the fear of it grew, the nuke spread. It blasted away all the people and ghosts in a large radius...and then the sun came down. The nuke had ripped a hole in the ghost layer, and that fueled the explosion even more. Those who saw it, fueled it, and the terror the victims left and still give as ghosts kept it even more in place. Either the eternal pillar of fire is caused by the hole in the ghost layer not letting up, or caused by people thinking the fire pillar will always be there. Maybe both. After the pillar stabilized, people started living nearby. It is hot even with the surrounding ghosts, but the starsteel is the best outside the empire...Some say even better.",
+        "faction": ""
+      },
+      {
+        "name": "Gehenna",
+        "description": "When the evernuke first appeared, it cracked the world and sent ripples across the planet. Miridon did not have multiple tectonic plates splitting the world, but the evernuke pushed on the land enough to form them. On the other side of the planet, the land was pushed to form a giant volcano that touches the sun ceiling. Massive chasms formed around it due to the shifted land. The sun drips down the mountain, causing Gehenna to be an eternal volcano. Fire dragons and those who can withstand a lot of heat live there, and use the starsteel to arm and armor themselves. The chasms reach down into the depths of the planet, cooled down even more than the surface by ghosts. Ice dragons and those that can withstand extreme cold live there, and use Miridon's depth's minerals to arm and armor themselves. At the surface the difference in temperature is profound, and storms are frequent. Lightning dragons live there, and their arms and armor are taken from their past or stolen. Non-dragons come to the area due to the abundance of resources and the materials gotten from dragons.",
+        "faction": "Draco Mutants"
+      },
+      {
+        "name": "Styx",
+        "description": "The souls of those caught early on in the blast never realized they died, due to shock.  They believe the war of souls is still going, and they continue battling across the sky.  They form a river of warring souls, flowing from the Evernuke down to the Ghost Forest.",
+        "faction": "Ghosts"
+      },
+      {
+        "name": "Oz",
+        "description": "A floating city in the Great Southern Storm. Wind currents and solar powered propellors keep it continually afloat in the eye of the storm. While the winds keep it mostly ghost-free, occasional possessed people sometimes come, so the place is guarded by ghost hunters. The winds keep it cooler than most floating areas, but staying inside is still recommended, as you can get pretty nasty sunburns due to the low-mist-levels.",
+        "faction": "GHU"
+      }
     ]
   },
   "Ghost Forest": {
     "description": "",
     "places": [
-      
+      {
+        "name": "Central Forest",
+        "description": "The high levels of ghosts keep the Central Forest completely frozen. Giant, tangible ghost husks traverse the forests, leaving large tracks when they don't pass through things. Because this area is untraversed by most ghost hunters, even the bravest, the harvest here is supposed to be particularly bountiful...If you can survive to reap it. While this area is pretty much instant death, it is rumored that IOGH leader Maria visited here during her long sojourn, gaining the extreme levels of dexterity she is known for. Other rumors say she just sniped many of the largest ghost husks, but never went into the area herself, just near it.",
+        "faction": "Ghosts"
+      },
+      {
+        "name": "Wind Wall",
+        "description": "Around the perimeter of the ghost forest, a giant tornado with the entire ghost forest in its unproportional eye stands. This wind wall is kept moving, and is protected by, the Chimeras. Even without their protection, it is hard to pass the thick wall of fast winds. GHU has been able to bypass the wall, but it is unknown how. This has let them win out in most contests of speed, however.",
+        "faction": "Chimeras, GHU"
+      }
     ]
   }
 }
